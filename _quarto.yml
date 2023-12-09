@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+website:
+  title: "A. N. Angelgardt"
+  favicon: pics/favicon.png
+  # sidebar:
+  #   style: "docked"
+  #   search: false
+    # contents:
+    # - index.qmd
+    # - what-is-it.qmd
+    # - how-is-it-made.qmd
+    # - how-to-use.qmd
+    # - how-to-support.qmd
+  navbar: 
+    title: "A. N. Angelgardt"
+    logo: pics/logo.png
+    left: 
+      - text: "Home"
+        href: index.qmd
+      - href: author.qmd
+    collapse: true
+  page-footer: 
+    left: "Anton Angelgardt"
+    right: 
+      - icon: github
+        href: https://github.com/angelgardt
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    # toc: true
+
+highlight-style: github
