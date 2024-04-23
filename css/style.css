@@ -1,0 +1,265 @@
+@font-face {
+    src: url("../fonts/Montserrat-Black.ttf");
+    font-family: "Montserrat-Black";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-BlackItalic.ttf");
+    font-family: "Montserrat-BlackItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-BoldItalic.ttf");
+    font-family: "Montserrat-BoldItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-ExtraBold.ttf");
+    font-family: "Montserrat-ExtraBold";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-ExtraBoldItalic.ttf");
+    font-family: "Montserrat-ExtraBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-ExtraLight.ttf");
+    font-family: "Montserrat-ExtraLight";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-ExtraLightItalic.ttf");
+    font-family: "Montserrat-ExtraLightItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Italic.ttf");
+    font-family: "Montserrat-Italic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Light.ttf");
+    font-family: "Montserrat-Light";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-LightItalic.ttf");
+    font-family: "Montserrat-LightItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Medium.ttf");
+    font-family: "Montserrat-Medium";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-MediumItalic.ttf");
+    font-family: "Montserrat-MediumItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-family: "Montserrat-SemiBold";
+    font-style: normal;
+    font-weight: normal;
+}
+    
+@font-face {
+    src: url("../fonts/Montserrat-SemiBoldItalic.ttf");
+    font-family: "Montserrat-SemiBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+  
+@font-face {
+    src: url("../fonts/Montserrat-Thin.ttf");
+    font-family: "Montserrat-Thin";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-ThinItalic.ttf");
+    font-family: "Montserrat-ThinItalic";
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --black: #000000;
+    --almost-black: #050505;
+    --very-dark-gray: #1e1e1e;
+    --dark-gray: #4b4b4b;
+    --gray: #828282;
+    --light-gray: #b4b4b4;
+    --very-light-gray: #e6e6e6;
+    --almost-white: #f5f5f5;
+    --white: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+    background-color: var(--almost-white);
+}
+
+header {
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+    text-align: center;
+}
+
+header p.title {
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    padding: 1% 0 1% 0;
+}
+
+header p.subtitle {
+    font-family: "Montserrat-Regular";
+    font-size: 24px;
+    padding: 0 0 1% 0;
+}
+
+div.menu {
+	text-align: center;
+}
+
+div.menu-item {
+    display: inline-block;
+    text-align: center;
+    padding: .5% 1%;
+}
+
+div.main-menu {
+    background-color: var(--almost-black);
+}
+
+div.main-menu div.menu-item a {
+    font-family: "Montserrat-Light";
+    font-size: 20px;
+    color: var(--almost-white);
+}
+
+div.main-menu div.menu-item:hover {
+    background-color: var(--very-dark-gray);
+    cursor: pointer;
+}
+
+.lang-switcher {
+    float: right;
+}
+
+.lang-switcher select {
+	background-color: var(--almost-black);
+	font-family: "Montserrat-Light";
+	font-size: 16px;
+	color: var(--almost-white);
+}
+
+div.second-menu {
+    background-color: var(--almost-white);
+}
+
+div.second-menu div.menu-item a {
+    font-family: "Montserrat-Light";
+    font-size: 16px;
+    color: var(--almost-black);
+}
+
+div.second-menu div.menu-item:hover {
+    background-color: var(--very-light-gray);
+    cursor: pointer;
+}
+
+div.main-info {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+div.main-info div.col {
+    display: inline-block;
+}
+
+div.photo {
+	width: 40%;
+}
+
+div.photo img {
+    width: 100%;
+    padding: 0 10% 0 10%;
+    box-sizing: border-box;
+}
+
+div.info {
+	width: 60%;
+}
+
+h1 {
+    font-family: "Montserrat-Bold";
+    font-size: 36px;
+}
+
+p.location, p.location span {
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    margin: 1% 0;
+}
+
+div.contacts {
+	margin: 3% 0;
+}
+
+a.contact img {
+	width: 40px;
+	margin: .1% 5px;
+	box-sizing: border-box;
+}
