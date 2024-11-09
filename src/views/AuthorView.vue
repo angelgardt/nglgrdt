@@ -5,4 +5,17 @@
   <div>
     Anton Angelgardt
   </div>
+  <EducationMain/>
 </template>
+
+<script>
+import EducationMain from '@/components/EducationMain.vue'
+
+export default {
+  name: 'AuthorView',
+  components: {
+    EducationMain
+  }
+}
+
+</script>
