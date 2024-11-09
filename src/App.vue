@@ -1,4 +1,8 @@
 <template>
+  <header>
+    <div>Anton N. Angelgardt</div>
+    <div>teacher, researcher, analyst</div>
+  </header>
   <nav>
     <router-link to="/">home</router-link> |
     <router-link to="/author">author</router-link>
