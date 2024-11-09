@@ -3,6 +3,6 @@
     <h1>This is an about page</h1>
   </div>
   <div>
-    Test deploy.sh
+    Anton Angelgardt
   </div>
 </template>
