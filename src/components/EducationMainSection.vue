@@ -12,16 +12,19 @@
         <div>Thesis Info</div>
         <div>{{ edu.thesis.title }}</div>
         <div>
+          <span>{{ edu.thesis.supervisor.title }}: </span>
           <span>{{ edu.thesis.supervisor.name }}, </span>
-          <span>{{ edu.thesis.supervisor.title }}</span>
+          <span>{{ edu.thesis.advisor.degree }}</span>
         </div>
         <div>
+          <span>{{ edu.thesis.advisor.title }}: </span>
           <span>{{ edu.thesis.advisor.name }}, </span>
-          <span>{{ edu.thesis.advisor.title }}</span>
+          <span>{{ edu.thesis.advisor.degree }}</span>
         </div>
         <div>
+          <span>{{ edu.thesis.reviewer.title }}: </span>
           <span>{{ edu.thesis.reviewer.name }}, </span>
-          <span>{{ edu.thesis.reviewer.title }}</span>
+          <span>{{ edu.thesis.advisor.degree }}</span>
         </div>
         <div>
           <div>{{ edu.thesis.grades.supervisor }}</div>
@@ -33,13 +36,13 @@
 </template>
 
 <script>
-import EduMainJSON from '@/content/EduMain.json'
+import EducationMainJSON from '@/content/EducationMainSection.json'
 
 export default {
-  name: 'EducationMain',
+  name: 'EducationMainSection',
   data () {
     return {
-      edu: EduMainJSON
+      edu: EducationMainJSON
     }
   }
 }

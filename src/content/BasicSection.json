@@ -1,0 +1,38 @@
+{
+    "city": "Moscow",
+    "name": "Anton Angelgardt",
+    "birth": "1997-04-21",
+    "contacts": {
+        "email": {
+            "hide": false,
+            "value": "mailto:anton.angelgardt@gmail.com"
+        },
+        "telegram": {
+            "hide": false,
+            "value": "https://t.me/angelgardt"
+        },
+        "whatsapp": {
+            "hide": false,
+            "value": "https://api.whatsapp.com/send?phone=79998651215"
+        },
+        "linkedin": {
+            "hide": false,
+            "value": "https://www.linkedin.com/in/angelgardt/"
+        },
+        "facebook": {
+            "hide": false,
+            "value": "https://www.facebook.com/a.n.angelgardt"
+        },
+        "inst": {
+            "hide": false,
+            "value": "https://www.instagram.com/an.gelgardt/"
+        }
+    },
+    "currentJob": {
+        "job1": {
+            "position": "Lecturer",
+            "organization": "School pf Psychology, HSE University"
+        },
+        "job2": null
+    }
+}

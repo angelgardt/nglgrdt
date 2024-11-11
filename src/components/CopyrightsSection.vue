@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import CopyRightsJSON from '@/content/CopyRights.json'
+import CopyrightsJSON from '@/content/CopyrightsSection.json'
 
 export default {
-  name: 'CopyRights',
+  name: 'CopyrightsSection',
   data () {
     return {
-      copyrights: CopyRightsJSON
+      copyrights: CopyrightsJSON
     }
   }
 }

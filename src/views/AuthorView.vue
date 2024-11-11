@@ -1,29 +1,28 @@
 <template>
-  <div class="basic">
-    <h1>Anton Angelgardt</h1>
-    <div>
-      <span>{{ city }}</span>, <span>{{ age }}</span> y. o.
-    </div>
-  </div>
-  <EducationMain/>
-  <CopyRights/>
+  <NavBar/>
+  <BasicSection/>
+  <WorkExperienceSection/>
+  <InterestsSection/>
+  <EducationMainSection/>
+  <EducationAdditionalSection/>
+  <AchievementSection/>
+  <LanguagesSection/>
+  <SkillsSection/>
+  <ResearchSection/>
+  <CopyrightsSection/>
 </template>
 
 <script>
-import EducationMain from '@/components/EducationMain.vue'
-import CopyRights from '@/components/CopyRights.vue'
+import EducationMainSection from '@/components/EducationMainSection.vue'
+import CopyrightsSection from '@/components/CopyrightsSection.vue'
+import BasicSection from '@/components/BasicSection.vue'
 
 export default {
   name: 'AuthorView',
-  data () {
-    return {
-      city: 'Moscow',
-      age: '27'
-    }
-  },
   components: {
-    EducationMain,
-    CopyRights
+    BasicSection,
+    EducationMainSection,
+    CopyrightsSection
   }
 }
 

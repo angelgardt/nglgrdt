@@ -6,20 +6,23 @@
         "program": "“Russian as a Foreign Language in Cross-Linguistic and Cross-Cultural Perspective” program (Master’s Degree)",
         "spec": null,
         "field": "Field of Study 45.04.03 “Fundamental and Applied Linguistics”",
-        "gpa": "GPA: 8.44 / 10",
+        "gpa": "GPA: 8.66 / 10",
         "thesis": {
             "title": "Title: “Development of Speech Recognition Based Application for RFL Students”",
             "supervisor": {
+                "title": "Scientific Supervisor",
                 "name": "Inna Sieber",
-                "title": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
+                "degree": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
             },
             "advisor": {
+                "title": "Scientific Advisor",
                 "name": "George Moroz",
-                "title": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
+                "degree": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
             },
             "reviewer": {
+                "title": "Reviewer",
                 "name": "Olga Buivolova",
-                "title": "Candidate of Sciences (PhD), Research Fellow, Center for Language and Brain, HSE University"
+                "degree": "Candidate of Sciences (PhD), Research Fellow, Center for Language and Brain, HSE University"
             },
             "grades": {
                 "supervisor": "Supervisor’s Grade: 10 / A+ / “Excellent”",
@@ -39,16 +42,19 @@
         "thesis": {
             "title": "Title: “Assessment of Trust in Artificial Intelligent Agents: Tool Development”",
             "supervisor": {
+                "title": "Scientific Supervisor",
                 "name": "Elena Gorbunova",
-                "title": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
+                "degree": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
             },
             "advisor": {
+                "title": "Scientific Advisor",
                 "name": "Maria Chumakova",
-                "title": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
+                "degree": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
             },
             "reviewer": {
+                "title": "Reviewer",
                 "name": "Alexander Poddiakov",
-                "title": "Doctor of Sciences, Tenured Professor, School of Psychology, HSE University"
+                "degree": "Doctor of Sciences, Tenured Professor, School of Psychology, HSE University"
             },
             "grades": {
                 "supervisor": "Supervisor’s Grade: 10 / A+ / “Excellent”",
