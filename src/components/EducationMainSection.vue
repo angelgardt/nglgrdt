@@ -1,4 +1,5 @@
 <template>
+    <a name="education"></a>
     <h2>Education</h2>
     <div v-for="edu in edu" :key="edu">
       <div>{{ edu.years }}</div>

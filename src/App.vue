@@ -1,6 +1,6 @@
 <template>
   <HeaderComp/>
-  <nav>
+  <nav class="nav-main">
     <router-link to="/">home</router-link>
     <router-link to="/author">author</router-link>
   </nav>
@@ -38,22 +38,24 @@ body {
 }
 
 nav {
-  margin-bottom: 2em;
   text-align: center;
-  background-color: $almostblack;
-
   a {
-    display: inline-block;
-    padding: .5em 0.5em 1em .5em;
-    font-weight: 400;
-    font-size: 1.1em;
-    color: $almostwhite;
     text-decoration: none;
-    &.router-link-exact-active {
-      color: $tintedgray;
-    }
-    &:hover {
-      background-color: $tintedblack;
+  }
+  &.nav-main {
+    background-color: $almostblack;
+    a {
+      display: inline-block;
+      padding: .5em 1em 1em 1em;
+      font-weight: 400;
+      font-size: 1.1em;
+      color: $almostwhite;
+      &.router-link-exact-active {
+        color: $tintedgray;
+      }
+      &:hover {
+        background-color: $tintedblack;
+      }
     }
   }
 }
