@@ -1,8 +1,10 @@
 <template>
     <div class="lang-switcher">
-            <select name="" id="">
-                <option value="">en</option>
-                <option value="">ru</option>
+            <select
+            v-model="lang"
+            @change="changeLang()">
+                <option>en</option>
+                <option>ru</option>
             </select>
         </div>
     <header>
@@ -17,7 +19,17 @@
 
 <script>
 export default {
-  name: 'HeaderComp'
+  name: 'HeaderComp',
+  data () {
+    return {
+      lang: 'en'
+    }
+  },
+  methods: {
+    changeLang () {
+      console.log(this.lang)
+    }
+  }
 }
 </script>
 
