@@ -1,12 +1,4 @@
 <template>
-    <div class="lang-switcher">
-            <select
-            v-model="lang"
-            @change="changeLang()">
-                <option>en</option>
-                <option>ru</option>
-            </select>
-        </div>
     <header>
         <div class="title">
             A. N. Angelgardt
@@ -19,17 +11,7 @@
 
 <script>
 export default {
-  name: 'HeaderComp',
-  data () {
-    return {
-      lang: 'en'
-    }
-  },
-  methods: {
-    changeLang () {
-      console.log(this.lang)
-    }
-  }
+  name: 'HeaderComp'
 }
 </script>
 
@@ -54,18 +36,5 @@ header {
     padding: .1em 0;
     font-size: 1.5em;
     font-weight: 200;
-}
-
-.lang-switcher {
-    float: right;
-    padding: 1em;
-    select {
-        font-size: 1em;
-        padding: .1em;
-        background-color: $almostblack;
-        color: $almostwhite;
-        border-color: $almostwhite;
-        border-radius: 5px;
-    }
 }
 </style>

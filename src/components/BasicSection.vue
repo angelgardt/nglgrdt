@@ -4,9 +4,9 @@
             <img src="@/assets/photo.png" alt="">
         </div>
         <div class="info">
-            <h1>{{ basic.name }}</h1>
+            <h1>{{ basic.name[lang] }}</h1>
             <div class="city-age">
-                <span>{{ basic.city }}</span>, <span>{{ calcAge() }}</span> y. o.
+                <span>{{ basic.city[lang] }}</span>, <span>{{ calcAge() }}</span> <span>{{ basic.birth["en"] }}</span>
             </div>
             <div class="contacts">
                 <div
@@ -30,10 +30,11 @@
 </template>
 
 <script>
-import BasicSectionJSON from '@/content/BasicSection.json'
+import BasicSectionJSON from '@/content/BasicSection2.json'
 
 export default {
   name: 'BasicSection',
+  inject: ['lang'],
   data () {
     return {
       basic: BasicSectionJSON
@@ -41,7 +42,9 @@ export default {
   },
   methods: {
     calcAge () {
-      return new Date(new Date() - new Date(this.basic.birth)).getUTCFullYear() - 1970
+      // return new Date(new Date() - new Date(this.basic.birth)).getUTCFullYear() - 1970
+      console.log(`${this.lang}`)
+      return new Date(new Date() - new Date(this.basic.birth.date)).getUTCFullYear() - 1970
     }
   }
 }

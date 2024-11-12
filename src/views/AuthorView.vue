@@ -2,26 +2,27 @@
   <NavBar/>
   <BasicSection/>
   <div class="content">
-    <WorkExperienceSection/>
-    <InterestsSection/>
-    <EducationMainSection/>
-    <EducationAdditionalSection/>
-    <AchievementSection/>
-    <LanguagesSection/>
-    <SkillsSection/>
-    <ResearchSection/>
+    <EducationMainSection
+    :edu-header="NavAuthor.eduMain[lang]"/>
     <CopyrightsSection/>
   </div>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import NavAuthorJSON from '@/content/NavAuthor.json'
 import EducationMainSection from '@/components/EducationMainSection.vue'
 import CopyrightsSection from '@/components/CopyrightsSection.vue'
 import BasicSection from '@/components/BasicSection.vue'
 
 export default {
   name: 'AuthorView',
+  inject: ['lang'],
+  data () {
+    return {
+      NavAuthor: NavAuthorJSON
+    }
+  },
   components: {
     NavBar,
     BasicSection,

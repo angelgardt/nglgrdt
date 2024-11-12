@@ -1,8 +1,16 @@
 <template>
+  <div class="lang-switcher">
+    <select
+    v-model="lang"
+    @change="changeLang()">
+        <option>en</option>
+        <option>ru</option>
+    </select>
+  </div>
   <HeaderComp/>
   <nav class="nav-main">
-    <router-link to="/">home</router-link>
-    <router-link to="/author">author</router-link>
+    <router-link to="/">{{ NavMain.home[lang] }}</router-link>
+    <router-link to="/author">{{ NavMain.author[lang] }}</router-link>
   </nav>
   <router-view/>
   <FooterComp/>
@@ -11,15 +19,33 @@
 <script>
 import HeaderComp from './components/HeaderComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import NavMainJSON from './content/NavMain.json'
 
 export default {
   name: 'App',
+  data () {
+    return {
+      lang: 'en',
+      NavMain: NavMainJSON
+    }
+  },
+  provide () {
+    return {
+      lang: this.lang
+    }
+  },
+  methods: {
+    changeLang () {
+      console.log('changeLang')
+    }
+  },
   components: {
     HeaderComp,
     FooterComp
   }
 }
 </script>
+
 <style lang="scss">
 @import "@/assets/variables.scss";
 @import "@/assets/fonts.scss";
@@ -27,6 +53,18 @@ export default {
 body {
   margin: 0;
   padding-left: 0;
+}
+.lang-switcher {
+    float: right;
+    padding: 1em;
+    select {
+        font-size: 1em;
+        padding: .1em;
+        background-color: $almostblack;
+        color: $almostwhite;
+        border-color: $almostwhite;
+        border-radius: 5px;
+    }
 }
 
 #app {

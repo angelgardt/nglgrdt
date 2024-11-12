@@ -1,20 +1,21 @@
 <template>
     <nav class="nav-secondary">
-        <a href="">work experience</a>
-        <a href="">interests</a>
-        <a href="">education</a>
-        <a href="">additional education</a>
-        <a href="">achievements</a>
-        <a href="">language proficiency</a>
-        <a href="">skillls</a>
-        <a href="">research</a>
-        <a href="">copyrights</a>
+        <a v-for="item in NavAuthor" :key="item"
+        href="">{{ item[lang].toLowerCase() }}</a>
     </nav>
 </template>
 
 <script>
+import NavAuthorJSON from '@/content/NavAuthor.json'
+
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  inject: ['lang'],
+  data () {
+    return {
+      NavAuthor: NavAuthorJSON
+    }
+  }
 }
 </script>
 

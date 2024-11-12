@@ -1,55 +1,37 @@
 <template>
-    <a name="education"></a>
-    <h2>Education</h2>
+    <h2>{{ eduHeader }}</h2>
     <div
     class="edu"
     v-for="edu in edu"
     :key="edu">
       <div class="years">{{ edu.years }}</div>
-      <div class="uni">{{ edu.uni }}</div>
-      <div class="faculty">{{ edu.faculty }}</div>
-      <div class="program">{{ edu.program }}</div>
-      <div class="spec">{{ edu.spec }}</div>
-      <div class="field">{{ edu.field }}</div>
-      <div class="gpa">{{ edu.gpa }}</div>
-      <div
-      class="thesis"
-      v-if="edu.thesis">
-        <div class="thesis-info">{{ edu.thesis.name }}</div>
-        <div class="thesis-title">{{ edu.thesis.title }}</div>
-        <div>
-          <span>{{ edu.thesis.supervisor.title }}: </span>
-          <span>{{ edu.thesis.supervisor.name }}, </span>
-          <span>{{ edu.thesis.advisor.degree }}</span>
-        </div>
-        <div>
-          <span>{{ edu.thesis.advisor.title }}: </span>
-          <span>{{ edu.thesis.advisor.name }}, </span>
-          <span>{{ edu.thesis.advisor.degree }}</span>
-        </div>
-        <div>
-          <span>{{ edu.thesis.reviewer.title }}: </span>
-          <span>{{ edu.thesis.reviewer.name }}, </span>
-          <span>{{ edu.thesis.advisor.degree }}</span>
-        </div>
-        <div>
-          <div>{{ edu.thesis.grades.supervisor }}</div>
-          <div>{{ edu.thesis.grades.advisor }}</div>
-          <div>{{ edu.thesis.grades.board }}</div>
-        </div>
-      </div>
+      <div class="uni">{{ edu.uni[lang] }}</div>
+      <div class="faculty">{{ edu.faculty[lang] }}</div>
+      <div v-if="edu.program" class="program">{{ edu.program[lang] }}</div>
+      <div v-if="edu.spec" class="spec">{{ edu.spec[lang] }}</div>
+      <div class="field">{{ edu.field[lang] }}</div>
+      <div v-if="edu.gpa" class="gpa">{{ edu.gpa }}</div>
+      <EduThesisInfo :edu="edu"/>
     </div>
 </template>
 
 <script>
 import EducationMainJSON from '@/content/EducationMainSection.json'
+import EduThesisInfo from './EduThesisInfo.vue'
 
 export default {
   name: 'EducationMainSection',
+  inject: ['lang'],
+  props: {
+    eduHeader: String
+  },
   data () {
     return {
       edu: EducationMainJSON
     }
+  },
+  components: {
+    EduThesisInfo
   }
 }
 </script>
@@ -59,6 +41,18 @@ export default {
 @import "@/assets/style.scss";
 
 .edu {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
   background-color: $almostwhite;
+  .years, .uni, .faculty, .program, .field, .gpa, .spec {
+    line-height: 1.5em;
+  }
+  .uni {
+    font-weight: 700;
+  }
+  .gpa {
+    font-weight: 600;
+  }
 }
 </style>
