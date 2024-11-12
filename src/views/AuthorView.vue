@@ -1,10 +1,11 @@
 <template>
-  <NavBar/>
-  <BasicSection/>
+  <NavBar :lang="lang"/>
+  <BasicSection :lang="lang"/>
   <div class="content">
     <EducationMainSection
-    :edu-header="NavAuthor.eduMain[lang]"/>
-    <CopyrightsSection/>
+    :edu-header="NavAuthor.eduMain[lang]"
+    :lang="lang"/>
+    <CopyrightsSection :lang="lang"/>
   </div>
 </template>
 
@@ -17,7 +18,9 @@ import BasicSection from '@/components/BasicSection.vue'
 
 export default {
   name: 'AuthorView',
-  inject: ['lang'],
+  props: {
+    lang: String
+  },
   data () {
     return {
       NavAuthor: NavAuthorJSON

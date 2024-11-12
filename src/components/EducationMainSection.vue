@@ -2,8 +2,8 @@
     <h2>{{ eduHeader }}</h2>
     <div
     class="edu"
-    v-for="edu in edu"
-    :key="edu">
+    v-for="(edu, idx) in edu"
+    :key="idx">
       <div class="years">{{ edu.years }}</div>
       <div class="uni">{{ edu.uni[lang] }}</div>
       <div class="faculty">{{ edu.faculty[lang] }}</div>
@@ -11,7 +11,7 @@
       <div v-if="edu.spec" class="spec">{{ edu.spec[lang] }}</div>
       <div class="field">{{ edu.field[lang] }}</div>
       <div v-if="edu.gpa" class="gpa">{{ edu.gpa }}</div>
-      <EduThesisInfo :edu="edu"/>
+      <EduThesisInfo :edu="edu" :lang="lang"/>
       <div class="minor" v-if="edu.additional">
         <div class="name">{{ edu.additional.name[lang] }}</div>
         <div class="faculty">{{ edu.additional.faculty[lang] }}</div>
@@ -29,6 +29,7 @@ export default {
   name: 'EducationMainSection',
   inject: ['lang'],
   props: {
+    lang: String,
     eduHeader: String
   },
   data () {

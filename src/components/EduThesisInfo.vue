@@ -41,6 +41,7 @@ export default {
   name: 'EduThesisInfo',
   inject: ['lang'],
   props: {
+    lang: String,
     edu: Object
   },
   data () {

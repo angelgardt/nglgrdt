@@ -1,37 +1,54 @@
 {
-    "city": "Moscow",
-    "name": "Anton Angelgardt",
-    "birth": "1997-04-21",
+    "city": {
+        "en": "Moscow",
+        "ru": "Москва"
+    },
+    "name": {
+        "en": "Anton Angelgardt",
+        "ru": "Антон Ангельгардт"
+    },
+    "birth": {
+        "date": "1997-04-21",
+        "en": "y. o.",
+        "ru": ["лет", "года", "год"]
+    },
     "contacts": {
         "email": {
             "show": true,
-            "value": "mailto:anton.angelgardt@gmail.com"
+            "path": "@/assets/icons/email.svg",
+            "link": "mailto:anton.angelgardt@gmail.com"
         },
         "telegram": {
             "show": true,
-            "value": "https://t.me/angelgardt"
+            "link": "https://t.me/angelgardt"
         },
         "whatsapp": {
             "show": true,
-            "value": "https://api.whatsapp.com/send?phone=79998651215"
+            "link": "https://api.whatsapp.com/send?phone=79998651215"
         },
         "linkedin": {
             "show": true,
-            "value": "https://www.linkedin.com/in/angelgardt/"
+            "link": "https://www.linkedin.com/in/angelgardt/"
         },
         "facebook": {
             "show": true,
-            "value": "https://www.facebook.com/a.n.angelgardt"
+            "link": "https://www.facebook.com/a.n.angelgardt"
         },
         "instagram": {
-            "show": true,
-            "value": "https://www.instagram.com/an.gelgardt/"
+            "show": false,
+            "link": "https://www.instagram.com/an.gelgardt/"
         }
     },
     "currentJob": {
         "job1": {
-            "position": "Lecturer",
-            "organization": "School of Psychology, HSE University"
+            "position": {
+                "en": "Lecturer",
+                "ru": "преподаватель"
+            },
+            "organization": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            }
         },
         "job2": null
     }

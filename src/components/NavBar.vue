@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-secondary">
-        <a v-for="item in NavAuthor" :key="item"
-        href="">{{ item[lang].toLowerCase() }}</a>
+        <a v-for="(item, idx) in NavAuthor" :key="idx"
+        href="">{{ item[lang] }}</a>
     </nav>
 </template>
 
@@ -10,7 +10,9 @@ import NavAuthorJSON from '@/content/NavAuthor.json'
 
 export default {
   name: 'NavBar',
-  inject: ['lang'],
+  props: {
+    lang: String
+  },
   data () {
     return {
       NavAuthor: NavAuthorJSON
@@ -28,6 +30,7 @@ nav.nav-secondary {
         padding: 1em 1em;
         font-weight: 400;
         color: $tintedblack;
+        text-transform: lowercase;
         &:hover {
             background-color: $shadedwhite;
         }

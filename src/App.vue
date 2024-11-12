@@ -12,7 +12,7 @@
     <router-link to="/">{{ NavMain.home[lang] }}</router-link>
     <router-link to="/author">{{ NavMain.author[lang] }}</router-link>
   </nav>
-  <router-view/>
+  <router-view :lang="lang"/>
   <FooterComp/>
 </template>
 
@@ -31,7 +31,7 @@ export default {
   },
   provide () {
     return {
-      lang: this.lang
+      getLang: () => this.lang
     }
   },
   methods: {
@@ -55,7 +55,9 @@ body {
   padding-left: 0;
 }
 .lang-switcher {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     padding: 1em;
     select {
         font-size: 1em;
@@ -72,7 +74,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
-  color: #2c3e50;
+  color: #000000;
 }
 
 h1 {
