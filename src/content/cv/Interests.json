@@ -1,0 +1,83 @@
+{
+    "science": {
+        "title": {
+            "en": "Science & Edication",
+            "ru": "Наука и образование"
+        },
+        "en": [
+            "Data Analysis",
+            "Data Visualization",
+            "Data Analysis in Psychology",
+            "Bayesian Data Analysis",
+            "Artificial Intelligence",
+            "Human-Digital Interaction",
+            "Trust on Artificial Intelligence",
+            "Machine Learning",
+            "Neural Networks",
+            "Computational Linguistics",
+            "Natural Language Processing",
+            "Psycholinguistics",
+            "Neurolinguistics",
+            "Second Language Acquisition",
+            "Foreign Language Teaching Methodology",
+            "Linguistic Typology",
+            "Phonetics",
+            "Phonology",
+            "Comparative Phonetics",
+            "Accent Reduction",
+            "Psychometrics",
+            "Educational Testing",
+            "Instructional Design",
+            "EdTech"
+        ],
+        "ru": [
+            "анализ данных",
+            "анализ данных в психологии",
+            "байесовские методы анализа данных",
+            "искусственный интеллект",
+            "человек-цифровое взаимодействие",
+            "доверие к искуственному интеллекту",
+            "машинное обучение",
+            "нейронные сети",
+            "компьютерная лингвистика",
+            "обработка естественного языка",
+            "психолингвистика",
+            "нейролингвистика",
+            "усвоение второго языка",
+            "методика преподавания иностранных языков",
+            "лингвистическая типология",
+            "фонетика",
+            "фонология",
+            "сравнительная фонетика",
+            "коррекция акцента",
+            "психометрика",
+            "образовательное тестирование",
+            "дизайн учебных курсов",
+            "образовательные технологии"
+        ]
+    },
+    "art": {
+        "title": {
+            "en": "Art & Design",
+            "ru": "Искусство и дизайн"
+        },
+        "en": [
+            "Communication Design",
+            "Graphic Design",
+            "Typography",
+            "Calligraphy",
+            "Lettering",
+            "Alphabets",
+            "History of Writing"
+        ],
+        "ru": [
+            "коммуникационный дизайн",
+            "графический дизайн",
+            "типографика",
+            "каллиграфия",
+            "леттеринг",
+            "алфавиты",
+            "история письменности"
+        ]
+    }
+}

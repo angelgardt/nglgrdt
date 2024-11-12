@@ -48,10 +48,6 @@ export default {
 @import "@/assets/style.scss";
 
 .edu {
-  margin: 1em 1em;
-  padding: 1.5em 2em;
-  border-radius: 10px;
-  background-color: $almostwhite;
   .years, .uni, .faculty, .program, .spec {
     line-height: 1.5em;
   }

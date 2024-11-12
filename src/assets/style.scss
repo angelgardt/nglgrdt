@@ -1,6 +1,14 @@
 h2 {
+    margin-top: 2em;
     padding: .5em;
     border-radius: 10px;
     background-color: $almostblack;
     color: $almostwhite
+}
+
+.item, .edu {
+    margin: 1em 1em;
+    padding: 1.5em 2em;
+    border-radius: 10px;
+    background-color: $almostwhite;
 }

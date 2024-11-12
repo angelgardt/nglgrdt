@@ -295,6 +295,26 @@
             }
         }
     },
-    "manager": null,
+    "manager": {
+        "ma1": {
+            "position": {
+                "en": "Brand Manager, Proofreader Editor",
+                "ru": "бренд-менеджер, редактор-корректор"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "August 2021 — October 2023",
+                "ru": "август 2021 — октябрь 2023"
+            },
+            "details": null,
+            "description": {
+                "en": "developing business strategy (with Laboratory Head), developing communication and creative strategies, projects workflow control (with Team Leader) (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative & Scientific Advisor and Chief Editor of Social Media), proofreading, training in writing of scientific and popular science texts (with Creative & Scientific Advisor)",
+                "ru": "разработка бизнес-стратегии организации (совместно с руководителем лаборатории), разработка коммуникационных и креативных стратегий, координация работы команды (совместно с тимлидом) (около 8 человек), отбор стажёров, организация обучения стажёров, формирование отчётов о работе стажёров, контроль качества публикуемых материалов (совместно с креативным и научным редактором и главным редактором социальных сетей), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным редактором)"
+            }
+        }
+    },
     "other": null
 }
