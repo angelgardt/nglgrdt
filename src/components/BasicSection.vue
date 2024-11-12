@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import BasicSectionJSON from '@/content/BasicSection.json'
+import BasicSectionJSON from '@/content/cv/BasicSection.json'
 
 export default {
   name: 'BasicSection',
@@ -86,8 +86,9 @@ export default {
 .basic {
     margin: auto;
     margin-top: 2em;
+    margin-bottom: 2em;
     text-align: center;
-    div {
+    &>div {
         display: inline-block;
         vertical-align: middle;
         margin: 0;

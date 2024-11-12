@@ -1,0 +1,300 @@
+{
+    "research": {
+        "re1": {
+            "position": {
+                "en": "Product Researcher",
+                "ru": "продуктовый исследователь"
+            },
+            "company": {
+                "en": "Profilum",
+                "ru": "Профилум"
+            },
+            "duration": {
+                "en": "October 2023 — May 2024",
+                "ru": "октябрь 2023 — май 2024"
+            },
+            "details": null,
+            "description": {
+                "en": "planning and conducting product research, conducting and analysis of quantitative and qualitative survey data",
+                "ru": "планирование и проведение продуктовых исследований полного цикла, проведение кабинетных исследований, разработка гайдов глубинных и экспертных интервью, проведение и анализ данных интервью, сбор и анализ данных количественных опросов, сбор, предобработка и анализ данных официальной статистики, подготовка отчетов и презентаций"
+            }
+        }
+    },
+    "academic": {
+        "ac1": {
+            "position": {
+                "en": "Research Assistant",
+                "ru": "стажёр-исследователь"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "June 2018 — October 2023",
+                "ru": "июнь 2018 — октябрь 2023"
+            },
+            "details": null,
+            "description": {
+                "en": "planning and conducting behavioral, neuro and psychometric research, working in research projects, collecting data, data analysis, writing reports and articles, participating in regular meetings, scientific seminars and conferences",
+                "ru": "планирование и проведение поведенческих, нейро- и психометрических исследований, работа в исследовательских проектах, сбор и анализ данных, написание статей и отчётов, участие в регулярных рабочих собрания, научных семинарах и конференциях"
+            }
+        }
+    },
+    "teaching": {
+        "te8": {
+            "position": {
+                "en": "Lecturer",
+                "ru": "преподаватель"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "since September 2024",
+                "ru": "сентябрь 2024 — наст. вр."
+            },
+            "details": {
+                "type": "list",
+                "title": {
+                    "en": "Courses",
+                    "ru": "Дисциплины"
+                },
+                "content": {
+                    "en": ["Research Seminar: Applied Data Analysis in Psychology [2024/2025]",
+                            "Statistics for Data Analysis [2024/2025]",
+                            "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology [2024/2025]",
+                            "Survey Methods in Psychological Research [2024/2025]"],
+                    "ru": ["Научно-исследовательский семинар: Прикладной анализ данных в психологии [2024/2025]",
+                            "Статистика для анализа данных [2024/2025]",
+                            "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии [2024/2025]",
+                            "Опросные методы в психологических исследованиях [2024/2025]"]
+                }
+            },
+            "description": {
+                "en": "course program development, practical training, individual and group consultations, current and final assessment",
+                "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
+            }
+        },
+        "te7": {
+            "position": {
+                "en": "Course Author, Lecturer",
+                "ru": "автор курса, преподаватель"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "February 2023 — May 2024",
+                "ru": "февраль 2023 — май 2024"
+            },
+            "details" : {
+                "type": "line",
+                "content": {
+                    "en": "course “WLM2023: Data Analysis & Machine Learning for Researchers”",
+                    "ru": "курс «WLM2023: анализ данных и машинное обучение для исследователей»"
+                }
+            },
+            "description": {
+                "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, team management",
+                "ru": "продуктовое и методчиеское проектирование курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, управление командой курса"
+            }
+        },
+        "te6": {
+            "position": {
+                "en": "Assistant",
+                "ru": "ассистент"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January 2021 — August 2024",
+                "ru": "январь 2021 — август 2024"
+            },
+            "details": {
+                "type": "list",
+                "title": {
+                    "en": "Courses",
+                    "ru": "Дисциплины"
+                },
+                "content": {
+                    "en": ["Research Seminar: Applied Data Analysis in Psychology [2021/2022, 2022/2023, 2023/2024]",
+                            "Statistics for Data Analysis [2021/2022, 2022/2023]",
+                            "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology [2022/2023, 2023/2024]",
+                            "Psychology of Human-Digital Interaction [2023/2024]",
+                            "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics [2022/2023]"],
+                    "ru": ["Научно-исследовательский семинар: Прикладной анализ данных в психологии [2021/2022, 2022/2023, 2023/2024]",
+                            "Статистика для анализа данных [2021/2022, 2022/2023]",
+                            "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии [2022/2023, 2023/2024]",
+                            "Психология человек-цифрового взаимодействия [2023/2024]",
+                            "Психологический практикум: Психодиагностика и основы психометрики [2022/2023]"]
+                }
+            },
+            "description": {
+                "en": "course program development, practical training, individual and group consultations, current and final assessment",
+                "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
+            }
+        },
+        "te5": {
+            "position": {
+                "en": "Online Tutor",
+                "ru": "онлайн-тьютор"
+            },
+            "company": {
+                "en": "Middlebury Institute of International Studies at Monterey, CA",
+                "ru": "Middlebury Institute of International Studies at Monterey, CA"
+            },
+            "duration": {
+                "en": "Octiber — June 2021",
+                "ru": "октябрь — июнь 2021"
+            },
+            "description": {
+                "en": "Russian grammar training, Rissian pronunciation training",
+                "ru": "индивидуальные занятия по блокам грамматики и фонетики русского языка"
+            }
+        },
+        "te4": {
+            "position": {
+                "en": "Course Author, Lecturer",
+                "ru": "автор курса, преподаватель"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January — May 2021",
+                "ru": "январь — май 2021"
+            },
+            "details" : {
+                "type":"line",
+                "content": {
+                    "en": "course “Data Analysis + R: World of Linear Models”",
+                    "ru": "курс «Анализ данных + R: мир линейных моделей»"
+                }
+            },
+            "description": {
+                "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, checking participants' homeworks, individual and group consultations",
+                "ru": "проектирование программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, проверка домашних работы слушателей, проведение индивидуальных и групповых консультаций"
+            }
+        },
+        "te3": {
+            "position": {
+                "en": "Lecturer",
+                "ru": "преподаватель"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January — April 2020",
+                "ru": "январь — апрель 2020"
+            },
+            "details" : {
+                "type": "line",
+                "content": {
+                    "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                    "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+                }
+            },
+            "description": {
+                "en": "course program development, teaching materials development, practical training, individual and group consultations",
+                "ru": "разработка программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+            }
+        },
+        "te2": {
+            "position": {
+                "en": "Teaching Assistant",
+                "ru": "учебный ассистент"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "September 2019 — June 2021",
+                "ru": "сентябрь 2019 — июнь 2021"
+            },
+            "details": {
+                "type": "list",
+                "title": {
+                    "en": "Courses",
+                    "ru": "Дисциплины"
+                },
+                "content": {
+                    "en": ["Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics [2020/2021]",
+                            "Introduction to Psychology [2019/2020, 2020/2021]",
+                            "Research Seminar: Applied Data Analysis in Psychology [2019/2020]"],
+                    "ru": ["Психологический практикум: Психодиагностика и основы психометрики [2020/2021]",
+                            "Введение в психологию [2019/2020, 2020/2021]",
+                            "Научно-исследовательский семинар: Прикладной анализ данных в психологии [2019/2020]"]
+                }
+            },
+            "description": {
+                "en": "course program development assistance, individual and group consultations, current assessment tasks development, checking students' homeworks",
+                "ru": "участие в разработке программы курса, индивидуальные и групповые консультации со студентами, разработка форм текущего контроля, проверка домашних работ студентов"
+            }
+        },
+        "te1": {
+            "position": {
+                "en": "Teaching Assistant",
+                "ru": "учебный ассистент"
+            },
+            "company": {
+                "en": "Department of Higher Mathematics, HSE University",
+                "ru": "кафедра высшей математики, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January — June 2019",
+                "ru": "январь — июнь 2019"
+            },
+            "details": {
+                "type": "list",
+                "title": {
+                    "en": "Courses",
+                    "ru": "Дисциплины"
+                },
+                "content": {
+                    "en": ["Mathematical and Statistical Methods in Psychology [2018/2019]"],
+                    "ru": ["Математические и статистические методы в психологии [2018/2019]"]
+                }
+            },
+            "description": {
+                "en": "individual and group consultations, checking current assessment works",
+                "ru": "индивидуальные и групповые консультации со студентами, проверка форм текущего контроля"
+            }
+        },
+        "te0": {
+            "position": {
+                "en": "Lecturer",
+                "ru": "преподаватель"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "April — May 2019",
+                "ru": "апрель — май 2019"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "course “Fundamentals of Experiments Building with PsychoPy”",
+                    "ru": "курс «Основы построения экспериментов в PsychoPy»"
+                }
+            },
+            "description": {
+                "en": "course program development, teaching materials development, practical training, individual and group consultations",
+                "ru": "разработка программы курса, разработка учебных материалов, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+            }
+        }
+    },
+    "manager": null,
+    "other": null
+}

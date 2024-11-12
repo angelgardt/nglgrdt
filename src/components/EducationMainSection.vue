@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import EducationMainJSON from '@/content/EducationMainSection.json'
 import EduThesisInfo from './EduThesisInfo.vue'
+import EducationMainJSON from '@/content/cv/EducationMainSection.json'
 
 export default {
   name: 'EducationMainSection',

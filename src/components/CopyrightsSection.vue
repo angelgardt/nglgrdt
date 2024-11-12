@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import CopyrightsJSON from '@/content/CopyrightsSection.json'
+import CopyrightsJSON from '@/content/cv/CopyrightsSection.json'
 
 export default {
   name: 'CopyrightsSection',

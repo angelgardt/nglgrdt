@@ -1,21 +1,21 @@
 <template>
     <nav class="nav-secondary">
-        <a v-for="(item, idx) in NavAuthor" :key="idx"
+        <a v-for="(item, idx) in NavCV" :key="idx"
         href="">{{ item[lang] }}</a>
     </nav>
 </template>
 
 <script>
-import NavAuthorJSON from '@/content/NavAuthor.json'
+import NavCVJSON from '@/content/cv/NavCV.json'
 
 export default {
-  name: 'NavBar',
+  name: 'NavBarCV',
   props: {
     lang: String
   },
   data () {
     return {
-      NavAuthor: NavAuthorJSON
+      NavCV: NavCVJSON
     }
   }
 }
