@@ -1,7 +1,17 @@
 {
-    "city": "Moscow",
-    "name": "Anton Angelgardt",
-    "birth": "1997-04-21",
+    "city": {
+        "en": "Moscow",
+        "ru": "Москва"
+    },
+    "name": {
+        "en": "Anton Angelgardt",
+        "ru": "Антон Ангельгардт"
+    },
+    "birth": {
+        "date": "1997-04-21",
+        "en": "y. o.",
+        "ru": ["лет", "года", "год"]
+    },
     "contacts": {
         "email": {
             "show": true,
@@ -30,8 +40,14 @@
     },
     "currentJob": {
         "job1": {
-            "position": "Lecturer",
-            "organization": "School of Psychology, HSE University"
+            "en": {
+                "position": "Lecturer",
+                "organization": "School of Psychology, HSE University"
+            },
+            "ru": {
+                "position": "преподаватель",
+                "organization": "департамент психологии, НИУ ВШЭ"
+            }
         },
         "job2": null
     }
