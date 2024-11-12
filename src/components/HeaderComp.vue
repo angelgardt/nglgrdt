@@ -1,4 +1,10 @@
 <template>
+    <div class="lang-switcher">
+            <select name="" id="">
+                <option value="">en</option>
+                <option value="">ru</option>
+            </select>
+        </div>
     <header>
         <div class="title">
             A. N. Angelgardt
@@ -21,6 +27,7 @@ export default {
 header {
     padding: 1em;
     text-align: center;
+    vertical-align: top;
     background-color: $almostblack;
     color: $almostwhite;
 }
@@ -37,4 +44,16 @@ header {
     font-weight: 200;
 }
 
+.lang-switcher {
+    float: right;
+    padding: 1em;
+    select {
+        font-size: 1em;
+        padding: .1em;
+        background-color: $almostblack;
+        color: $almostwhite;
+        border-color: $almostwhite;
+        border-radius: 5px;
+    }
+}
 </style>

@@ -8,6 +8,7 @@
         "field": "Field of Study 45.04.03 “Fundamental and Applied Linguistics”",
         "gpa": "GPA: 8.66 / 10",
         "thesis": {
+            "name": "Thesis Info",
             "title": "Title: “Development of Speech Recognition Based Application for RFL Students”",
             "supervisor": {
                 "title": "Scientific Supervisor",

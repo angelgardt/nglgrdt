@@ -1,17 +1,22 @@
 <template>
     <a name="education"></a>
     <h2>Education</h2>
-    <div v-for="edu in edu" :key="edu">
-      <div>{{ edu.years }}</div>
-      <div>{{ edu.uni }}</div>
-      <div>{{ edu.faculty }}</div>
-      <div>{{ edu.program }}</div>
-      <div>{{ edu.spec }}</div>
-      <div>{{ edu.field }}</div>
-      <div>{{ edu.gpa }}</div>
-      <div v-if="edu.thesis">
-        <div>Thesis Info</div>
-        <div>{{ edu.thesis.title }}</div>
+    <div
+    class="edu"
+    v-for="edu in edu"
+    :key="edu">
+      <div class="years">{{ edu.years }}</div>
+      <div class="uni">{{ edu.uni }}</div>
+      <div class="faculty">{{ edu.faculty }}</div>
+      <div class="program">{{ edu.program }}</div>
+      <div class="spec">{{ edu.spec }}</div>
+      <div class="field">{{ edu.field }}</div>
+      <div class="gpa">{{ edu.gpa }}</div>
+      <div
+      class="thesis"
+      v-if="edu.thesis">
+        <div class="thesis-info">{{ edu.thesis.name }}</div>
+        <div class="thesis-title">{{ edu.thesis.title }}</div>
         <div>
           <span>{{ edu.thesis.supervisor.title }}: </span>
           <span>{{ edu.thesis.supervisor.name }}, </span>
@@ -48,3 +53,12 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
+
+.edu {
+  background-color: $almostwhite;
+}
+</style>

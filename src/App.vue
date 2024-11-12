@@ -37,12 +37,19 @@ body {
   color: #2c3e50;
 }
 
+h1 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
 nav {
   text-align: center;
   a {
     text-decoration: none;
   }
   &.nav-main {
+    position: sticky;
+    top: 0;
     background-color: $almostblack;
     a {
       display: inline-block;

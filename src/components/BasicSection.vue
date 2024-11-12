@@ -70,6 +70,9 @@ export default {
             margin: 0;
             text-align: left;
         }
+        .contacts {
+            margin: 1em 0;
+        }
         .current-job {
             &>div {
                 margin: .5em 0;
