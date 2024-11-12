@@ -4,10 +4,10 @@
       v-if="edu.thesis">
         <div
         @click="showThesisInfo()"
-        class="info">
+        class="name">
             {{ edu.thesis.name[lang] }}
         </div>
-        <div v-if="thesisShown">
+        <div class="info" v-if="thesisShown">
             <div class="title">
                 <span>{{ edu.thesis.titleName[lang] }}: </span>
                 <span class="title">{{ edu.thesis.title[lang] }}</span>
@@ -45,7 +45,7 @@ export default {
   },
   data () {
     return {
-      thesisShown: true
+      thesisShown: false
     }
   },
   methods: {
@@ -61,21 +61,33 @@ export default {
 
 .thesis {
     margin-top: 1em;
+    >.name {
+        font-weight: 500;
+        margin-bottom: .5em;
+        text-decoration: underline;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
 
 .info {
-    font-weight: 500;
-    margin-bottom: .5em;
-    text-decoration: underline;
-    &:hover {
-        cursor: pointer;
-    }
+    margin: 0 1em;
 }
 
 .title {
     span.title {
         font-weight: 600;
     }
+}
+
+.title, .supervisor, .advisor, .reviewer{
+    line-height: 1.5em;
+}
+
+.grades {
+    margin: .5em 0;
+    font-size: .9em;
 }
 
 .supervisor>.name,

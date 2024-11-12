@@ -19,6 +19,7 @@
             "ru": "специальность 45.04.03 «Фундаментальная и прикладная лингвистика»"
         },
         "gpa": "GPA: 8.66 / 10",
+        "additional": null,
         "thesis": {
             "name": {
                 "en": "Thesis Info",
@@ -98,7 +99,7 @@
         },
         "faculty": {
             "en": "Faculty of Social Sciences",
-            "ru": "Факультет социальных наук"
+            "ru": "факультет социальных наук"
         },
         "program": {
             "en": "“Psychology” program (Bachelor’s Degree)",
@@ -113,6 +114,24 @@
             "ru": "специальность 37.03.01 «Психология»"
         }, 
         "gpa": "GPA: 8.44 / 10",
+        "additional": {
+            "name": {
+                "en": "Minor",
+                "ru": "Дополнительная специализация"
+            },
+            "faculty": {
+                "en": "HSE Institute of Education",
+                "ru": "Институт образования НИУ ВШЭ"
+            },
+            "program": {
+                "en": "“Teaching in Digital Age”",
+                "ru": "«Преподавание в цифровую эпоху»"
+            },
+            "field": {
+                "en": "Field of Study 44.04.01 “Pedagogy”",
+                "ru": "специальность 44.04.01 «Педагогическое образование»"
+            }
+        },
         "thesis": {
             "name": {
                 "en": "Thesis Info",
@@ -205,6 +224,7 @@
             "ru": "специальность 31.05.01 «Лечебное дело»"
         },
         "gpa": null,
+        "additional": null,
         "thesis": null
     }
 }
