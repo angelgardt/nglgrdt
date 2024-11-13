@@ -33,7 +33,7 @@
             },
             "ru": {
                 "science": "Наука и образование",
-                "art": "Наука и образование"
+                "art": "Искусство и дизайн"
             }
         }
     },
@@ -81,7 +81,13 @@
         "subheaders": {
             "en": {
                 "prog": "Programming and IT",
-                "analytics": "Data Analysis",
+                "analytics": {
+                    "name": "Data Analysis",
+                    "subheaders": {
+                        "quantitative": "Quantitative Data",
+                        "qualitative": "Qualitative Data"
+                    }
+                },
                 "research": "Research Methods",
                 "manager": "Managements",
                 "software": {
@@ -97,7 +103,13 @@
             },
             "ru": {
                 "prog": "Программирование и ИТ",
-                "analytics": "Анализ данных",
+                "analytics": {
+                    "name": "Анализ данных",
+                    "subheaders": {
+                        "quantitative": "Количественные данные",
+                        "qualitative": "Качественные данные"
+                    }
+                },
                 "research": "Методы исследований",
                 "manager": "Менеджмент",
                 "software": {
@@ -106,7 +118,7 @@
                         "basic": "Базовое",
                         "grahics": "Графическое",
                         "soundvideo": "Звук и видео",
-                        "special": "Специальное ПО"
+                        "special": "Специальное"
                     }
                 },
                 "other": "Другое"

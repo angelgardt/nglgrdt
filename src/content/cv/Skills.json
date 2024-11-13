@@ -1,0 +1,174 @@
+{
+    "prog": {
+        "en": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "R",
+            "tidyverse",
+            "RMarkdown",
+            "Quarto",
+            "TeX (LaTeX)",
+            "JavaScript",
+            "Vue 3",
+            "SQL",
+            "HTML 5",
+            "CSS 3",
+            "SASS / SCSS",
+            "Git",
+            "GitHub"
+        ],
+        "ru": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "R",
+            "tidyverse",
+            "RMarkdown",
+            "Quarto",
+            "TeX (LaTeX)",
+            "JavaScript",
+            "Vue 3",
+            "SQL",
+            "HTML 5",
+            "CSS 3",
+            "SASS / SCSS",
+            "Git",
+            "GitHub"
+        ]
+    },
+    "analytics": {
+        "quantitative": {
+            "en": [
+                "General Linear Models",
+                "Regression Analysis",
+                "ANOVA, rmANOVA",
+                "Generalized Linear Models",
+                "Generalized Additive Models",
+                "Regularized Regression",
+                "Principal Componen Analysis",
+                "Cluster Analysis",
+                "Factor Analysis (EFA, CFA)",
+                "Structural Equation Modeling"
+            ],
+            "ru": [
+                "общие линейные модели",
+                "регрессионный анализ",
+                "ANOVA, rmANOVA",
+                "обобщённые линейные модели (GLM",
+                "обобщённые аддитивные модели(GAM)",
+                "регуляризованная регрессия",
+                "анализ главных компонент",
+                "кластерный анализ",
+                "факторный анализ (EFA, CFA)",
+                "моделирование структурными уравнениям (SEM)"
+            ]
+        },
+        "qualitative": {
+            "en": [
+                "Thematic Analysis"
+            ],
+            "ru": [
+                "тематический анализ"
+            ]
+        }
+    },
+    "research": {
+        "en": [
+            "Behavioral Experiments",
+            "Questionnaire Development",
+            "Cognitive Interviewing",
+            "Customer Develpment",
+            "Customer Journey Map"
+        ],
+        "ru": [
+            "поведенческие исследования",
+            "разработка опросников",
+            "когнитивное интервью",
+            "customer develpment",
+            "customer journey map"
+        ]
+    },
+    "manager": {
+        "en": [
+            "Educational Project Management",
+            "Research Project Management",
+            "Creative Project Management",
+            "Work Engagement",
+            "Team Management"
+        ],
+        "ru": [
+            "управление образовательными проектами",
+            "управление исследовательскими проектами",
+            "управление креативными проектами",
+            "работа с вовлеченностью",
+            "управление командами"
+        ]
+    },
+    "software": {
+        "basic": {
+            "en": [
+                "MS Office",
+                "MS Word",
+                "MS Excel",
+                "MS Power Point",
+                "Google Docs",
+                "Google Sheets",
+                "Google Slides"
+            ],
+            "ru": [
+                "MS Office",
+                "MS Word",
+                "MS Excel",
+                "MS Power Point",
+                "Google Docs",
+                "Google Sheets",
+                "Google Slides"
+            ]
+        },
+        "grahics": {
+            "en": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe InDesign",
+                "Figma"
+            ],
+            "ru": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe InDesign",
+                "Figma"
+            ]
+        },
+        "soundvideo": {
+            "en": [
+                "Adobe Audition",
+                "Adobe Premiere Pro",
+                "CapCut"
+            ],
+            "ru": [
+                "Adobe Audition",
+                "Adobe Premiere Pro",
+                "CapCut"
+            ]
+        },
+        "special": {
+            "en": [
+                "PsychoPy",
+                "Praat"
+            ],
+            "ru": [
+                "PsychoPy",
+                "Praat"
+            ]
+        }
+    },
+    "other": {
+        "en": [
+            "Proofreading"
+        ],
+        "ru": [
+            "корректура текстов"
+        ]
+    }
+}
