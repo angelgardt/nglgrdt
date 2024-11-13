@@ -1,14 +1,34 @@
 {
-    "copyright1": {
-        "title": "Data Analysis + R: World of Linear Models",
-        "description": "course for students and young researchers",
-        "author": "A. N. Angelgardt",
-        "year": "2021"
-    },
-    "copyright2": {
-        "title": "WLM 2023: Data Analysis & Machine Learning for Researchers",
-        "description": "course for students and young researchers",
-        "author": "A. N. Angelgardt",
-        "year": "2023"
-    }
+    "copyrights": [
+        {
+            "title": {
+                "en": "WLM 2023: Data Analysis & Machine Learning for Researchers",
+                "ru": "WLM 2023: анализ данных и машинное обучение для исследователей"
+            },
+            "description": {
+                "en": "course for students and young researchers",
+                "ru": "учебный курс для студентов и молодых исследователей"
+            },
+            "author": {
+                "en": "A. N. Angelgardt",
+                "ru": "А. Н. Ангельгардт"
+            },
+            "year": "2023"
+        },
+        {
+            "title": {
+                "en": "Data Analysis + R: World of Linear Models",
+                "ru": "Анализ данных + R: мир линейных моделей"
+            },
+            "description": {
+                "en": "course for students and young researchers",
+                "ru": "учебный курс для студентов и молодых исследователей"
+            },
+            "author": {
+                "en": "A. N. Angelgardt",
+                "ru": "А. Н. Ангельгардт"
+            },
+            "year": "2021"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 <template>
-    <h2>{{ eduHeader }}</h2>
+    <h2>{{ header }}</h2>
     <div
     class="edu"
     v-for="(edu, idx) in edu"
@@ -30,7 +30,7 @@ export default {
   inject: ['lang'],
   props: {
     lang: String,
-    eduHeader: String
+    header: String
   },
   data () {
     return {
@@ -44,7 +44,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
 @import "@/assets/style.scss";
 
 .edu {

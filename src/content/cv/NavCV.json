@@ -38,8 +38,10 @@
         }
     },
     "eduMain": {
-        "en": "Education",
-        "ru": "Образование"
+        "header": {
+            "en": "Education",
+            "ru": "Образование"
+        }
     },
     "eduAdditional": {
         "header": {
@@ -60,12 +62,16 @@
         }
     },
     "achievements": {
-        "en": "Achievements",
-        "ru": "Достижения"
+        "header": {
+            "en": "Achievements",
+            "ru": "Достижения"
+        }
     },
     "langs": {
-        "en": "Language proficiency",
-        "ru": "Владение языками"
+        "header": {
+            "en": "Language proficiency",
+            "ru": "Владение языками"
+        }
     },
     "skills": {
         "header": {
@@ -126,7 +132,9 @@
         }
     },
     "copyrights": {
-        "en": "Copyrights",
-        "ru": "Авторские права"
+        "header": {
+            "en": "Copyrights",
+            "ru": "Авторские права"
+        }
     }
 }

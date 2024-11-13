@@ -3,13 +3,18 @@
   <BasicSection :lang="lang"/>
   <div class="content">
     <WorkExperience
-    :work-header="NavCV.workExperience.header[lang]"
-    :work-subheaders="NavCV.workExperience.subheaders[lang]"
+    :header="NavCV.workExperience.header[lang]"
+    :subheaders="NavCV.workExperience.subheaders[lang]"
     :lang="lang"/>
+    <InterestsSection
+    :header="NavCV.interests.header[lang]"
+    />
     <EducationMainSection
-    :edu-header="NavCV.eduMain[lang]"
+    :header="NavCV.eduMain.header[lang]"
     :lang="lang"/>
-    <CopyrightsSection :lang="lang"/>
+    <CopyrightsSection
+    :header="NavCV.copyrights.header[lang]"
+    :lang="lang"/>
   </div>
 </template>
 
@@ -42,7 +47,9 @@ export default {
 
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+@import "@/assets/style.scss";
+
 .content {
   width: 1400px;
   margin: auto;

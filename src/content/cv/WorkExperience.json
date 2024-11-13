@@ -120,11 +120,8 @@
                 "ru": "февраль 2023 — май 2024"
             },
             "details" : {
-                "type": "line",
-                "content": {
-                    "en": "course “WLM2023: Data Analysis & Machine Learning for Researchers”",
-                    "ru": "курс «WLM2023: анализ данных и машинное обучение для исследователей»"
-                }
+                "en": "course “WLM2023: Data Analysis & Machine Learning for Researchers”",
+                "ru": "курс «WLM2023: анализ данных и машинное обучение для исследователей»"
             },
             "description": {
                 "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, team management",
@@ -234,11 +231,8 @@
                 "ru": "январь — май 2021"
             },
             "details" : {
-                "type":"line",
-                "content": {
-                    "en": "course “Data Analysis + R: World of Linear Models”",
-                    "ru": "курс «Анализ данных + R: мир линейных моделей»"
-                }
+                "en": "course “Data Analysis + R: World of Linear Models”",
+                "ru": "курс «Анализ данных + R: мир линейных моделей»"
             },
             "description": {
                 "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, checking participants' homeworks, individual and group consultations",
@@ -259,11 +253,8 @@
                 "ru": "январь — апрель 2020"
             },
             "details" : {
-                "type": "line",
-                "content": {
-                    "en": "course “Data Analysis + R: from t-test to mixed effect models”",
-                    "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
-                }
+                "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
             },
             "description": {
                 "en": "course program development, teaching materials development, practical training, individual and group consultations",
@@ -381,11 +372,8 @@
                 "ru": "апрель — май 2019"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "course “Fundamentals of Experiments Building with PsychoPy”",
-                    "ru": "курс «Основы построения экспериментов в PsychoPy»"
-                }
+                "en": "course “Fundamentals of Experiments Building with PsychoPy”",
+                "ru": "курс «Основы построения экспериментов в PsychoPy»"
             },
             "description": {
                 "en": "course program development, teaching materials development, practical training, individual and group consultations",
@@ -427,11 +415,8 @@
                 "ru": "сентябрь 2018 — август 2023"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Cognitive Research Seminar",
-                    "ru": "Семинар по когнитивным исследованиям"
-                }
+                "en": "Cognitive Research Seminar",
+                "ru": "Семинар по когнитивным исследованиям"
             },
             "description": {
                 "en": "workflow control (about 3 people), publishing of announcements and news on the official portal and in social networks, recordings assembling",
@@ -490,11 +475,8 @@
                 "ru": "февраль — ноябрь 2020, март - июль 2021"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Summer school ”Applied Cognitive Science”",
-                    "ru": "летняя школа «Прикладная когнитивная наука»"
-                }
+                "en": "Summer school ”Applied Cognitive Science”",
+                "ru": "летняя школа «Прикладная когнитивная наука»"
             },
             "description": {
                 "en": "syllabus development, lecturers recruitment, communication with lecturers, classes technical support, team coordination during the event",
@@ -515,11 +497,8 @@
                 "ru": "январь — май 2021"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "course “Data Analysis + R: World of Linear Models”",
-                    "ru": "курс «Анализ данных + R: мир линейных моделей»"
-                }
+                "en": "course “Data Analysis + R: World of Linear Models”",
+                "ru": "курс «Анализ данных + R: мир линейных моделей»"
             },
             "description": {
                 "en": "workflow control, comunicating with participants, participants recruitment, classes technical support, certificates issuance",
@@ -540,11 +519,8 @@
                 "ru": "октябрь 2020 — март 2021"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Spring Psychological School",
-                    "ru": "Весенняя Психологическая Школа"
-                }
+                "en": "Spring Psychological School",
+                "ru": "Весенняя Психологическая Школа"
             },
             "description": {
                 "en": "syllabus development, team recruitment, teachers recruitment, seminarists' teaching materials quality control, classes technical support, employee engagement, creating a workflow guide, academic debates development (rules, criteria and theses development)",
@@ -565,11 +541,8 @@
                 "ru": ""
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Psy-HSE: Conference of Young Scientists “Contemporary Issues of Psychological Science”",
-                    "ru": "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
-                }
+                "en": "Psy-HSE: Conference of Young Scientists “Contemporary Issues of Psychological Science”",
+                "ru": "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
             },
             "description": {
                 "en": "applications collection, creating SMM content, conference website editing, creating conference brochure layout",
@@ -590,11 +563,8 @@
                 "ru": "январь — апрель 2020"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "course “Data Analysis + R: from t-test to mixed effect models”",
-                    "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
-                }
+                "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
             },
             "description": {
                 "en": "workflow control, communication with participants, applications collecting, participants selecting, classes technical support, certificates issuance",
@@ -615,11 +585,8 @@
                 "ru": "октябрь 2019 — март 2020"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Spring Psychological School",
-                    "ru": "Весенняя Психологическая Школа"
-                }
+                "en": "Spring Psychological School",
+                "ru": "Весенняя Психологическая Школа"
             },
             "description": {
                 "en": "workflow control (about 10 people), syllabus develompent, team recruitment, theachers recruitment, seminarists' teaching materials quality control, communication with university administration, participants feedback collection, classes technical support, employee engagement, creating a workflow guide",
@@ -640,11 +607,8 @@
                 "ru": "апрель — май 2019"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "course “Experiments Building Basics with PsychoPy”",
-                    "ru": "курс «Основы построения экспериментов в PsychoPy»"
-                }
+                "en": "course “Experiments Building Basics with PsychoPy”",
+                "ru": "курс «Основы построения экспериментов в PsychoPy»"
             },
             "description": {
                 "en": "workflow control, communication with participants, applications collection, participants selection, classes technical support, certificates issuance",
@@ -665,11 +629,8 @@
                 "ru": "октябрь 2018 — май 2019"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Spring Psychological School",
-                    "ru": "Весенняя Психологическая Школа"
-                }
+                "en": "Spring Psychological School",
+                "ru": "Весенняя Психологическая Школа"
             },
             "description": {
                 "en": "workflow control (about 10 people), extracurricular program development, team recruitment, communication with university administration, technical support, employee engagement, creating a workflow guide",
@@ -749,11 +710,8 @@
                 "ru": "по запросу организаторов"
             },
             "details": {
-                "type": "line",
-                "content": {
-                    "en": "Spring Psychological School",
-                    "ru": "Весенняя Психологическая Школа"
-                }
+                "en": "Spring Psychological School",
+                "ru": "Весенняя Психологическая Школа"
             },
             "description": {
                 "en": "lecturing and teaching (psychology and related topics)",

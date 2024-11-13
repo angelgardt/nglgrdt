@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-secondary">
         <a v-for="(item, idx) in NavCV" :key="idx"
-        href="">{{ item[lang] }}</a>
+        href="">{{ item.header[lang] }}</a>
     </nav>
 </template>
 
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
 
 nav.nav-secondary {
     a {

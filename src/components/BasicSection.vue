@@ -76,7 +76,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
 
 .photo img {
     width: 15em;

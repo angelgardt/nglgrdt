@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
 
 header {
     padding: 1em;

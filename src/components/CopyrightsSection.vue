@@ -1,22 +1,35 @@
 <template>
-    <h2>Copyrights</h2>
+    <h2>{{ header }}</h2>
     <div v-for="copyright in copyrights" :key="copyright">
-        <div>{{ copyright.title }}</div>
-        <div>{{ copyright.description }}</div>
-        <div>{{ copyright.author }}</div>
-        <div>{{ copyright.year }}</div>
+      <ItemComp
+      :title="copyright.title[lang]"
+      :caption="copyright.description[lang]"
+      :subtitle="copyright.author[lang]"
+      :date="copyright.year"/>
     </div>
 </template>
 
 <script>
 import CopyrightsJSON from '@/content/cv/CopyrightsSection.json'
+import ItemComp from './ItemComp.vue'
 
 export default {
   name: 'CopyrightsSection',
+  props: {
+    header: String,
+    lang: String
+  },
   data () {
     return {
-      copyrights: CopyrightsJSON
+      copyrights: CopyrightsJSON.copyrights
     }
+  },
+  components: {
+    ItemComp
   }
 }
 </script>
+
+<style scoped lang="scss">
+@import "@/assets/style.scss";
+</style>

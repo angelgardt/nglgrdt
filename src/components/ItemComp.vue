@@ -1,19 +1,40 @@
 <template>
     <div class="item">
-        text
+        <div class="item-title"
+        v-if="title">
+            {{ title }}
+        </div>
+        <div class="item-caption"
+        v-if="caption">
+            {{ caption }}
+        </div>
+        <div class="item-subtitle"
+        v-if="subtitle">
+            {{ subtitle }}
+        </div>
+        <div class="item-date"
+        v-if="date">
+            {{ date }}
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'ItemComp'
+  name: 'ItemComp',
+  props: {
+    title: String,
+    caption: String,
+    subtitle: String,
+    date: String
+  }
 }
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
 
 .item {
-    background-color: $silver;
+    background-color: $almostwhite;
 }
 </style>

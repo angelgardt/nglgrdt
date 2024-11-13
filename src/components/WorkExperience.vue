@@ -1,9 +1,9 @@
 <template>
-    <h2>{{ workHeader }}</h2>
+    <h2>{{ header }}</h2>
     <div
     v-for="(subsec, key, idx) in WorkExp"
     :key="idx">
-        <h3 v-if="subsec">{{ workSubheaders[key] }}</h3>
+        <h3 v-if="subsec">{{ subheaders[key] }}</h3>
         <div class="item"
         v-for="(item, idx) in subsec"
         :key="idx">
@@ -12,8 +12,8 @@
             <div class="details"
             v-if="item.details">
                 <div class="line"
-                v-if="item.details.type === 'line'">
-                {{ item.details.content[lang] }}
+                v-if="!(item.details.title)">
+                {{ item.details[lang] }}
                 </div>
             </div>
             <div class="duration">{{ item.duration[lang] }}</div>
@@ -21,7 +21,7 @@
             <div class="details"
             v-if="item.details">
                 <div class="list"
-                v-if="item.details.type === 'list'">
+                v-if="item.details.title">
                     <div class="title">{{ item.details.title[lang] }}</div>
                     <ul>
                         <li
@@ -45,8 +45,8 @@ export default {
   name: 'WorkExperience',
   props: {
     lang: String,
-    workHeader: String,
-    workSubheaders: Object
+    header: String,
+    subheaders: Object
   },
   data () {
     return {
@@ -57,7 +57,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
 @import "@/assets/style.scss";
 
 .item {

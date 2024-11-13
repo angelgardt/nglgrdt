@@ -1,11 +1,13 @@
 <template>
-  <div class="lang-switcher">
-    <select
-    v-model="lang"
-    @change="changeLang()">
-        <option>en</option>
-        <option>ru</option>
-    </select>
+  <div class="lang-switcher-wrapper">
+    <div class="lang-switcher">
+      <select
+      v-model="lang"
+      @change="changeLang()">
+          <option>en</option>
+          <option>ru</option>
+      </select>
+    </div>
   </div>
   <HeaderComp/>
   <nav class="nav-main">
@@ -47,26 +49,32 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/variables.scss";
 @import "@/assets/fonts.scss";
+@import "@/assets/style.scss";
 
 body {
   margin: 0;
   padding-left: 0;
 }
-.lang-switcher {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 1em;
-    select {
+.lang-switcher-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 99;
+  .lang-switcher {
+      position: sticky;
+      top: 0;
+      padding: 1em;
+      select {
         font-size: 1em;
         padding: .1em;
         background-color: $almostblack;
         color: $almostwhite;
         border-color: $almostwhite;
         border-radius: 5px;
-    }
+      }
+  }
 }
 
 #app {

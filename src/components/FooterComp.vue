@@ -18,13 +18,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/variables.scss";
+@import "@/assets/style.scss";
 
 footer {
-  padding: 1em;
+  padding: 2em;
   margin-top: 2em;
   background-color: $almostblack;
-  color: $darkgray;
+  color: $shadedgray;
 }
 .title, .email {
   padding: .1em 0;
