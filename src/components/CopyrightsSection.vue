@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CopyrightsJSON from '@/content/cv/CopyrightsSection.json'
+import CopyrightsJSON from '@/content/cv/Copyrights.json'
 import ItemComp from './ItemComp.vue'
 
 export default {

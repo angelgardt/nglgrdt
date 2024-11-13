@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import BasicSectionJSON from '@/content/cv/BasicSection.json'
+import BasicSectionJSON from '@/content/cv/BasicInfo.json'
 
 export default {
   name: 'BasicSection',

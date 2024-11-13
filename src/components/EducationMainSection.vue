@@ -23,7 +23,7 @@
 
 <script>
 import EduThesisInfo from './EduThesisInfo.vue'
-import EducationMainJSON from '@/content/cv/EducationMainSection.json'
+import EducationMainJSON from '@/content/cv/EducationMain.json'
 
 export default {
   name: 'EducationMainSection',

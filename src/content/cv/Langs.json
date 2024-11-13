@@ -1,0 +1,44 @@
+{
+    "langs": [
+        {
+            "en": {
+                "lang": "Russian",
+                "level": "native"
+            },
+            "ru": {
+                "lang": "русский",
+                "leve": "родной"
+            }
+        },
+        {
+            "en": {
+                "lang": "English",
+                "level": "B2"
+            },
+            "ru": {
+                "lang": "английский",
+                "level": "B2"
+            }
+        },
+        {
+            "en": {
+                "lang": "Russian as a Foreign Language",
+                "level": null
+            },
+            "ru": {
+                "lang": "русский как иностранный",
+                "level": null
+            }
+        },
+        {
+            "en": {
+                "lang": "Latin",
+                "level": "basic knowledge"
+            },
+            "ru": {
+                "lang": "латинский",
+                "level": "базовые знания"
+            }
+        }
+    ]
+}
