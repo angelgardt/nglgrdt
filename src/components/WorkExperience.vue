@@ -27,7 +27,9 @@
                         <li
                         v-for="(li, idx) in item.details.content[lang]"
                         :key="idx">
-                            {{ li }}
+                            <span v-if="li.c1" class="c1">{{ li.c1 }}</span>&nbsp;
+                            <span v-if="li.c2" class="c2">{{ li.c2 }}</span>&nbsp;
+                            <span v-if="li.c3" class="c3">{{ li.c3 }}</span>
                         </li>
                     </ul>
                 </div>
@@ -83,6 +85,9 @@ export default {
             padding: 0 .5em;
             li {
                 line-height: 1.5em;
+                .c2 {
+                    color: $paleblack;
+                }
             }
         }
     }

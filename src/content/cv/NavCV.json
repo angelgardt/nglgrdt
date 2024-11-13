@@ -22,16 +22,42 @@
         }
     },
     "interests": {
-        "en": "Interests",
-        "ru": "Интересы"
+        "header": {
+            "en": "Interests",
+            "ru": "Интересы"
+        },
+        "subheaders": {
+            "en": {
+                "science": "Science & Edication",
+                "art": "Art & Design"
+            },
+            "ru": {
+                "science": "Наука и образование",
+                "art": "Наука и образование"
+            }
+        }
     },
     "eduMain": {
         "en": "Education",
         "ru": "Образование"
     },
     "eduAdditional": {
-        "en": "Additional education",
-        "ru": "Дополнительное образование"
+        "header": {
+            "en": "Additional training",
+            "ru": "Дополнительное образование"
+        },
+        "subheaders": {
+            "en": {
+                "retrain": "Professional Retraining",
+                "courses": "Schools / Webinars / Courses",
+                "moocs": "MOOCs"
+            },
+            "ru": {
+                "retrain": "Повышение квалификации",
+                "courses": "Школы / Вебинары / Курсы",
+                "moocs": "MOOCs"
+            }
+        }
     },
     "achievements": {
         "en": "Achievements",
@@ -42,12 +68,62 @@
         "ru": "Владение языками"
     },
     "skills": {
-        "en": "Skills",
-        "ru": "Навыки"
+        "header": {
+            "en": "Skills",
+            "ru": "Навыки"
+        },
+        "subheaders": {
+            "en": {
+                "prog": "Programming and IT",
+                "analytics": "Data Analysis",
+                "research": "Research Methods",
+                "manager": "Managements",
+                "software": {
+                    "name": "Software",
+                    "subheaders": {
+                        "basic": "Basic",
+                        "grahics": "Graphics",
+                        "soundvideo": "Sound & Video",
+                        "special": "Special Software"
+                    }
+                },
+                "other": "Other"
+            },
+            "ru": {
+                "prog": "Программирование и ИТ",
+                "analytics": "Анализ данных",
+                "research": "Методы исследований",
+                "manager": "Менеджмент",
+                "software": {
+                    "name": "Программное обеспечение",
+                    "subheaders": {
+                        "basic": "Базовое",
+                        "grahics": "Графическое",
+                        "soundvideo": "Звук и видео",
+                        "special": "Специальное ПО"
+                    }
+                },
+                "other": "Другое"
+            }
+        }
     },
     "research": {
-        "en": "Research",
-        "ru": "Публикации"
+        "header": {
+            "en": "Research",
+            "ru": "Исследования"
+        },
+        "subheaders": {
+            "en": {
+                "publications": "Publucations",
+                "confecences": "Conferences",
+                "grants": "Grants"
+            },
+            "ru": {
+                "publications": "Публикации",
+                "confecences": "Конференции",
+                "grants": "Гранты"
+            }
+        }
     },
     "copyrights": {
         "en": "Copyrights",

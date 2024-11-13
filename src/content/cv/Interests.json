@@ -1,9 +1,5 @@
 {
     "science": {
-        "title": {
-            "en": "Science & Edication",
-            "ru": "Наука и образование"
-        },
         "en": [
             "Data Analysis",
             "Data Visualization",
@@ -57,10 +53,6 @@
         ]
     },
     "art": {
-        "title": {
-            "en": "Art & Design",
-            "ru": "Искусство и дизайн"
-        },
         "en": [
             "Communication Design",
             "Graphic Design",

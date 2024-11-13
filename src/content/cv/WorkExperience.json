@@ -1,6 +1,6 @@
 {
-    "research": {
-        "re1": {
+    "research": [
+        {
             "position": {
                 "en": "Product Researcher",
                 "ru": "продуктовый исследователь"
@@ -19,9 +19,9 @@
                 "ru": "планирование и проведение продуктовых исследований полного цикла, проведение кабинетных исследований, разработка гайдов глубинных и экспертных интервью, проведение и анализ данных интервью, сбор и анализ данных количественных опросов, сбор, предобработка и анализ данных официальной статистики, подготовка отчетов и презентаций"
             }
         }
-    },
-    "academic": {
-        "ac1": {
+    ],
+    "academic": [
+        {
             "position": {
                 "en": "Research Assistant",
                 "ru": "стажёр-исследователь"
@@ -40,9 +40,9 @@
                 "ru": "планирование и проведение поведенческих, нейро- и психометрических исследований, работа в исследовательских проектах, сбор и анализ данных, написание статей и отчётов, участие в регулярных рабочих собрания, научных семинарах и конференциях"
             }
         }
-    },
-    "teaching": {
-        "te8": {
+    ],
+    "teaching": [
+        {
             "position": {
                 "en": "Lecturer",
                 "ru": "преподаватель"
@@ -62,14 +62,43 @@
                     "ru": "Дисциплины"
                 },
                 "content": {
-                    "en": ["Research Seminar: Applied Data Analysis in Psychology [2024/2025]",
-                            "Statistics for Data Analysis [2024/2025]",
-                            "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology [2024/2025]",
-                            "Survey Methods in Psychological Research [2024/2025]"],
-                    "ru": ["Научно-исследовательский семинар: Прикладной анализ данных в психологии [2024/2025]",
-                            "Статистика для анализа данных [2024/2025]",
-                            "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии [2024/2025]",
-                            "Опросные методы в психологических исследованиях [2024/2025]"]
+                    "en": [
+                        {
+                            "c1": "Research Seminar: Applied Data Analysis in Psychology", 
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Statistics for Data Analysis",
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology",
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Survey Methods in Psychological Research",
+                            "c2": "[2024/2025]"
+                        }
+
+                    ],
+                    "ru": [
+                        {
+                            "c1": "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Статистика для анализа данных",
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии",
+                            "c2": "[2024/2025]"
+                        },
+                        {
+                            "c1": "Опросные методы в психологических исследованиях",
+                            "c2": "[2024/2025]"
+                        }
+                    ]
                 }
             },
             "description": {
@@ -77,7 +106,7 @@
                 "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
             }
         },
-        "te7": {
+        {
             "position": {
                 "en": "Course Author, Lecturer",
                 "ru": "автор курса, преподаватель"
@@ -102,7 +131,7 @@
                 "ru": "продуктовое и методчиеское проектирование курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, управление командой курса"
             }
         },
-        "te6": {
+        {
             "position": {
                 "en": "Assistant",
                 "ru": "ассистент"
@@ -122,16 +151,50 @@
                     "ru": "Дисциплины"
                 },
                 "content": {
-                    "en": ["Research Seminar: Applied Data Analysis in Psychology [2021/2022, 2022/2023, 2023/2024]",
-                            "Statistics for Data Analysis [2021/2022, 2022/2023]",
-                            "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology [2022/2023, 2023/2024]",
-                            "Psychology of Human-Digital Interaction [2023/2024]",
-                            "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics [2022/2023]"],
-                    "ru": ["Научно-исследовательский семинар: Прикладной анализ данных в психологии [2021/2022, 2022/2023, 2023/2024]",
-                            "Статистика для анализа данных [2021/2022, 2022/2023]",
-                            "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии [2022/2023, 2023/2024]",
-                            "Психология человек-цифрового взаимодействия [2023/2024]",
-                            "Психологический практикум: Психодиагностика и основы психометрики [2022/2023]"]
+                    "en": [
+                        {
+                            "c1": "Research Seminar: Applied Data Analysis in Psychology",
+                            "c2": "[2021/2022, 2022/2023, 2023/2024]"
+                        },
+                        {
+                            "c1": "Statistics for Data Analysis",
+                            "c2": "[2021/2022, 2022/2023]"
+                        },
+                        {
+                            "c1": "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology",
+                            "c2": "[2022/2023, 2023/2024]"
+                        },
+                        {
+                            "c1": "Psychology of Human-Digital Interaction",
+                            "c2": "[2023/2024]"
+                        },
+                        {
+                            "c1": "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics",
+                            "c2": "[2022/2023]"
+                        }
+                    ],
+                    "ru": [
+                        {
+                            "c1": "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                            "c2": "[2021/2022, 2022/2023, 2023/2024]"
+                        },
+                        {
+                            "c1": "Статистика для анализа данных",
+                            "c2": "[2021/2022, 2022/2023]"
+                        },
+                        {
+                            "c1": "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии",
+                            "c2": "[2022/2023, 2023/2024]"
+                        },
+                        {
+                            "c1": "Психология человек-цифрового взаимодействия",
+                            "c2": "[2023/2024]"
+                        },
+                        {
+                            "c1": "Психологический практикум: Психодиагностика и основы психометрики",
+                            "c2": "[2022/2023]"
+                        }
+                    ]
                 }
             },
             "description": {
@@ -139,7 +202,7 @@
                 "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
             }
         },
-        "te5": {
+        {
             "position": {
                 "en": "Online Tutor",
                 "ru": "онлайн-тьютор"
@@ -149,7 +212,7 @@
                 "ru": "Middlebury Institute of International Studies at Monterey, CA"
             },
             "duration": {
-                "en": "Octiber — June 2021",
+                "en": "October — June 2021",
                 "ru": "октябрь — июнь 2021"
             },
             "description": {
@@ -157,7 +220,7 @@
                 "ru": "индивидуальные занятия по блокам грамматики и фонетики русского языка"
             }
         },
-        "te4": {
+        {
             "position": {
                 "en": "Course Author, Lecturer",
                 "ru": "автор курса, преподаватель"
@@ -182,7 +245,7 @@
                 "ru": "проектирование программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, проверка домашних работы слушателей, проведение индивидуальных и групповых консультаций"
             }
         },
-        "te3": {
+        {
             "position": {
                 "en": "Lecturer",
                 "ru": "преподаватель"
@@ -207,7 +270,7 @@
                 "ru": "разработка программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение практических занятий, проведение индивидуальных и групповых консультаций"
             }
         },
-        "te2": {
+        {
             "position": {
                 "en": "Teaching Assistant",
                 "ru": "учебный ассистент"
@@ -227,12 +290,37 @@
                     "ru": "Дисциплины"
                 },
                 "content": {
-                    "en": ["Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics [2020/2021]",
-                            "Introduction to Psychology [2019/2020, 2020/2021]",
-                            "Research Seminar: Applied Data Analysis in Psychology [2019/2020]"],
-                    "ru": ["Психологический практикум: Психодиагностика и основы психометрики [2020/2021]",
-                            "Введение в психологию [2019/2020, 2020/2021]",
-                            "Научно-исследовательский семинар: Прикладной анализ данных в психологии [2019/2020]"]
+                    "en": [
+                        {
+                            "c1": "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics",
+                            "c2": "[2020/2021]"
+                            
+                        },
+                        {
+                            "c1": "Introduction to Psychology",
+                            "c2": "[2019/2020, 2020/2021]"
+                        },
+                        {
+                            "c1": "Research Seminar: Applied Data Analysis in Psychology",
+                            "c2": "[2019/2020]"
+                        }
+                    ],
+                    "ru": [
+                        {
+                            "c1": "Психологический практикум: Психодиагностика и основы психометрики",
+                            "c2": "[2020/2021]"
+                        },
+                        {
+                            "c1": "Введение в психологию",
+                            "c2": "[2019/2020, 2020/2021]"
+
+                        },
+                        {
+                            "c1": "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                            "c2": "[2019/2020]"
+
+                        }
+                    ]
                 }
             },
             "description": {
@@ -240,7 +328,7 @@
                 "ru": "участие в разработке программы курса, индивидуальные и групповые консультации со студентами, разработка форм текущего контроля, проверка домашних работ студентов"
             }
         },
-        "te1": {
+        {
             "position": {
                 "en": "Teaching Assistant",
                 "ru": "учебный ассистент"
@@ -260,8 +348,18 @@
                     "ru": "Дисциплины"
                 },
                 "content": {
-                    "en": ["Mathematical and Statistical Methods in Psychology [2018/2019]"],
-                    "ru": ["Математические и статистические методы в психологии [2018/2019]"]
+                    "en": [
+                        {
+                            "c1": "Mathematical and Statistical Methods in Psychology",
+                            "c2": "[2018/2019]"
+                        }
+                    ],
+                    "ru": [
+                        {
+                            "c1": "Математические и статистические методы в психологии",
+                            "c2": "[2018/2019]"
+                        }
+                    ]
                 }
             },
             "description": {
@@ -269,7 +367,7 @@
                 "ru": "индивидуальные и групповые консультации со студентами, проверка форм текущего контроля"
             }
         },
-        "te0": {
+        {
             "position": {
                 "en": "Lecturer",
                 "ru": "преподаватель"
@@ -294,9 +392,9 @@
                 "ru": "разработка программы курса, разработка учебных материалов, проведение практических занятий, проведение индивидуальных и групповых консультаций"
             }
         }
-    },
-    "manager": {
-        "ma1": {
+    ],
+    "manager": [
+        {
             "position": {
                 "en": "Brand Manager, Proofreader Editor",
                 "ru": "бренд-менеджер, редактор-корректор"
@@ -314,7 +412,391 @@
                 "en": "developing business strategy (with Laboratory Head), developing communication and creative strategies, projects workflow control (with Team Leader) (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative & Scientific Advisor and Chief Editor of Social Media), proofreading, training in writing of scientific and popular science texts (with Creative & Scientific Advisor)",
                 "ru": "разработка бизнес-стратегии организации (совместно с руководителем лаборатории), разработка коммуникационных и креативных стратегий, координация работы команды (совместно с тимлидом) (около 8 человек), отбор стажёров, организация обучения стажёров, формирование отчётов о работе стажёров, контроль качества публикуемых материалов (совместно с креативным и научным редактором и главным редактором социальных сетей), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным редактором)"
             }
+        },
+        {
+            "position": {
+                "en": "Event Coordinator",
+                "ru": "координатор мероприятия"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "September 2018 — August 2023",
+                "ru": "сентябрь 2018 — август 2023"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Cognitive Research Seminar",
+                    "ru": "Семинар по когнитивным исследованиям"
+                }
+            },
+            "description": {
+                "en": "workflow control (about 3 people), publishing of announcements and news on the official portal and in social networks, recordings assembling",
+                "ru": "координация работы команды (около 3 человек), публикация анонсов и новостей о мероприятии в социальных сетях и официальном портале, монтаж видеозаписей"
+            }
+        },
+        {
+            "position": {
+                "en": "Junior Manager",
+                "ru": "младший менеджер"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "December 2019 — August 2021",
+                "ru": "декабрь 2019 — август 2021"
+            },
+            "details": null,
+            "description": {
+                "en": "projects workflow control, talent management (about 15 people), employee engagement and development, collaboration tool administration, organization trajectory (vector of development) elaboration assistance, crisis management",
+                "ru": "контроль проектной работы, управление талантами (около 15 человек), работа с вовлеченностью и развитием сотрудников, администрирование канбан-системы, разработка вектора развития организации (совместно с руководителем лаборатории), кризисный менеджмент"
+            }
+        },
+        {
+            "position": {
+                "en": "SMM Department Head, Proofreader Editor",
+                "ru": "руководитель SMM-отдела, редактор-корректор"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "September 2019 — August 2021",
+                "ru": "сентябрь 2019 — август 2021"
+            },
+            "details": null,
+            "description": {
+                "en": "workflow control (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative Manager), proofreading, training in writing of scientific and popular science texts (with Creative Manager), SMM Department trajectory (vector of development) elaboration (with Creative Manager and Laboratory Head)",
+                "ru": "координация работы команды (около 8 человек), отбор стажёров, формирование отчётов по работе стажёров, контроль качества публикуемых материалов (совместно с креативным менеджером), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным менеджером), разработка стратегии развития подразделения (совместно с креативным менеджером и руководителем лаборатории)"
+            }
+        },
+        {
+            "position": {
+                "en": "Head of Training Division",
+                "ru": "глава отдела учебной программы"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "February — November 2020, March — July 2021",
+                "ru": "февраль — ноябрь 2020, март - июль 2021"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Summer school ”Applied Cognitive Science”",
+                    "ru": "летняя школа «Прикладная когнитивная наука»"
+                }
+            },
+            "description": {
+                "en": "syllabus development, lecturers recruitment, communication with lecturers, classes technical support, team coordination during the event",
+                "ru": "разработка учебной программы, набор преподавателей, коммуникация с преподавателями, техническое сопровождение занятий, координация работы команды на мероприятии"
+            }
+        },
+        {
+            "position": {
+                "en": "Course Coordinator",
+                "ru": "координатор курса"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January — May 2021",
+                "ru": "январь — май 2021"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "course “Data Analysis + R: World of Linear Models”",
+                    "ru": "курс «Анализ данных + R: мир линейных моделей»"
+                }
+            },
+            "description": {
+                "en": "workflow control, comunicating with participants, participants recruitment, classes technical support, certificates issuance",
+                "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+            }
+        },
+        {
+            "position": {
+                "en": "Deputy Head of Training Division",
+                "ru": "заместитель главы отдела учебной программы"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "October 2020 — March 2021",
+                "ru": "октябрь 2020 — март 2021"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Spring Psychological School",
+                    "ru": "Весенняя Психологическая Школа"
+                }
+            },
+            "description": {
+                "en": "syllabus development, team recruitment, teachers recruitment, seminarists' teaching materials quality control, classes technical support, employee engagement, creating a workflow guide, academic debates development (rules, criteria and theses development)",
+                "ru": "отбор команды, проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса, разработка академических дебатов (разработка правил, критериев оценивания, тезисов)"
+            }
+        },
+        {
+            "position": {
+                "en": "Organizer",
+                "ru": "организатор"
+            },
+            "company": {
+                "en": "School of Psychology & Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "департамент психологии и лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "July — November 2019",
+                "ru": ""
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Psy-HSE: Conference of Young Scientists “Contemporary Issues of Psychological Science”",
+                    "ru": "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
+                }
+            },
+            "description": {
+                "en": "applications collection, creating SMM content, conference website editing, creating conference brochure layout",
+                "ru": "организация сбора заявок, создание контента для социальных сетей, редактирование интернет-портала конференции, верстка программы мероприятия"
+            }
+        },
+        {
+            "position": {
+                "en": "Course Coordinator",
+                "ru": "координатор курса"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "January — April 2020",
+                "ru": "январь — апрель 2020"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                    "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+                }
+            },
+            "description": {
+                "en": "workflow control, communication with participants, applications collecting, participants selecting, classes technical support, certificates issuance",
+                "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+            }
+        },
+        {
+            "position": {
+                "en": "Head of Training Division",
+                "ru": "глава отдела учебной программы"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "October 2019 — March 2020",
+                "ru": "октябрь 2019 — март 2020"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Spring Psychological School",
+                    "ru": "Весенняя Психологическая Школа"
+                }
+            },
+            "description": {
+                "en": "workflow control (about 10 people), syllabus develompent, team recruitment, theachers recruitment, seminarists' teaching materials quality control, communication with university administration, participants feedback collection, classes technical support, employee engagement, creating a workflow guide",
+                "ru": "отбор команды, координация работы команды (около 10 человек), проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, сбор обратной связи от участников, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса"
+            }
+        },
+        {
+            "position": {
+                "en": "Course Administrator",
+                "ru": "координатор курса"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "April — May 2019",
+                "ru": "апрель — май 2019"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "course “Experiments Building Basics with PsychoPy”",
+                    "ru": "курс «Основы построения экспериментов в PsychoPy»"
+                }
+            },
+            "description": {
+                "en": "workflow control, communication with participants, applications collection, participants selection, classes technical support, certificates issuance",
+                "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+            }
+        },
+        {
+            "position": {
+                "en": "Head of Extracurricular Activities",
+                "ru": "глава отдела внеучебной программы"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "October 2018 — March 2019",
+                "ru": "октябрь 2018 — май 2019"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Spring Psychological School",
+                    "ru": "Весенняя Психологическая Школа"
+                }
+            },
+            "description": {
+                "en": "workflow control (about 10 people), extracurricular program development, team recruitment, communication with university administration, technical support, employee engagement, creating a workflow guide",
+                "ru": "отбор команды, координация работы команды (около 10 человек), работа с вовлеченностью, разработка программы внеучебных мероприятий, коммуникация с администрацией университета, техническое сопровождение мероприятий, создание руководства по организации рабочего процесса"
+            }
         }
-    },
-    "other": null
+    ],
+    "other": [
+        {
+            "position": {
+                "en": "Designer",
+                "ru": "дизайнер"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "June 2018 — October 2023",
+                "ru": "июнь 2018 — октябрь 2023"
+            },
+            "details": null,
+            "description": {
+                "en": "corporate style development, reccurent rebranding",
+                "ru": "разработка корпоративного стиля, написание брендбука, периодический ребрендинг"
+            }
+        },
+        {
+            "position": {
+                "en": "Web Portal Editor",
+                "ru": "редактор сайта подразделения"
+            },
+            "company": {
+                "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "September 2019 — October 2023",
+                "ru": "сентябрь 2019 — октябрь 2023"
+            },
+            "details": null,
+            "description": {
+                "en": "обновление информации о лаборатории и текущих проектах, публикация новостей и анонсов",
+                "ru": "updating information about the laboratory, publishing news, announcements and projects info"
+            }
+        },
+        {
+            "position": {
+                "en": "Visiting Scholar",
+                "ru": "приглашённый преподаватель"
+            },
+            "company": {
+                "en": "HSE Liceum",
+                "ru": "Лицей НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "at the organizers request",
+                "ru": "по запросу организаторов"
+            },
+            "details": null,
+            "description": {
+                "en": "lecturing and teaching (psychology and related topics)",
+                "ru": "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+            }
+        },
+        {
+            "position": {
+                "en": "Visiting Scholar",
+                "ru": "приглашённый преподаватель"
+            },
+            "company": {
+                "en": "School of Psychology, HSE University",
+                "ru": "департамент психологии, НИУ ВШЭ"
+            },
+            "duration": {
+                "en": "at the organizers request",
+                "ru": "по запросу организаторов"
+            },
+            "details": {
+                "type": "line",
+                "content": {
+                    "en": "Spring Psychological School",
+                    "ru": "Весенняя Психологическая Школа"
+                }
+            },
+            "description": {
+                "en": "lecturing and teaching (psychology and related topics)",
+                "ru": "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+            }
+        },
+        {
+            "position": {
+                "en": "Organizing Committee Division Head",
+                "ru": "глава подразделения организационного комитета мероприятия"
+            },
+            "company": {
+                "en": "Independent Student Organization",
+                "ru": "независимая студенческая организация"
+            },
+            "duration": {
+                "en": "fall 2017 — fall 2019",
+                "ru": "осень 2017 — осень 2019"
+            },
+            "details": null,
+            "description": {
+                "en": "event development (100–200 participants), creative team workflow control (about 10 people), scenario development, actors recruitment, actors training, team coordination during the event",
+                "ru": "разработка концепции выездного мероприятия (100–200 участников), руководство креативной командой (около 10 человек), написание сценария, подбор актёров, проведение актёрских тренингов, координация работы команды на мероприятии"
+            }
+        },
+        {
+            "position": {
+                "en": "Proofreader",
+                "ru": "корректор"
+            },
+            "company": {
+                "en": "Independent Online Media “TheVyshka”",
+                "ru": "независимое интернет-издание «TheVyshka»"
+            },
+            "duration": {
+                "en": "November 2017 — September 2018",
+                "ru": "ноябрь 2017 — сентябрь 2018"
+            },
+            "details": null,
+            "description": {
+                "en": "texts proofreading",
+                "ru": "вычитка материалов перед публикацией"
+            }
+        }
+    ]
 }
