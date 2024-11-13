@@ -42,3 +42,25 @@ h4 {
     border-radius: 10px;
     background-color: $almostwhite;
 }
+
+.item-title, .item-caption, .item-subtitle, .item-date {
+    line-height: 1.5em;
+}
+.item-title {
+    font-weight: 700;
+}
+.item-caption {
+    font-size: .9em;
+}
+
+.bubble-wrapper {
+    text-align: v-bind(align)
+}
+.bubble {
+    margin: .5em;
+    padding: .5em;
+    display: inline-block;
+    background-color: $almostwhite;
+    border: 1px solid $almostblack;
+    border-radius: 10px;
+}

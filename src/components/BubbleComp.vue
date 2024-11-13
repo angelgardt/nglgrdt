@@ -20,16 +20,4 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/style.scss";
-
-.bubble-wrapper {
-    text-align: v-bind(align)
-}
-.bubble {
-    margin: .5em;
-    padding: .5em;
-    display: inline-block;
-    background-color: $almostwhite;
-    border: 1px solid $almostblack;
-    border-radius: 10px;
-}
 </style>
