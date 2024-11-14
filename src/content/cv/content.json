@@ -1,0 +1,1451 @@
+{
+    "WorkExperience": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "work-experience",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Work experience",
+            "ru": "Опыт работы"
+        },
+        "SectionContent": [
+            {
+                "show": true,
+                "SubsectionID": "research-experience",
+                "SubsectionTitle": {
+                    "en": "Research Experience",
+                    "ru": "Исследовательская деятельность"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Product Researcher",
+                            "ru": "продуктовый исследователь"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Profilum",
+                            "ru": "Профилум"
+                        },
+                        "duration": {
+                            "en": "October 2023 — May 2024",
+                            "ru": "октябрь 2023 — май 2024"
+                        },
+                        "description": {
+                            "en": "planning and conducting product research, conducting and analysis of quantitative and qualitative survey data",
+                            "ru": "планирование и проведение продуктовых исследований полного цикла, проведение кабинетных исследований, разработка гайдов глубинных и экспертных интервью, проведение и анализ данных интервью, сбор и анализ данных количественных опросов, сбор, предобработка и анализ данных официальной статистики, подготовка отчетов и презентаций"
+                        },
+                        "details": null
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "academic-experience",
+                "SubsectionTitle": {
+                    "en": "Academic Experience",
+                    "ru": "Академическая деятельность"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Research Assistant",
+                            "ru": "стажёр-исследователь"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "June 2018 — October 2023",
+                            "ru": "июнь 2018 — октябрь 2023"
+                        },
+                        "description": {
+                            "en": "planning and conducting behavioral, neuro and psychometric research, working in research projects, collecting data, data analysis, writing reports and articles, participating in regular meetings, scientific seminars and conferences",
+                            "ru": "планирование и проведение поведенческих, нейро- и психометрических исследований, работа в исследовательских проектах, сбор и анализ данных, написание статей и отчётов, участие в регулярных рабочих собрания, научных семинарах и конференциях"
+                        },
+                        "details": null
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "teaching-experience",
+                "SubsectionTitle": {
+                    "en": "Teaching Experience",
+                    "ru": "Преподавательская деятельность"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Lecturer",
+                            "ru": "преподаватель"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "since September 2024",
+                            "ru": "сентябрь 2024 — наст. вр."
+                        },
+                        "description": {
+                            "en": "course program development, practical training, individual and group consultations, current and final assessment",
+                            "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
+                        },
+                        "details": {
+                            "title": {
+                                "en": "Courses",
+                                "ru": "Дисциплины"
+                            },
+                            "content": [
+                                {
+                                    "en": [
+                                        "Research Seminar: Applied Data Analysis in Psychology", 
+                                        "[2024/2025]"
+                                    ],
+                                    "ru": [
+                                        "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                                        "[2024/2025]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Statistics for Data Analysis",
+                                        "[2024/2025]"
+                                    ],
+                                    "ru": [
+                                        "Статистика для анализа данных",
+                                        "[2024/2025]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology",
+                                        "[2024/2025]"
+                                    ],
+                                    "ru": [
+                                        "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии",
+                                        "[2024/2025]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Survey Methods in Psychological Research",
+                                        "[2024/2025]"
+                                    ],
+                                    "ru": [
+                                        "Опросные методы в психологических исследованиях",
+                                        "[2024/2025]"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Course Author, Lecturer",
+                            "ru": "автор курса, преподаватель"
+                        },
+                        "caption": {
+                            "en": "course “WLM2023: Data Analysis & Machine Learning for Researchers”",
+                            "ru": "курс «WLM2023: анализ данных и машинное обучение для исследователей»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "February 2023 — May 2024",
+                            "ru": "февраль 2023 — май 2024"
+                        },
+                        "description": {
+                            "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, team management",
+                            "ru": "продуктовое и методчиеское проектирование курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, управление командой курса"
+                        },
+                        "details": "null"
+                    },     
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Assistant",
+                            "ru": "ассистент"
+                        },
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January 2021 — August 2024",
+                            "ru": "январь 2021 — август 2024"
+                        },
+                        "description": {
+                            "en": "course program development, practical training, individual and group consultations, current and final assessment",
+                            "ru": "разработка программ дисциплин и методических материалов, проведение практических занятий, индивидуальные и групповые консультации со студентами, текущее и итоговое оценивание"
+                        },
+                        "details": {
+                            "title": {
+                                "en": "Courses",
+                                "ru": "Дисциплины"
+                            },
+                            "content": [
+                                {
+                                    "en": [
+                                        "Research Seminar: Applied Data Analysis in Psychology",
+                                        "[2021/2022, 2022/2023, 2023/2024]"
+                                    ],
+                                    "ru": [
+                                        "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                                        "[2021/2022, 2022/2023, 2023/2024]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Statistics for Data Analysis",
+                                        "[2021/2022, 2022/2023]"
+                                    ],
+                                    "ru": [
+                                        "Статистика для анализа данных",
+                                        "[2021/2022, 2022/2023]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology",
+                                        "[2022/2023, 2023/2024]"
+                                    ],
+                                    "ru": [
+                                        "Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии",
+                                        "[2022/2023, 2023/2024]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Psychology of Human-Digital Interaction",
+                                        "[2023/2024]"
+                                    ],
+                                    "ru": [
+                                        "Психология человек-цифрового взаимодействия",
+                                        "[2023/2024]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics",
+                                        "[2022/2023]"
+                                    ],
+                                    "ru": [
+                                        "Психологический практикум: Психодиагностика и основы психометрики",
+                                        "[2022/2023]"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Online Tutor",
+                            "ru": "онлайн-тьютор"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Middlebury Institute of International Studies at Monterey, CA",
+                            "ru": "Middlebury Institute of International Studies at Monterey, CA"
+                        },
+                        "duration": {
+                            "en": "October — June 2021",
+                            "ru": "октябрь — июнь 2021"
+                        },
+                        "description": {
+                            "en": "Russian grammar training, Rissian pronunciation training",
+                            "ru": "индивидуальные занятия по блокам грамматики и фонетики русского языка"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Course Author, Lecturer",
+                            "ru": "автор курса, преподаватель"
+                        },
+                        "caption": {
+                            "en": "course “Data Analysis + R: World of Linear Models”",
+                            "ru": "курс «Анализ данных + R: мир линейных моделей»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January — May 2021",
+                            "ru": "январь — май 2021"
+                        },
+                        "description": {
+                            "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, checking participants' homeworks, individual and group consultations",
+                            "ru": "проектирование программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, проверка домашних работы слушателей, проведение индивидуальных и групповых консультаций"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Lecturer",
+                            "ru": "преподаватель"
+                        },
+                        "caption": {
+                            "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                            "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January — April 2020",
+                            "ru": "январь — апрель 2020"
+                        },
+                        "description": {
+                            "en": "course program development, teaching materials development, practical training, individual and group consultations",
+                            "ru": "разработка программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Teaching Assistant",
+                            "ru": "учебный ассистент"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "September 2019 — June 2021",
+                            "ru": "сентябрь 2019 — июнь 2021"
+                        },
+                        "description": {
+                            "en": "course program development assistance, individual and group consultations, current assessment tasks development, checking students' homeworks",
+                            "ru": "участие в разработке программы курса, индивидуальные и групповые консультации со студентами, разработка форм текущего контроля, проверка домашних работ студентов"
+                        },
+                        "details": {
+                            "title": {
+                                "en": "Courses",
+                                "ru": "Дисциплины"
+                            },
+                            "content": [
+                                {
+                                    "en": [
+                                        "Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics",
+                                        "[2020/2021]"
+                                    ],
+                                    "ru": [
+                                        "Психологический практикум: Психодиагностика и основы психометрики",
+                                        "[2020/2021]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Introduction to Psychology",
+                                        "[2019/2020, 2020/2021]"
+                                    ],
+                                    "ru": [
+                                        "Введение в психологию",
+                                        "[2019/2020, 2020/2021]"
+                                    ]
+                                },
+                                {
+                                    "en": [
+                                        "Research Seminar: Applied Data Analysis in Psychology",
+                                        "[2019/2020]"
+                                    ],
+                                    "ru": [
+                                        "Научно-исследовательский семинар: Прикладной анализ данных в психологии",
+                                        "[2019/2020]"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Teaching Assistant",
+                            "ru": "учебный ассистент"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Department of Higher Mathematics, HSE University",
+                            "ru": "кафедра высшей математики, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January — June 2019",
+                            "ru": "январь — июнь 2019"
+                        },
+                        "description": {
+                            "en": "individual and group consultations, checking current assessment works",
+                            "ru": "индивидуальные и групповые консультации со студентами, проверка форм текущего контроля"
+                        },
+                        "details": {
+                            "title": {
+                                "en": "Courses",
+                                "ru": "Дисциплины"
+                            },
+                            "content": [
+                                {
+                                    "en": [
+                                        "Mathematical and Statistical Methods in Psychology",
+                                        "[2018/2019]"
+                                    ],
+                                    "ru": [
+                                        "Математические и статистические методы в психологии",
+                                        "[2018/2019]"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Lecturer",
+                            "ru": "преподаватель"
+                        },
+                        "caption": {
+                            "en": "course “Fundamentals of Experiments Building with PsychoPy”",
+                            "ru": "курс «Основы построения экспериментов в PsychoPy»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "April — May 2019",
+                            "ru": "апрель — май 2019"
+                        },
+                        "description": {
+                            "en": "course program development, teaching materials development, practical training, individual and group consultations",
+                            "ru": "разработка программы курса, разработка учебных материалов, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+                        }
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "manager-experience",
+                "SubsectionTitle": {
+                    "en": "Administrative and Managerial Experience",
+                    "ru": "Административная и менеджерская деятельность"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Brand Manager, Proofreader Editor",
+                            "ru": "бренд-менеджер, редактор-корректор"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "August 2021 — October 2023",
+                            "ru": "август 2021 — октябрь 2023"
+                        },
+                        "description": {
+                            "en": "developing business strategy (with Laboratory Head), developing communication and creative strategies, projects workflow control (with Team Leader) (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative & Scientific Advisor and Chief Editor of Social Media), proofreading, training in writing of scientific and popular science texts (with Creative & Scientific Advisor)",
+                            "ru": "разработка бизнес-стратегии организации (совместно с руководителем лаборатории), разработка коммуникационных и креативных стратегий, координация работы команды (совместно с тимлидом) (около 8 человек), отбор стажёров, организация обучения стажёров, формирование отчётов о работе стажёров, контроль качества публикуемых материалов (совместно с креативным и научным редактором и главным редактором социальных сетей), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным редактором)"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Event Coordinator",
+                            "ru": "координатор мероприятия"
+                        },
+                        "caption": {
+                            "en": "Cognitive Research Seminar",
+                            "ru": "Семинар по когнитивным исследованиям"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "September 2018 — August 2023",
+                            "ru": "сентябрь 2018 — август 2023"
+                        },
+                        "description": {
+                            "en": "workflow control (about 3 people), publishing of announcements and news on the official portal and in social networks, recordings assembling",
+                            "ru": "координация работы команды (около 3 человек), публикация анонсов и новостей о мероприятии в социальных сетях и официальном портале, монтаж видеозаписей"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Junior Manager",
+                            "ru": "младший менеджер"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "December 2019 — August 2021",
+                            "ru": "декабрь 2019 — август 2021"
+                        },
+                        "description": {
+                            "en": "projects workflow control, talent management (about 15 people), employee engagement and development, collaboration tool administration, organization trajectory (vector of development) elaboration assistance, crisis management",
+                            "ru": "контроль проектной работы, управление талантами (около 15 человек), работа с вовлеченностью и развитием сотрудников, администрирование канбан-системы, разработка вектора развития организации (совместно с руководителем лаборатории), кризисный менеджмент"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "SMM Department Head, Proofreader Editor",
+                            "ru": "руководитель SMM-отдела, редактор-корректор"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "September 2019 — August 2021",
+                            "ru": "сентябрь 2019 — август 2021"
+                        },
+                        "description": {
+                            "en": "workflow control (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative Manager), proofreading, training in writing of scientific and popular science texts (with Creative Manager), SMM Department trajectory (vector of development) elaboration (with Creative Manager and Laboratory Head)",
+                            "ru": "координация работы команды (около 8 человек), отбор стажёров, формирование отчётов по работе стажёров, контроль качества публикуемых материалов (совместно с креативным менеджером), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным менеджером), разработка стратегии развития подразделения (совместно с креативным менеджером и руководителем лаборатории)"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Head of Training Division",
+                            "ru": "глава отдела учебной программы"
+                        },
+                        "caption": {
+                            "en": "Summer school ”Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "February — November 2020, March — July 2021",
+                            "ru": "февраль — ноябрь 2020, март - июль 2021"
+                        },
+                        "description": {
+                            "en": "syllabus development, lecturers recruitment, communication with lecturers, classes technical support, team coordination during the event",
+                            "ru": "разработка учебной программы, набор преподавателей, коммуникация с преподавателями, техническое сопровождение занятий, координация работы команды на мероприятии"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Course Coordinator",
+                            "ru": "координатор курса"
+                        },
+                        "caption": {
+                            "en": "course “Data Analysis + R: World of Linear Models”",
+                            "ru": "курс «Анализ данных + R: мир линейных моделей»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January — May 2021",
+                            "ru": "январь — май 2021"
+                        },
+                        "description": {
+                            "en": "workflow control, comunicating with participants, participants recruitment, classes technical support, certificates issuance",
+                            "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Deputy Head of Training Division",
+                            "ru": "заместитель главы отдела учебной программы"
+                        },
+                        "caption": {
+                            "en": "Spring Psychological School",
+                            "ru": "Весенняя Психологическая Школа"
+                        },
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "October 2020 — March 2021",
+                            "ru": "октябрь 2020 — март 2021"
+                        },
+                        "description": {
+                            "en": "syllabus development, team recruitment, teachers recruitment, seminarists' teaching materials quality control, classes technical support, employee engagement, creating a workflow guide, academic debates development (rules, criteria and theses development)",
+                            "ru": "отбор команды, проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса, разработка академических дебатов (разработка правил, критериев оценивания, тезисов)"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Organizer",
+                            "ru": "организатор"
+                        },
+                        "caption": {
+                            "en": "Psy-HSE: Conference of Young Scientists “Contemporary Issues of Psychological Science”",
+                            "ru": "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
+                        },
+                        "company": {
+                            "en": "School of Psychology & Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "департамент психологии и лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "July — November 2019",
+                            "ru": ""
+                        },
+                        "description": {
+                            "en": "applications collection, creating SMM content, conference website editing, creating conference brochure layout",
+                            "ru": "организация сбора заявок, создание контента для социальных сетей, редактирование интернет-портала конференции, верстка программы мероприятия"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Course Coordinator",
+                            "ru": "координатор курса"
+                        },
+                        "caption": {
+                            "en": "course “Data Analysis + R: from t-test to mixed effect models”",
+                            "ru": "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "January — April 2020",
+                            "ru": "январь — апрель 2020"
+                        },
+                        "description": {
+                            "en": "workflow control, communication with participants, applications collecting, participants selecting, classes technical support, certificates issuance",
+                            "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Head of Training Division",
+                            "ru": "глава отдела учебной программы"
+                        },
+                        "caption": {
+                            "en": "Spring Psychological School",
+                            "ru": "Весенняя Психологическая Школа"
+                        },
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "October 2019 — March 2020",
+                            "ru": "октябрь 2019 — март 2020"
+                        },
+                        "description": {
+                            "en": "workflow control (about 10 people), syllabus develompent, team recruitment, theachers recruitment, seminarists' teaching materials quality control, communication with university administration, participants feedback collection, classes technical support, employee engagement, creating a workflow guide",
+                            "ru": "отбор команды, координация работы команды (около 10 человек), проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, сбор обратной связи от участников, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Course Administrator",
+                            "ru": "координатор курса"
+                        },
+                        "caption": {
+                            "en": "course “Experiments Building Basics with PsychoPy”",
+                            "ru": "курс «Основы построения экспериментов в PsychoPy»"
+                        },
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "April — May 2019",
+                            "ru": "апрель — май 2019"
+                        },
+                        "description": {
+                            "en": "workflow control, communication with participants, applications collection, participants selection, classes technical support, certificates issuance",
+                            "ru": "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Head of Extracurricular Activities",
+                            "ru": "глава отдела внеучебной программы"
+                        },
+                        "caption": {
+                            "en": "Spring Psychological School",
+                            "ru": "Весенняя Психологическая Школа"
+                        },
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "October 2018 — March 2019",
+                            "ru": "октябрь 2018 — май 2019"
+                        },
+                        "description": {
+                            "en": "workflow control (about 10 people), extracurricular program development, team recruitment, communication with university administration, technical support, employee engagement, creating a workflow guide",
+                            "ru": "отбор команды, координация работы команды (около 10 человек), работа с вовлеченностью, разработка программы внеучебных мероприятий, коммуникация с администрацией университета, техническое сопровождение мероприятий, создание руководства по организации рабочего процесса"
+                        },
+                        "details": null
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "other-experience",
+                "SubsectionTitle": {
+                    "en": "Other",
+                    "ru": "Другое"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Designer",
+                            "ru": "дизайнер"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "June 2018 — October 2023",
+                            "ru": "июнь 2018 — октябрь 2023"
+                        },
+                        "description": {
+                            "en": "corporate style development, reccurent rebranding",
+                            "ru": "разработка корпоративного стиля, написание брендбука, периодический ребрендинг"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Web Portal Editor",
+                            "ru": "редактор сайта подразделения"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Laboratory for Cognitive Psychology of Digital Interfaces User, HSE University",
+                            "ru": "лаборатория когнитивной психологии пользователя цифровых интерфейсов, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "September 2019 — October 2023",
+                            "ru": "сентябрь 2019 — октябрь 2023"
+                        },
+                        "description": {
+                            "en": "обновление информации о лаборатории и текущих проектах, публикация новостей и анонсов",
+                            "ru": "updating information about the laboratory, publishing news, announcements and projects info"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Visiting Scholar",
+                            "ru": "приглашённый преподаватель"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "HSE Liceum",
+                            "ru": "Лицей НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "at the organizers request",
+                            "ru": "по запросу организаторов"
+                        },
+                        "description": {
+                            "en": "lecturing and teaching (psychology and related topics)",
+                            "ru": "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Visiting Scholar",
+                            "ru": "приглашённый преподаватель"
+                        },
+                        "caption": {
+                            "en": "Spring Psychological School",
+                            "ru": "Весенняя Психологическая Школа"
+                        },
+                        "company": {
+                            "en": "School of Psychology, HSE University",
+                            "ru": "департамент психологии, НИУ ВШЭ"
+                        },
+                        "duration": {
+                            "en": "at the organizers request",
+                            "ru": "по запросу организаторов"
+                        },
+                        "description": {
+                            "en": "lecturing and teaching (psychology and related topics)",
+                            "ru": "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+                        },
+                        "details": null
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Organizing Committee Division Head",
+                            "ru": "глава подразделения организационного комитета мероприятия"
+                        },
+                        "company": {
+                            "en": "Independent Student Organization",
+                            "ru": "независимая студенческая организация"
+                        },
+                        "duration": {
+                            "en": "fall 2017 — fall 2019",
+                            "ru": "осень 2017 — осень 2019"
+                        },
+                        "details": null,
+                        "description": {
+                            "en": "event development (100–200 participants), creative team workflow control (about 10 people), scenario development, actors recruitment, actors training, team coordination during the event",
+                            "ru": "разработка концепции выездного мероприятия (100–200 участников), руководство креативной командой (около 10 человек), написание сценария, подбор актёров, проведение актёрских тренингов, координация работы команды на мероприятии"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "position": {
+                            "en": "Proofreader",
+                            "ru": "корректор"
+                        },
+                        "caption": null,
+                        "company": {
+                            "en": "Independent Online Media “TheVyshka”",
+                            "ru": "независимое интернет-издание «TheVyshka»"
+                        },
+                        "duration": {
+                            "en": "November 2017 — September 2018",
+                            "ru": "ноябрь 2017 — сентябрь 2018"
+                        },
+                        "description": {
+                            "en": "texts proofreading",
+                            "ru": "вычитка материалов перед публикацией"
+                        },
+                        "details": null
+                    }
+                ]
+            }
+        ]
+    },
+    "Interests": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "interests",
+        "SectionType": "bubbles",
+        "SectionTitle": {
+            "en": "Interests",
+            "ru": "Интересы"
+        },
+        "SectionContent": [
+            {
+                "show": true,
+                "SubsectionID": "sci-and-edu",
+                "SubsectionTitle": {
+                    "en": "Science & Education",
+                    "ru": "Наука и образование"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Data Analysis",
+                        "ru": "анализ данных"
+                    },
+                    {
+                        "show": true,
+                        "en": "Data Visualization",
+                        "ru": "визуализация данных"
+                        
+                    },
+                    {
+                        "show": true,
+                        "en": "Data Analysis in Psychology",
+                        "ru": "анализ данных в психологии"
+                    },
+                    {
+                        "show": true,
+                        "en": "Bayesian Data Analysis",
+                        "ru": "байесовские методы анализа данных"
+                    },
+                    {
+                        "show": true,
+                        "en": "Artificial Intelligence",
+                        "ru": "искусственный интеллект"
+                    },
+                    {
+                        "show": true,
+                        "en": "Human-Digital Interaction",
+                        "ru": "человек-цифровое взаимодействие"
+                    },
+                    {
+                        "show": true,
+                        "en": "Trust on Artificial Intelligence",
+                        "ru": "доверие к искуственному интеллекту"
+                    },
+                    {
+                        "show": true,
+                        "en": "Machine Learning",
+                        "ru": "машинное обучение"
+                    },
+                    {
+                        "show": true,
+                        "en": "Neural Networks",
+                        "ru": "нейронные сети"
+                    },
+                    {
+                        "show": true,
+                        "en": "Computational Linguistics",
+                        "ru": "компьютерная лингвистика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Natural Language Processing",
+                        "ru": "обработка естественного языка"
+                    },
+                    {
+                        "show": true,
+                        "en": "Psycholinguistics",
+                        "ru": "психолингвистика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Neurolinguistics",
+                        "ru": "нейролингвистика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Second Language Acquisition",
+                        "ru": "усвоение второго языка"
+                    },
+                    {
+                        "show": true,
+                        "en": "Foreign Language Teaching Methodology",
+                        "ru": "методика преподавания иностранных языков"
+                    },
+                    {
+                        "show": true,
+                        "en": "Linguistic Typology",
+                        "ru": "лингвистическая типология"
+                    },
+                    {
+                        "show": true,
+                        "en": "Phonetics",
+                        "ru": "фонетика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Phonology",
+                        "ru": "фонология"
+                    },
+                    {
+                        "show": true,
+                        "en": "Comparative Phonetics",
+                        "ru": "сравнительная фонетика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Accent Reduction",
+                        "ru": "коррекция акцента"
+                    },
+                    {
+                        "show": true,
+                        "en": "Psychometrics",
+                        "ru": "психометрика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Educational Testing",
+                        "ru": "образовательное тестирование"
+                    },
+                    {
+                        "show": true,
+                        "en": "Instructional Design",
+                        "ru": "дизайн учебных курсов"
+                    },
+                    {
+                        "show": true,
+                        "en": "EdTech",
+                        "ru": "образовательные технологии"
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "art-and-design",
+                "SubsectionTitle": {
+                    "en": "Art & Design",
+                    "ru": "Искусство и дизайн"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Communication Design",
+                        "ru": "коммуникационный дизайн"
+                    },
+                    {
+                        "show": true,
+                        "en": "Graphic Design",
+                        "ru": "графический дизайн"
+                    },
+                    {
+                        "show": true,
+                        "en": "Typography",
+                        "ru": "типографика"
+                    },
+                    {
+                        "show": true,
+                        "en": "Calligraphy",
+                        "ru": "каллиграфия"
+                    },
+                    {
+                        "show": true,
+                        "en": "Lettering",
+                        "ru": "леттеринг"
+                    },
+                    {
+                        "show": true,
+                        "en": "Alphabets",
+                        "ru": "алфавиты"
+                    },
+                    {
+                        "show": true,
+                        "en": "History of Writing",
+                        "ru": "история письменности"
+                    }
+                ]
+            }
+        ]
+    },
+    "Education": {
+        "show": true,
+        "subsections": false,
+        "SectionID": "education",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Education",
+            "ru": "Образование"
+        },
+        "SectionContent": [
+            {
+                "show": true,
+                "years": "2021–2023",
+                "uni": {
+                    "en": "HSE University",
+                    "ru": "Национальный исследовательский университет «Высшая школа экономики»"
+                },
+                "faculty": {
+                    "en": "Faculty of Humanities",
+                    "ru": "факультет гуманитарных наук"
+                },
+                "program": {
+                    "en": "“Russian as a Foreign Language in Cross-Linguistic and Cross-Cultural Perspective” program (Master’s Degree)",
+                    "ru": "образовательная программа «Русский язык как иностранный по взаимодействии языков и культур (магистратура)»"
+                },
+                "spec": null,
+                "field": {
+                    "en": "Field of Study 45.04.03 “Fundamental and Applied Linguistics”",
+                    "ru": "специальность 45.04.03 «Фундаментальная и прикладная лингвистика»"
+                },
+                "gpa": "GPA: 8.66 / 10",
+                "minor": null,
+                "thesis": {
+                    "header": {
+                        "en": "Thesis Info",
+                        "ru": "Информация о магистерской диссертации"
+                    },
+                    "name": {
+                        "en": "Title",
+                        "ru": "Название"
+                    },
+                    "title": {
+                        "en": "“Development of Speech Recognition Based Application for RFL Students”",
+                        "ru": "«Разработка приложения на базе распознавания речи для работы над произношением у изучающих РКИ»"
+                    },
+                    "supervisor": {
+                        "title": {
+                            "en": "Scientific Supervisor",
+                            "ru": "Научный руководитель"
+                        },
+                        "name": {
+                            "en": "Inna Sieber",
+                            "ru": "Инна Арнольдовна Зибер"
+                        },
+                        "degree": {
+                            "en": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University",
+                            "ru": "кандидат филологических наук, доцент Школы лингвистики НИУ ВШЭ"
+                        }
+                    },
+                    "advisor": {
+                        "title": {
+                            "en": "Scientific Advisor",
+                            "ru": "Научный консультант"
+                        },
+                        "name": {
+                            "en": "George Moroz",
+                            "ru": "Георгий Алексеевич Мороз"
+                        },
+                        "degree": {
+                            "en": "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University",
+                            "ru": "кандидат филологических наук, доцент Школы лингвистики НИУ ВШЭ"
+                        }
+                    },
+                    "reviewer": {
+                        "title": {
+                            "en": "Reviewer",
+                            "ru": "Рецензент"
+                        },
+                        "name": {
+                            "en": "Olga Buivolova",
+                            "ru": "Ольга Витальевна Буйволова"
+                        },
+                        "degree": {
+                            "en": "Candidate of Sciences (PhD), Research Fellow, Center for Language and Brain, HSE University",
+                            "ru": "кандидат филологических наук, научный сотрудник Центра языка и мозга НИУ ВШЭ"
+                        }
+                    },
+                    "grades": {
+                        "supervisor": {
+                            "en": "Supervisor’s Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка научного руководителя: 10 / A+ / “отлично”"
+                        },
+                        "reviewer": {
+                            "en": "Reviewer’s Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка рецензента: 10 / A+ / “отлично”"
+                        },
+                        "board": {
+                            "en": "State Certification Board Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка государственной экзаменационной комиссии: 10 / A+ / “отлично”"
+                        }
+                    }
+                }
+            },
+            {
+                "show": true,
+                "years": "2017–2021",
+                "uni": {
+                    "en": "HSE University",
+                    "ru": "Национальный исследовательский университет «Высшая школа экономики»"
+                },
+                "faculty": {
+                    "en": "Faculty of Social Sciences",
+                    "ru": "факультет социальных наук"
+                },
+                "program": {
+                    "en": "“Psychology” program (Bachelor’s Degree)",
+                    "ru": "образовательная программа «Психология» (бакалавриат)"
+                },
+                "spec": {
+                    "en": "“Cognitive Psychology & Psychophysiology” and “Organizational Psychology” tracks",
+                    "ru": "треки «Когнитивная психология и психофизиология» и «Организационная психология»"
+                },
+                "field": {
+                    "en": "Field of Study 37.03.01 “Psychology”",
+                    "ru": "специальность 37.03.01 «Психология»"
+                }, 
+                "gpa": "GPA: 8.44 / 10",
+                "minor": {
+                    "header": {
+                        "en": "Minor",
+                        "ru": "Дополнительная специализация"
+                    },
+                    "faculty": {
+                        "en": "HSE Institute of Education",
+                        "ru": "Институт образования НИУ ВШЭ"
+                    },
+                    "program": {
+                        "en": "“Teaching in Digital Age”",
+                        "ru": "«Преподавание в цифровую эпоху»"
+                    },
+                    "field": {
+                        "en": "Field of Study 44.04.01 “Pedagogy”",
+                        "ru": "специальность 44.04.01 «Педагогическое образование»"
+                    }
+                },
+                "thesis": {
+                    "header": {
+                        "en": "Thesis Info",
+                        "ru": "Информация о выпускной квалификационной работе"
+                    },
+                    "name": {
+                        "en": "Title",
+                        "ru": "Название"
+                    },
+                    "title": {
+                        "en": "“Assessment of Trust in Artificial Intelligent Agents: Tool Development”",
+                        "ru": "«Процедура оценки доверия к техническим интеллектуальным системам: разработка инструмента»"
+                    },
+                    "supervisor": {
+                        "title": {
+                            "en": "Scientific Supervisor",
+                            "ru": "Научный руководитель"
+                        },
+                        "name": {
+                            "en": "Elena Gorbunova",
+                            "ru": "Елена Сергеевна Горбунова"
+                        },
+                        "degree": {
+                            "en": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University",
+                            "ru": "кандидат психологических наук, доцент департамента психологии НИУ ВШЭ"
+                        }
+                    },
+                    "advisor": {
+                        "title": {
+                            "en": "Scientific Advisor",
+                            "ru": "Научный консультант"
+                        },
+                        "name": {
+                            "en": "Maria Chumakova",
+                            "ru": "Мария Алексеевна Чумакова"
+                        },
+                        "degree": {
+                            "en": "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University",
+                            "ru": "кандидат психологических наук, доцент департамента психологии НИУ ВШЭ"
+                        }
+                    },
+                    "reviewer": {
+                        "title": {
+                            "en": "Reviewer",
+                            "ru": "Рецензент"
+                        },
+                        "name": {
+                            "en": "Alexander Poddiakov",
+                            "ru": "Александр Николаевич Поддьяков"
+                        },
+                        "degree": {
+                            "en": "Doctor of Sciences, Tenured Professor, School of Psychology, HSE University",
+                            "ru": "доктор психологических наук, ординарный профессор департамента психологии НИУ ВШЭ"
+                        }
+                    },
+                    "grades": {
+                        "supervisor": {
+                            "en": "Supervisor’s Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка научного руководителя: 10 / A+ / «отлично»"
+                        },
+                        
+                        "reviewer": {
+                            "en": "Reviewer’s Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка рецензента: 10 / A+ / «отлично»"
+                        },
+                        "board": {
+                            "en": "State Certification Board Grade: 10 / A+ / “Excellent”",
+                            "ru": "Оценка государственной экзаменационной комиссии: 10 / A+ / “отлично”"
+                        }
+                    }
+                }
+            },
+            {
+                "show": true,
+                "years": "2014–2017",
+                "uni": {
+                    "en": "Pavlov First Saint Petersburg State Medical University",
+                    "ru": "Первый Санкт-Петербургский государственный университет им. акад. И. П. Павлова"
+                },
+                "faculty": {
+                    "en": "Faculty of Medicine (Specialist’s Degree)",
+                    "ru": "лечебный факультет (специалитет)"
+                },
+                "program": null,
+                "spec": {
+                    "en": "Sports Medicine Department",
+                    "ru": "отделение спортивной медицины"
+                },
+                "field": {
+                    "en": "Field of Study 31.05.01 “General Medicine”",
+                    "ru": "специальность 31.05.01 «Лечебное дело»"
+                },
+                "gpa": null,
+                "minor": null,
+                "thesis": null
+            }
+        ]
+    },
+    "Advanced": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "advanced-training",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Continuing education",
+            "ru": "Дополнительное образование"
+        },
+        "SectionContent": [
+            {
+                "show": true,
+                "SubsectionID": "retraining",
+                "SubsectionTitle": {
+                    "en": "Professional Retraining",
+                    "ru": "Повышение квалификации"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Focus Groups in social and marketing research", 
+                            "ru": "Метод фокус-групп в социологических и маркетинговых исследованиях"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "Alpha-Expert Academy",
+                            "ru": "Академия Альфа-Эксперт"
+                        },
+                        "date": {
+                            "en": "March 1–14, 2024",
+                            "ru": "1–14 марта 2024"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Modern approaches in education",
+                            "ru": "Современные подходы в преподавании и обучении"
+                        },
+                        "caption": {
+                            "en": "project “Teach for HSE”",
+                            "ru": "проект «Преподаём в Вышке / Teach for HSE»"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "February 3 — March 6, 2023",
+                            "ru": "3 февраля — 6 марта 2023"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Organization of group and team work of students in the context of online learning",
+                            "ru": "Организация групповой и командной работы студентов в условиях онлайн-обучения"
+                        },
+                        "caption": {
+                            "en": "project “Teach for HSE”",
+                            "ru": "проект «Преподаём в Вышке / Teach for HSE»"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "September 27 — October 8, 2021",
+                            "ru": "27 сентября — 8 октября 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Digital Marketing: Communication Channels",
+                            "ru": "Digital-среда: каналы коммуникаций"
+                        },
+                        "caption": {
+                            "en": "Higher School of Communications",
+                            "ru": "Высшая школа коммуникаций"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "June 10 — July 20, 2021",
+                            "ru": "10 июня — 20 июля 2021"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Achievements": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "achievements",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Acheivements",
+            "ru": "Достижения"
+        },
+        "SectionContent": []
+    },
+    "Langs": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "langs",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Language Proficiency",
+            "ru": "Владение языками"
+        },
+        "SectionContent": []
+    },
+    "Skills": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "skills",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Skills",
+            "ru": "Навыки"
+        },
+        "SectionContent": []
+    },
+    "Research": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "research",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Research",
+            "ru": "Исследования"
+        },
+        "SectionContent": []
+    },
+    "Copyrights": {
+        "show": true,
+        "subsections": true,
+        "SectionID": "copyrights",
+        "SectionType": "items",
+        "SectionTitle": {
+            "en": "Copyrights",
+            "ru": "Авторские права"
+        },
+        "SectionContent": []
+    }
+}
