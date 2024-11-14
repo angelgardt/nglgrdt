@@ -76,14 +76,86 @@
     "moocs": [
         {
             "en": {
+                "title": "Improving your statistical inferences",
+                "author": "Daniel Lakens",
+                "platform": "Eindhoven University of Technology, Coursera",
+                "date": "2024"
+            },
+            "ru": {
+                "title": "Improving your statistical inferences",
+                "author": "Daniel Lakens",
+                "platform": "Eindhoven University of Technology, Coursera",
+                "date": "2024"
+            }
+        },
+        {
+            "en": {
                 "title": "",
+                "author": "",
                 "platform": "",
                 "date": ""
             },
             "ru": {
                 "title": "",
+                "author": "",
                 "platform": "",
                 "date": ""
+            }
+        },
+        {
+            "en": {
+                "title": "Data Analysis with R. Part 2",
+                "author": "Anatoliy Karpov, Vladislav Grozin, Anton Antonov",
+                "platform": "Bioinformatics Institute, Stepik",
+                "date": "2019"
+            },
+            "ru": {
+                "title": "Анализ данных в R. Часть 2",
+                "author": "Анатолий Карпов, Владислав Грозин, Антон Антонов",
+                "platform": "Институт биоинформатики, Stepik",
+                "date": "2019"
+            }
+        },
+        {
+            "en": {
+                "title": "Data Analysis with R",
+                "author": "Anatoliy Karpov, Ivan Ivanchei",
+                "platform": "Bioinformatics Institute, Stepik",
+                "date": "2019"
+            },
+            "ru": {
+                "title": "Анализ данных в R",
+                "author": "Анатолий Карпов, Иван Иванчей",
+                "platform": "Институт биоинформатики, Stepik",
+                "date": "2019"
+            }
+        },
+        {
+            "en": {
+                "title": "R Programming Basics",
+                "author": "Anton Antonov",
+                "platform": "Bioinformatics Institute, Stepik",
+                "date": "2019"
+            },
+            "ru": {
+                "title": "Основы программирования на R",
+                "author": "Антон Антонов",
+                "platform": "Институт биоинформатики, Stepik",
+                "date": "2019"
+            }
+        },
+        {
+            "en": {
+                "title": "Introduction to LaTeX",
+                "author": "Danil Fedorovykh",
+                "platform": "HSE University, Coursera",
+                "date": "2018"
+            },
+            "ru": {
+                "title": "Документы и презентации в LaTeX (Introduction to LaTeX)",
+                "author": "Данил Фёдоровых",
+                "platform": "НИУ ВШЭ, Coursera",
+                "date": "2018"
             }
         }
     ]
