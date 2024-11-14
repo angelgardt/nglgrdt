@@ -8,6 +8,10 @@
         v-if="caption">
             {{ caption }}
         </div>
+        <div class="item-caption"
+        v-if="platform && author">
+            <span>{{ author }}</span> | <span>{{ platform }}</span>
+        </div>
         <div class="item-subtitle"
         v-if="subtitle">
             {{ subtitle }}
@@ -26,6 +30,8 @@ export default {
     title: String,
     caption: String,
     subtitle: String,
+    author: String,
+    platform: String,
     date: String
   }
 }

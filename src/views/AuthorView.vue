@@ -16,6 +16,11 @@
     :header="NavCV.eduMain.header[lang]"
     :lang="lang"
     />
+    <EducationAddSection
+    :header="NavCV.eduAdd.header[lang]"
+    :subheaders="NavCV.eduAdd.subheaders[lang]"
+    :lang="lang"
+    />
     <SkillsSection
     :header="NavCV.skills.header[lang]"
     :subheaders="NavCV.skills.subheaders[lang]"
@@ -34,6 +39,7 @@ import BasicSection from '@/components/BasicSection.vue'
 import WorkExperience from '@/components/WorkExperience.vue'
 import InterestsSection from '@/components/InterestsSection.vue'
 import EducationMainSection from '@/components/EducationMainSection.vue'
+import EducationAddSection from '@/components/EducationAddSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
 import CopyrightsSection from '@/components/CopyrightsSection.vue'
 
@@ -53,6 +59,7 @@ export default {
     WorkExperience,
     InterestsSection,
     EducationMainSection,
+    EducationAddSection,
     SkillsSection,
     CopyrightsSection
   }

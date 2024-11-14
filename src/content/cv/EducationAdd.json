@@ -2,10 +2,10 @@
     "retrain": [
         {
             "en": {
-                "title": "",
+                "title": "Focus Groups in social and marketing research",
                 "caption": null,
-                "org": "",
-                "date": ""
+                "org": "Alpha-Expert Academy",
+                "date": "March 1–14, 2024"
             },
             "ru": {
                 "title": "Метод фокус-групп в социологических и маркетинговых исследованиях",
@@ -16,10 +16,24 @@
         },
         {
             "en": {
-                "title": "",
-                "caption": "",
-                "org": "",
-                "date": ""
+                "title": "Modern approaches in education",
+                "caption": "project “Teach for HSE”",
+                "org": "HSE University",
+                "date": "February 3 — March 6, 2023"
+            },
+            "ru": {
+                "title": "Современные подходы в преподавании и обучении",
+                "caption": "проект «Преподаём в Вышке / Teach for HSE»",
+                "org": "НИУ ВШЭ",
+                "date": "3 февраля — 6 марта 2023"
+            }
+        },
+        {
+            "en": {
+                "title": "Organization of group and team work of students in the context of online learning",
+                "caption": "project “Teach for HSE”",
+                "org": "HSE University",
+                "date": "September 27 — October 8, 2021"
             },
             "ru": {
                 "title": "Организация групповой и командной работы студентов в условиях онлайн-обучения",
@@ -30,10 +44,10 @@
         },
         {
             "en": {
-                "title": "",
-                "caption": "",
-                "org": "",
-                "date": ""
+                "title": "Digital Marketing: Communication Channels",
+                "caption": "Higher School of Communications",
+                "org": "HSE University",
+                "date": "June 10 — July 20, 2021"
             },
             "ru": {
                 "title": "Digital-среда: каналы коммуникаций",
@@ -44,10 +58,10 @@
         },
         {
             "en": {
-                "title": "",
-                "caption": "",
-                "org": "",
-                "date": ""
+                "title": "Information and Data presenting. Presentations making",
+                "caption": "project “Teach for HSE”",
+                "org": "HSE University",
+                "date": "April 10–30, 2020"
             },
             "ru": {
                 "title": "Представление информации и данных. Создание презентаций",
@@ -60,16 +74,296 @@
     "courses": [
         {
             "en": {
-                "title": "",
-                "caption": "",
-                "org": "",
+                "title": "GameDev workshop, “Game Design” track",
+                "caption": "Multidisciplinary school “Summer School”",
+                "org": "Regional public organization for support of educational and research programs “Summer School”",
+                "date": "July 5–20, 2024"
+            },
+            "ru": {
+                "title": "мастерская «GameDev», программа «Геймдизайн»",
+                "caption": "Многопрофильная школа семинар «Летняя школа»",
+                "org": "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»",
+                "date": "5–20 июля 2024"
+            }
+        },
+        {
+            "en": {
+                "title": "course “Data Analyst”",
+                "caption": null,
+                "org": "Karpov Courses",
+                "date": "February 27 — August 24, 2023"
+            },
+            "ru": {
+                "title": "курс «Аналитик данных»",
+                "caption": null,
+                "org": "Karpov Courses",
+                "date": "27 февраля — 24 августа 2023"
+            }
+        },
+        {
+            "en": {
+                "title": "Educational workshop, “Educational environment” track",
+                "caption": "Multidisciplinary school “Summer School”",
+                "org": "Regional public organization for support of educational and research programs “Summer School”",
+                "date": "July 23 — August 2, 2023"
+            },
+            "ru": {
+                "title": "мастерская «Образование», программа «Образовательная среда»",
+                "caption": "многопрофильная школа семинар «Летняя школа»",
+                "org": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»",
+                "date": "23 июля — 2 августа 2023"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Applied Cognitive Science”",
+                "caption": "HSE UX LAB",
+                "org": "HSE University",
+                "date": "July 6–11, 2023"
+            },
+            "ru": {
+                "title": "летняя школа «Прикладная когнитивная наука»",
+                "caption": "HSE UX LAB",
+                "org": "НИУ ВШЭ",
+                "date": "6–11 июля 2023"
+            }
+        },
+        {
+            "en": {
+                "title": "project “Onlife: How Digital Changes Us?”",
+                "caption": "Wintre psychological school of Saint Petersburg State University",
+                "org": "Faculty of Psychology, Saint Petersburg State University",
+                "date": "January 29 — February 3, 2023"
+            },
+            "ru": {
+                "title": "сквозной проект «Onlife: как нас меняет цифровизация?»",
+                "caption": "Зимняя психологическая школа СПбГУ",
+                "org": "факультет психологии СПбГУ",
+                "date": "29 января — 3 февраля 2023"
+            }
+        },
+        {
+            "en": {
+                "title": "Machine Learning A-Z™: Python & R in Data Science [2022]",
+                "caption": null,
+                "org": "Udemy",
+                "date": "2022"
+            },
+            "ru": {
+                "title": "Machine Learning A-Z™: Python & R in Data Science [2022]",
+                "caption": null,
+                "org": "Udemy",
+                "date": "2022"
+            }
+        },
+        {
+            "en": {
+                "title": "Python Developer | Complete course 2021",
+                "caption": null,
+                "org": "Udemy",
+                "date": "2022"
+            },
+            "ru": {
+                "title": "Python Developer | Complete course 2021",
+                "caption": null,
+                "org": "Udemy",
+                "date": "2022"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Applied Cognitive Science”",
+                "caption": "HSE UX LAB",
+                "org": "HSE University",
+                "date": "July 5–9, 2022"
+            },
+            "ru": {
+                "title": "летняя школа «Прикладная когнитивная наука»",
+                "caption": "HSE UX LAB",
+                "org": "НИУ ВШЭ",
+                "date": "5–9 июля 2022"
+            }
+        },
+        {
+            "en": {
+                "title": "EdCrunch Glocal: International Conference for New Technologies in Education",
+                "caption": "“Building New Education Experience” track",
+                "org": "Akimat of Almaty / Ministry of Education and Science of the Republic of Kazakhstan / Nazarbayev Intellectual Schools / Open School",
+                "date": "December 7–8, 2021"
+            },
+            "ru": {
+                "title": "EdCrunch Glocal: международная конференция по новым технологиям в образовании",
+                "caption": "трек «Проектирование нового образовательного опыта»",
+                "org": "Акимат города Алматы / Министерство образования и науки Республики Казахстан / Nazarbayev Intellectual Schools / Открытая школа",
+                "date": "7–8 декабря 2021"
+            }
+        },
+        {
+            "en": {
+                "title": "Educational workshop, “Educational experience design” track",
+                "caption": "Multidisciplinary school “Summer School”",
+                "org": "Regional public organization for support of educational and research programs “Summer School”",
+                "date": "July 20–30, 2021"
+            },
+            "ru": {
+                "title": "мастерская «Образование», программа «Про образовательный опыт»",
+                "caption": "многопрофильная школа семинар «Летняя школа»",
+                "org": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»",
+                "date": "20–30 июля 2021"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Applied Cognitive Science”",
+                "caption": "HSE UX LAB",
+                "org": "HSE University",
+                "date": "July 1–5, 2021"
+            },
+            "ru": {
+                "title": "летняя школа «Прикладная когнитивная наука»",
+                "caption": "HSE UX LAB",
+                "org": "НИУ ВШЭ",
+                "date": "1–5 июля 2021"
+            }
+        },
+        {
+            "en": {
+                "title": "International CCCP-2020 Symposium “Cross-Language Interplay in a Bilingual Mind”",
+                "caption": null,
+                "org": null,
+                "date": "December 10–11, 2020"
+            },
+            "ru": {
+                "title": "International CCCP-2020 Symposium «Cross-Language Interplay in a Bilingual Mind»",
+                "caption": null,
+                "org": null,
+                "date": "10–11 декабря 2020"
+            }
+        },
+        {
+            "en": {
+                "title": "webinar “Natural Language for Machine – How to teach computer to understand words?”",
+                "caption": "Center for Continuning Education, Faculty of Computer Sciences",
+                "org": "HSE University",
+                "date": "November 10, 2020"
+            },
+            "ru": {
+                "title": "вебинар «Естественный язык для машины — Как научить компьютер понимать слова?»",
+                "caption": "Центр непрерывного образования, факультет компьютерных наук",
+                "org": "НИУ ВШЭ",
+                "date": "10 ноября 2020"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Applied Cognitive Science”",
+                "caption": "HSE UX LAB",
+                "org": "HSE University",
+                "date": "October 30 — November 5, 2020"
+            },
+            "ru": {
+                "title": "летняя школа «Прикладная когнитивная наука»",
+                "caption": "HSE UX LAB",
+                "org": "НИУ ВШЭ",
+                "date": "30 октября — 5 ноября 2020"
+            }
+        },
+        {
+            "en": {
+                "title": "workshop “Network analysis in human cognition and language processing”",
+                "caption": null,
+                "org": "Psychology Institute of Russian Academy of Sciences",
+                "date": "October 24–25, 2020"
+            },
+            "ru": {
+                "title": "workshop “Network analysis in human cognition and language processing”",
+                "caption": null,
+                "org": "Psychology Institute of Russian Academy of Sciences",
+                "date": "October 24–25, 2020"
+            }
+        },
+        {
+            "en": {
+                "title": "Testology workshop",
+                "caption": "Multidisciplinary school “Summer School”",
+                "org": "Regional public organization for support of educational and research programs “Summer School”",
+                "date": "July 17–26, 2020"
+            },
+            "ru": {
+                "title": "Тестовая мастерская",
+                "caption": "многопрофильная школа семинар «Летняя школа»",
+                "org": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»",
+                "date": "17–26 июля 2020"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Theoretical and Applied Issues of Cognitive Psychology”",
+                "caption": null,
+                "org": "RANEPA",
+                "date": "August, 27–31, 2019"
+            },
+            "ru": {
+                "title": "летняя школа «Теоретические и прикладные вопросы когнитивной психологии памяти Карла Дункера»",
+                "caption": null,
+                "org": "РАНХиГС",
+                "date": "27–31 августа 2019"
+            }
+        },
+        {
+            "en": {
+                "title": "Data Analysis workshop, Bayesian program",
+                "caption": "Multidisciplinary school “Summer School”",
+                "org": "Regional public organization for support of educational and research programs “Summer School”",
                 "date": ""
             },
             "ru": {
-                "title": "",
-                "caption": "",
-                "org": "",
-                "date": ""
+                "title": "мастерская «Анализ данных в социальных и гуманитарных науках (АнДан)», байесовская программа",
+                "caption": "многопрофильная школа-семинар «Летняя школа»",
+                "org": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»",
+                "date": "28 июля — 5 августа 2019"
+            }
+        },
+        {
+            "en": {
+                "title": "Summer school “Applied Cognitive Science”",
+                "caption": "HSE UX LAB",
+                "org": "HSE University",
+                "date": "June 15–18, 2019"
+            },
+            "ru": {
+                "title": "летняя школа «Прикладная когнитивная наука»",
+                "caption": "HSE UX LAB",
+                "org": "НИУ ВШЭ",
+                "date": "15–18 июня 2019"
+            }
+        },
+        {
+            "en": {
+                "title": "course “Fundamentals of Web Design”",
+                "caption": null,
+                "org": "HIGHLIGHTS, school of graphic and web design",
+                "date": "December 25 — February 12, 2018"
+            },
+            "ru": {
+                "title": "курс «Основы веб-дизайна»",
+                "caption": null,
+                "org": "школа графического и веб-дизайна HIGHLIGHTS",
+                "date": "25 декабря — 12 февраля 2018"
+            }
+        },
+        {
+            "en": {
+                "title": "course “Psychology of management and decision making”",
+                "caption": "School of Psychology",
+                "org": "HSE University",
+                "date": "October — December, 2018"
+            },
+            "ru": {
+                "title": "курс «Психология управления и принятия решений»",
+                "caption": "департамент психологии",
+                "org": "НИУ ВШЭ",
+                "date": "октябрь — декабрь 2018"
             }
         }
     ],
@@ -90,16 +384,44 @@
         },
         {
             "en": {
-                "title": "",
-                "author": "",
-                "platform": "",
-                "date": ""
+                "title": "Vue JS",
+                "author": "Vladilen Minin",
+                "platform": "Result University, YouTube",
+                "date": "2024"
             },
             "ru": {
-                "title": "",
-                "author": "",
-                "platform": "",
-                "date": ""
+                "title": "Vue JS",
+                "author": "Владилен Минин",
+                "platform": "Result University, YouTube",
+                "date": "2024"
+            }
+        },
+        {
+            "en": {
+                "title": "Web Design in Figma 2023. Basics UI/UX Design in practice",
+                "author": "Evgen Marfel",
+                "platform": "Stepik",
+                "date": "2023"
+            },
+            "ru": {
+                "title": "Веб-дизайн в Figma 2023. Основы UI/UX дизайна на практике",
+                "author": "Евгений Марфель",
+                "platform": "Stepik",
+                "date": "2023"
+            }
+        },
+        {
+            "en": {
+                "title": "Git Basics",
+                "author": "Mark Zaslavsky",
+                "platform": "Stepik",
+                "date": "2020"
+            },
+            "ru": {
+                "title": "Основы Git",
+                "author": "Марк Заславский",
+                "platform": "Stepik",
+                "date": "2020"
             }
         },
         {
