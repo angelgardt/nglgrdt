@@ -1390,41 +1390,1297 @@
                         }
                     }
                 ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "courses",
+                "SubsectionTitle": {
+                    "en": "Schools / Webinars / Courses",
+                    "ru": "Школы / Вебинары / Курсы"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "GameDev workshop, “Game Design” track",
+                            "ru": "мастерская «GameDev», программа «Геймдизайн»"
+                        },
+                        "caption": {
+                            "en": "Multidisciplinary school “Summer School”",
+                            "ru": "Многопрофильная школа семинар «Летняя школа»"
+                        },
+                        "org": {
+                            "en": "Regional public organization for support of educational and research programs “Summer School”",
+                            "ru": "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+                        },
+                        "date": {
+                            "en": "July 5–20, 2024",
+                            "ru": "5–20 июля 2024"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "course “Data Analyst”",
+                            "ru": "курс «Аналитик данных»"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "Karpov Courses",
+                            "ru": "Karpov Courses"
+                        },
+                        "date": {
+                            "en": "February 27 — August 24, 2023",
+                            "ru": "27 февраля — 24 августа 2023"   
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Educational workshop, “Educational environment” track",
+                            "ru": "мастерская «Образование», программа «Образовательная среда»"
+                        },
+                        "caption": {
+                            "en": "Multidisciplinary school “Summer School”",
+                            "ru": "многопрофильная школа семинар «Летняя школа»"
+                        },
+                        "org": {
+                            "en": "Regional public organization for support of educational and research programs “Summer School”",
+                            "ru": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+                        },
+                        "date": {
+                            "en": "July 23 — August 2, 2023",
+                            "ru": "23 июля — 2 августа 2023"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "caption": {
+                            "en": "HSE UX LAB",
+                            "ru": "HSE UX LAB"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "July 6–11, 2023",
+                            "ru": "6–11 июля 2023"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "project “Onlife: How Digital Changes Us?”",
+                            "ru": "сквозной проект «Onlife: как нас меняет цифровизация?»"
+                        },
+                        "caption": {
+                            "en": "Wintre psychological school of Saint Petersburg State University",
+                            "ru": "Зимняя психологическая школа СПбГУ"
+                        },
+                        "org": {
+                            "en": "Faculty of Psychology, Saint Petersburg State University",
+                            "ru": "факультет психологии СПбГУ"
+                        },
+                        "date": {
+                            "en": "January 29 — February 3, 2023",
+                            "ru": "29 января — 3 февраля 2023"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Machine Learning A-Z™: Python & R in Data Science [2022]",
+                            "ru": "Machine Learning A-Z™: Python & R in Data Science [2022]"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "Udemy",
+                            "ru": "Udemy"
+                        },
+                        "date": {
+                            "en": "2022",
+                            "ru": "2022"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Python Developer | Complete course 2021",
+                            "ru": "Python Developer | Complete course 2021"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "Udemy",
+                            "ru": "Udemy"
+                        },
+                        "date": {
+                            "en": "2022",
+                            "ru": "2022"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "caption": {
+                            "en": "HSE UX LAB",
+                            "ru": "HSE UX LAB"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "July 5–9, 2022",
+                            "ru": "5–9 июля 2022"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "EdCrunch Glocal: International Conference for New Technologies in Education",
+                            "ru": "EdCrunch Glocal: международная конференция по новым технологиям в образовании"
+                        },
+                        "caption": {
+                            "en": "“Building New Education Experience” track",
+                            "ru": "трек «Проектирование нового образовательного опыта»"
+                        },
+                        "org": {
+                            "en": "Akimat of Almaty / Ministry of Education and Science of the Republic of Kazakhstan / Nazarbayev Intellectual Schools / Open School",
+                            "ru": "Акимат города Алматы / Министерство образования и науки Республики Казахстан / Nazarbayev Intellectual Schools / Открытая школа"
+                        },
+                        "date": {
+                            "en": "December 7–8, 2021",
+                            "ru": "7–8 декабря 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Educational workshop, “Educational experience design” track",
+                            "ru": "мастерская «Образование», программа «Про образовательный опыт»"
+                        },
+                        "caption": {
+                            "en": "Multidisciplinary school “Summer School”",
+                            "ru": "многопрофильная школа семинар «Летняя школа»" 
+                        },
+                        "org": {
+                            "en": "Regional public organization for support of educational and research programs “Summer School”",
+                            "ru": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+                        },
+                        "date": {
+                            "en": "July 20–30, 2021",
+                            "ru": "20–30 июля 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "caption": {
+                            "en": "HSE UX LAB",
+                            "ru": "HSE UX LAB"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "July 1–5, 2021",
+                            "ru": "1–5 июля 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "International CCCP-2020 Symposium “Cross-Language Interplay in a Bilingual Mind”",
+                            "ru": "International CCCP-2020 Symposium «Cross-Language Interplay in a Bilingual Mind»"
+                        },
+                        "caption": null,
+                        "org": null,
+                        "date": {
+                            "en": "December 10–11, 2020",
+                            "ru": "10–11 декабря 2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "webinar “Natural Language for Machine – How to teach computer to understand words?”",
+                            "ru": "вебинар «Естественный язык для машины — Как научить компьютер понимать слова?»"
+                        },
+                        "caption": {
+                            "en": "Center for Continuning Education, Faculty of Computer Sciences",
+                            "ru": "Центр непрерывного образования, факультет компьютерных наук"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "November 10, 2020",
+                            "ru": "10 ноября 2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "caption": {
+                            "en": "HSE UX LAB",
+                            "ru": "HSE UX LAB"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "October 30 — November 5, 2020",
+                            "ru": "30 октября — 5 ноября 2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "workshop “Network analysis in human cognition and language processing”",
+                            "ru": "workshop “Network analysis in human cognition and language processing”"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "Psychology Institute of Russian Academy of Sciences",
+                            "ru": "Psychology Institute of Russian Academy of Sciences"
+                        },
+                        "date": {
+                            "en": "October 24–25, 2020",
+                            "ru": "October 24–25, 2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Testology workshop",
+                            "ru": "Тестовая мастерская"
+                        },
+                        "caption": {
+                            "en": "Multidisciplinary school “Summer School”",
+                            "ru": "многопрофильная школа семинар «Летняя школа»"
+                        },
+                        "org": {
+                            "en": "Regional public organization for support of educational and research programs “Summer School”",
+                            "ru": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+                        },
+                        "date": {
+                            "en": "July 17–26, 2020",
+                            "ru": "17–26 июля 2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Theoretical and Applied Issues of Cognitive Psychology”",
+                            "ru": "летняя школа «Теоретические и прикладные вопросы когнитивной психологии памяти Карла Дункера»"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "RANEPA",
+                            "ru": "РАНХиГС"
+                        },
+                        "date": {
+                            "en": "August, 27–31, 2019",
+                            "ru": "27–31 августа 2019"
+                            
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Data Analysis workshop, Bayesian program",
+                            "ru": "мастерская «Анализ данных в социальных и гуманитарных науках (АнДан)», байесовская программа"
+                        },
+                        "caption": {
+                            "en": "Multidisciplinary school “Summer School”",
+                            "ru": "многопрофильная школа-семинар «Летняя школа»"
+                        },
+                        "org": {
+                            "en": "Regional public organization for support of educational and research programs “Summer School”",
+                            "ru": "региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+                        },
+                        "date": {
+                            "en": "July 28 — August 5, 2019",
+                            "ru": "28 июля — 5 августа 2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Summer school “Applied Cognitive Science”",
+                            "ru": "летняя школа «Прикладная когнитивная наука»"
+                        },
+                        "caption": {
+                            "en": "HSE UX LAB",
+                            "ru": "HSE UX LAB"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "June 15–18, 2019",
+                            "ru": "15–18 июня 2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "course “Fundamentals of Web Design”",
+                            "ru": "курс «Основы веб-дизайна»"
+                        },
+                        "caption": null,
+                        "org": {
+                            "en": "HIGHLIGHTS, school of graphic and web design",
+                            "ru": "школа графического и веб-дизайна HIGHLIGHTS"
+                        },
+                        "date": {
+                            "en": "December 25 — February 12, 2018",
+                            "ru": "25 декабря — 12 февраля 2018"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "course “Psychology of management and decision making”",
+                            "ru": "курс «Психология управления и принятия решений»"
+                        },
+                        "caption": {
+                            "en": "School of Psychology",
+                            "ru": "департамент психологии"
+                        },
+                        "org": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                        },
+                        "date": {
+                            "en": "October — December, 2018",
+                            "ru": "октябрь — декабрь 2018"
+                        }
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "moocs",
+                "SubsectionTitle": {
+                    "en": "MOOCs",
+                    "ru": "MOOCs"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Improving your statistical inferences",
+                            "ru": "Improving your statistical inferences"
+                        },
+                        "author": {
+                            "en": "Daniel Lakens",
+                            "ru": "Daniel Lakens"
+                        },
+                        "uni": {
+                            "en": "Eindhoven University of Technology",
+                            "ru": "Eindhoven University of Technology"
+                        },
+                        "platform": {
+                            "en": "Coursera",
+                            "ru": "Coursera"
+                        },
+                        "date": {
+                            "en": "2024",
+                            "ru": "2024"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Vue JS",
+                            "ru": "Vue JS"
+                        },
+                        "author": {
+                            "en": "Vladilen Minin",
+                            "ru": "Владилен Минин"
+                        },
+                        "uni": {
+                            "en": "Result University",
+                            "ru": "Result University"
+                        },
+                        "platform": {
+                            "en": "YouTube",
+                            "ru": "YouTube"
+                        },
+                        "date": {
+                            "en": "2024",
+                            "ru": "2024"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Веб-дизайн в Figma 2023. Основы UI/UX дизайна на практике",
+                            "ru": "Web Design in Figma 2023. Basics UI/UX Design in practice"
+                        },
+                        "author": {
+                            "en": "Evgen Marfel",
+                            "ru": "Евгений Марфель"
+                        },
+                        "uni": null,
+                        "platform": {
+                            "en": "Stepik",
+                            "ru": "Stepik"
+                        },
+                        "date": {
+                            "en": "2023",
+                            "ru": "2023"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Git Basics",
+                            "ru": "Основы Git"
+                        },
+                        "author": {
+                            "en": "Mark Zaslavsky",
+                            "ru": "Марк Заславский"
+                        },
+                        "uni": null,
+                        "platform": {
+                            "en": "Stepik",
+                            "ru": "Stepik"
+                        },
+                        "date": {
+                            "en": "2020",
+                            "ru": "2020"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Data Analysis with R. Part 2",
+                            "ru": "Анализ данных в R. Часть 2"
+                        },
+                        "author": {
+                            "en": "Anatoliy Karpov, Vladislav Grozin, Anton Antonov",
+                            "ru": "Анатолий Карпов, Владислав Грозин, Антон Антонов"
+                        },
+                        "uni": {
+                            "en": "Bioinformatics Institute",
+                            "ru": "Институт биоинформатики"
+                        },
+                        "platform": {
+                            "en": "Stepik",
+                            "ru": "Stepik"
+                        },
+                        "date": {
+                            "en": "2019",
+                            "ru": "2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Data Analysis with R",
+                            "ru": "Анализ данных в R"
+                        },
+                        "author": {
+                            "en": "Anatoliy Karpov, Ivan Ivanchei",
+                            "ru": "Анатолий Карпов, Иван Иванчей"
+                        },
+                        "uni": {
+                            "en": "Bioinformatics Institute",
+                            "ru": "Институт биоинформатики"
+                        },
+                        "platform": {
+                            "en": "Stepik",
+                            "ru": "Stepik"
+                        },
+                        "date": {
+                            "en": "2019",
+                            "ru": "2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "R Programming Basics",
+                            "ru": "Основы программирования на R"
+                        },
+                        "author": {
+                            "en": "Anton Antonov",
+                            "ru": "Антон Антонов"
+                        },
+                        "uni": {
+                            "en": "Bioinformatics Institute",
+                            "ru": "Институт биоинформатики"
+                        },
+                        "platform": {
+                            "en": "Stepik",
+                            "ru": "Stepik"
+                        },
+                        "date": {
+                            "en": "2019",
+                            "ru": "2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Introduction to LaTeX",
+                            "ru": "Документы и презентации в LaTeX (Introduction to LaTeX)"
+                        },
+                        "author": {
+                            "en": "Danil Fedorovykh",
+                            "ru": "Данил Фёдоровых"
+                        },
+                        "uni": {
+                            "en": "HSE University",
+                            "ru": "НИУ ВШЭ"
+                            
+                        },
+                        "platform": {
+                            "en": "Coursera",
+                            "ru": "Coursera"
+                        },
+                        "date": {
+                            "en": "2018",
+                            "ru": "2018"
+                        }
+                    }
+                ]
             }
         ]
     },
     "Achievements": {
         "show": true,
-        "subsections": true,
+        "subsections": false,
         "SectionID": "achievements",
         "SectionType": "items",
         "SectionTitle": {
             "en": "Acheivements",
             "ru": "Достижения"
         },
-        "SectionContent": []
+        "SectionContent": [
+            {
+                "show": true,
+                "title": {
+                    "en": "Member of the Academic Council of the Bachelor's Degree Program “Psychology”",
+                    "ru": "член академического совета образовательной программы бакалавриата «Психология»"
+                },
+                "caption": {
+                    "en": "School of Psychology",
+                    "ru": "департамент психологии"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "since 2022",
+                    "ru": "2022 — наст. вр."
+
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Gratitude for successful scientific and educational activities and contribution to work with schoolchildren and applicants",
+                    "ru": "Благодарность за успешную научно-образовательную деятельность и вклад в работу со школьниками и абитуриентами"
+                },
+                "caption": {
+                    "en": "School of Psychology",
+                    "ru": "департамент психологии"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "June, 2022",
+                    "ru": "июнь, 2022"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Young Faculty Support Program (Group of Young Academic Professionals)",
+                    "ru": "Группа высокого профессионального потенциала (кадровый резерв НИУ ВШЭ)"
+                },
+                "caption": {
+                    "en": "Category “New Researchers”",
+                    "ru": "категория «Новые исследователи»"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "2022",
+                    "ru": "2022"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Winner for Best Psychology Research Paper for Masters and Graduates",
+                    "ru": "Победитель в номинации «Лучшая научно-исследовательская работа по психологии для студентов магистратуры и выпускников 2021 года»"
+                },
+                "caption": {
+                    "en": "Student Research Competition",
+                    "ru": "конкурс научно-исследовательских работ студентов"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "December, 2021",
+                    "ru": "декабрь, 2021"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Gratitude for participation in scientific and educational activities",
+                    "ru": "Благодарность за активное участие в студенческой и научно-просветительской деятельности департамента психологии"
+                },
+                "caption": {
+                    "en": "Faculty of Social Sciences, School of Psychology",
+                    "ru": "факультет социальных наук, департамент психологии"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "May, 2021",
+                    "ru": "май, 2021"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Gratitude for extracurricular activity",
+                    "ru": "Благодарность за активное участие во внеучебной жизни университета"
+                },
+                "caption": {
+                    "en": "Student Council",
+                    "ru": "Студенческий совет"
+                },
+                "subtitle": {
+                    "en": "HSE University",
+                    "ru": "НИУ ВШЭ"
+                },
+                "date": {
+                    "en": "2018",
+                    "ru": "2018"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Final Stage of National Russian Chemistry Olympiad",
+                    "ru": "Заключительный этап Всероссийской олимпиады школьников по химии"
+                },
+                "caption": {
+                    "en": "Participant",
+                    "ru": "участник"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2014",
+                    "ru": "2014"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Chemistry Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по химии"
+                },
+                "caption": {
+                    "en": "Prizer",
+                    "ru": "призёр"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2014",
+                    "ru": "2014"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Biology Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по биологии"
+                },
+                "caption": {
+                    "en": "Winner",
+                    "ru": "победитель"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2014",
+                    "ru": "2014"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Final Stage of National Russian Biology Olympiad",
+                    "ru": "Заключительный этап Всероссийской олимпиады школьников по биологии"
+                },
+                "caption": {
+                    "en": "Participant",
+                    "ru": "участник"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2013",
+                    "ru": "2013"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Biology Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по биологии"
+                },
+                "caption": {
+                    "en": "Winner",
+                    "ru": "победитель"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2013",
+                    "ru": "2013"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Chemistry Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по химии"
+                },
+                "caption": {
+                    "en": "Prizer",
+                    "ru": "призёр"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2013",
+                    "ru": "2013"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Biology Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по биологии"
+                },
+                "caption": {
+                    "en": "Prizer",
+                    "ru": "призёр"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2012",
+                    "ru": "2012"
+                }
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Regional Stage of National Russian Chemistry Olympiad",
+                    "ru": "Региональный этап Всероссийской олимпиады школьников по химии"
+                },
+                "caption": {
+                    "en": "Winner",
+                    "ru": "победитель"
+                },
+                "subtitle": null,
+                "date": {
+                    "en": "2012",
+                    "ru": "2012"
+                }
+            }
+        ]
     },
     "Langs": {
         "show": true,
-        "subsections": true,
+        "subsections": false,
         "SectionID": "langs",
-        "SectionType": "items",
+        "SectionType": "bubbles",
         "SectionTitle": {
             "en": "Language Proficiency",
             "ru": "Владение языками"
         },
-        "SectionContent": []
+        "SectionContent": [
+            {
+                "show": true,
+                "lang": {
+                    "en": "Russian",
+                    "ru": "русский"
+                },
+                "level": {
+                    "en": "native",
+                    "ru": "родной"
+                }
+            },
+            {
+                "show": true,
+                "lang": {
+                    "en": "English",
+                    "ru": "английский"
+                },
+                "level": {
+                    "en": "B2",
+                    "ru": "B2"
+                }
+            },
+            {
+                "show": true,
+                "lang": {
+                    "en": "Russian as a Foreign Language",
+                    "ru": "русский как иностранный"
+                },
+                "level": null
+            },
+            {
+                "show": true,
+                "lang": {
+                    "en": "Latin",
+                    "ru": "латинский"
+                },
+                "level": {
+                    "en": "basic knowledge",
+                    "ru": "базовые знания"
+                }
+            }
+        ]
     },
     "Skills": {
         "show": true,
         "subsections": true,
         "SectionID": "skills",
-        "SectionType": "items",
+        "SectionType": "bubbles",
         "SectionTitle": {
             "en": "Skills",
             "ru": "Навыки"
         },
-        "SectionContent": []
+        "SectionContent": [
+            {
+                "show": true,
+                "SubsectionID": "prog",
+                "SubsectionTitle": {
+                    "en": "Programming & IT",
+                    "ru": "Программирование и ИТ"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Python",
+                        "ru": "Python"
+                    },
+                    {
+                        "show": true,
+                        "en": "NumPy",
+                        "ru": "NumPy"
+                    },
+                    {   "show": true,
+                        "en": "Pandas",
+                        "ru": "Pandas"
+                    },
+                    {
+                        "show": true,
+                        "en": "R",
+                        "ru": "R"
+                    },
+                    {
+                        "show": true,
+                        "en": "tidyverse",
+                        "ru": "tidyverse"
+                    },
+                    {
+                        "show": true,
+                        "en": "RMarkdown",
+                        "ru": "RMarkdown"
+                    },
+                    {
+                        "show": true,
+                        "en": "Quarto",
+                        "ru": "Quarto"
+                    },
+                    {
+                        "show": true,
+                        "en": "TeX (LaTeX)",
+                        "ru": "TeX (LaTeX)"
+                    },
+                    {
+                        "show": true,
+                        "en": "JavaScript",
+                        "ru": "JavaScript"
+                    },
+                    {
+                        "show": true,
+                        "en": "Vue.js",
+                        "ru": "Vue.js"
+                    },
+                    {
+                        "show": true,
+                        "en": "SQL",
+                        "ru": "SQL"
+                    },
+                    {
+                        "show": true,
+                        "en": "HTML 5",
+                        "ru": "HTML 5"
+                    },
+                    {
+                        "show": true,
+                        "en": "CSS 3",
+                        "ru": "CSS 3"
+                    },
+                    {
+                        "show": true,
+                        "en": "SASS / SCSS",
+                        "ru": "SASS / SCSS"
+                    },
+                    {
+                        "show": true,
+                        "en": "Git",
+                        "ru": "Git"
+                    },
+                    {
+                        "show": true,
+                        "en": "GitHub",
+                        "ru": "GitHub"
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "analytics",
+                "SubsectionTitle": {
+                    "en": "Programming & IT",
+                    "ru": "Программирование и ИТ"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "SubsectionID": "quantitative",
+                        "SubsectionTitle": {
+                            "en": "Quantitative Data",
+                            "ru": "Количественные данные"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "General Linear Models",
+                                "ru": "общие линейные модели"
+                            },
+                            {
+                                "show": true,
+                                "en": "Regression Analysis",
+                                "ru": "регрессионный анализ"
+                            },
+                            {
+                                "show": true,
+                                "en": "ANOVA, rmANOVA",
+                                "ru": "ANOVA, rmANOVA"
+                            },
+                            {
+                                "show": true,
+                                "en": "Generalized Linear Models",
+                                "ru": "обобщённые линейные модели (GLM)"
+                            },
+                            {
+                                "show": true,
+                                "en": "Generalized Additive Models",
+                                "ru": "обобщённые аддитивные модели(GAM)"
+                            },
+                            {
+                                "show": true,
+                                "en": "Regularized Regression",
+                                "ru": "регуляризованная регрессия"
+                            },
+                            {
+                                "show": true,
+                                "en": "Principal Componen Analysis",
+                                "ru": "анализ главных компонент"
+                            },
+                            {
+                                "show": true,
+                                "en": "Cluster Analysis",
+                                "ru": "кластерный анализ"
+                            },
+                            {
+                                "show": true,
+                                "en": "Factor Analysis (EFA, CFA)",
+                                "ru": "факторный анализ (EFA, CFA)"
+                            },
+                            {
+                                "show": true,
+                                "en": "Structural Equation Modeling",
+                                "ru": "моделирование структурными уравнениям (SEM)"
+                            }
+                        ]
+                    },
+                    {
+                        "show": true,
+                        "SubsectionID": "quantitative",
+                        "SubsectionTitle": {
+                            "en": "Qualitative Data",
+                            "ru": "Качественные данные"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "Content Analysis",
+                                "ru": "контент-анализ"
+                            },
+                            {
+                                "show": true,
+                                "en": "Thematic Analysis",
+                                "ru": "тематический анализ"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "research",
+                "SubsectionTitle": {
+                    "en": "Research Methods",
+                    "ru": "Методы исследований"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Behavioral Experiments",
+                        "ru": "поведенческие исследования"
+                    },
+                    {
+                        "show": true,
+                        "en": "Questionnaire Development",
+                        "ru": "разработка опросников"
+                    },
+                    {
+                        "show": true,
+                        "en": "Cognitive Interviewing",
+                        "ru": "когнитивное интервью"
+                    },
+                    {
+                        "show": true,
+                        "en": "Customer Development",
+                        "ru": "customer develpment"
+                    },
+                    {
+                        "show": true,
+                        "en": "Customer Journey Map",
+                        "ru": "customer journey map"
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "manager",
+                "SubsectionTitle": {
+                    "en": "Management",
+                    "ru": "Менеджмент"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Educational Project Management",
+                        "ru": "управление образовательными проектами"
+                    },
+                    {
+                        "show": true,
+                        "en": "Research Project Management",
+                        "ru": "управление исследовательскими проектами"
+                    },
+                    {
+                        "show": true,
+                        "en": "Creative Project Management",
+                        "ru": "управление креативными проектами"
+                    },
+                    {
+                        "show": true,
+                        "en": "Work Engagement",
+                        "ru": "работа с вовлеченностью"
+                    },
+                    {
+                        "show": true,
+                        "en": "Team Management",
+                        "ru": "управление командами"
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "software",
+                "SubsectionTitle": {
+                    "en": "Software",
+                    "ru": "Программное обеспечение"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "SubsectionID": "basic",
+                        "SubsectionTitle": {
+                            "en": "Basic",
+                            "ru": "Базовое"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "MS Office",
+                                "ru": "MS Office"
+                            },
+                            {
+                                "show": true,
+                                "en": "MS Word",
+                                "ru": "MS Word"
+                            },
+                            {
+                                "show": true,
+                                "en": "MS Excel",
+                                "ru": "MS Excel"
+                            },
+                            {
+                                "show": true,
+                                "en": "MS Power Point",
+                                "ru": "MS Power Point"
+                            },
+                            {
+                                "show": true,
+                                "en": "Google Docs",
+                                "ru": "Google Docs"
+                            },
+                            {
+                                "show": true,
+                                "en": "Google Sheets",
+                                "ru": "Google Sheets"
+                            },
+                            {
+                                "show": true,
+                                "en": "Google Slides",
+                                "ru": "Google Slides"
+                            }
+                        ]
+                    },
+                    {
+                        "show": true,
+                        "SubsectionID": "graphics",
+                        "SubsectionTitle": {
+                            "en": "Graphics",
+                            "ru": "Графическое"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "Adobe Photoshop",
+                                "ru": "Adobe Photoshop"
+                            },
+                            {
+                                "show": true,
+                                "en": "Adobe Illustrator",
+                                "ru": "Adobe Illustrator"
+                            },
+                            {
+                                "show": true,
+                                "en": "Adobe InDesign",
+                                "ru": "Adobe InDesign"
+                            },
+                            {
+                                "show": true,
+                                "en": "Figma",
+                                "ru": "Figma"
+                            }
+                        ]
+                    },
+                    {
+                        "show": true,
+                        "SubsectionID": "sound-video",
+                        "SubsectionTitle": {
+                            "en": "Sound & Video",
+                            "ru": "Звук и видео"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "Adobe Audition",
+                                "ru": "Adobe Audition"
+                            },
+                            {
+                                "show": true,
+                                "en": "Adobe Premiere Pro",
+                                "ru": "Adobe Premiere Pro"
+                            },
+                            {
+                                "show": true,
+                                "en": "CapCut",
+                                "ru": "CapCut"
+                            }
+                        ]
+                    },
+                    {
+                        "show": true,
+                        "SubsectionID": "special",
+                        "SubsectionTitle": {
+                            "en": "Special",
+                            "ru": "Специальное"
+                        },
+                        "SubsectionContent": [
+                            {
+                                "show": true,
+                                "en": "PsychoPy",
+                                "ru": "PsychoPy"
+                            },
+                            {
+                                "show": true,
+                                "en": "Praat",
+                                "ru": "Praat"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "other",
+                "SubsectionTitle": {
+                    "en": "Other",
+                    "ru": "Другое"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "en": "Proofreading",
+                        "ru": "корректура текстов"
+                    }
+                ]
+            }
+        ]
     },
     "Research": {
         "show": true,
@@ -1435,17 +2691,168 @@
             "en": "Research",
             "ru": "Исследования"
         },
-        "SectionContent": []
+        "SectionContent": [
+            {
+                "show": true,
+                "SubsectionID": "pubs",
+                "SubsectionTitle": {
+                    "en": "Publications",
+                    "ru": "Публикации"
+                },
+                "SubsectionContent": []
+            },
+            {
+                "show": true,
+                "SubsectionID": "confs",
+                "SubsectionTitle": {
+                    "en": "Conterences",
+                    "ru": "Конференции"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Russian scientific conference in memory of J. S. Bruner “Psychology of Cognition”",
+                            "ru": "Всероссийская научная конференция памяти Дж. С. Брунера «Психология познания»"
+                        },
+                        "report": {
+                            "en": "report “Neurophysiological correlates of categorization process in visual search”",
+                            "ru": "доклад «Нейрофизиологические корреляты процесса категоризации в зрительном поиске»"
+                        },
+                        "place": {
+                            "en": "Yaroslavl",
+                            "ru": "Ярославль"
+                        },
+                        "date": {
+                            "en": "December, 10–11, 2021",
+                            "ru": "10–11 декабря, 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Psychology of XXI century. Psychological research: from theory to practice",
+                            "ru": "Психология XXI века. Психологические исследования: от теории к практике"
+                        },
+                        "report": {
+                            "en": "report “Role of calegory level in visual search”",
+                            "ru": "доклад «Роль уровня категории при решении задачи гибридного поиска»"
+                        },
+                        "place": {
+                            "en": "Saint Petersburg",
+                            "ru": "Санкт-Петербург"
+                        },
+                        "date": {
+                            "en": "April, 21–23, 2021",
+                            "ru": "21–23 апреля 2021"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Psy-HSE: International Conference of Young Scientists “Contemporary Issues of Psychological Science”",
+                            "ru": "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
+                        },
+                        "report": {
+                            "en": "report “Perceptual characteristics and familiarity factor of stimulus in interface elements visual search”",
+                            "ru": "доклад «Перцептивные характеристики и фактор знакомости стимула в зрительном поиске элементов интерфейса»"
+                        },
+                        "place": {
+                            "en": "Moscow",
+                            "ru": "Москва"
+                        },
+                        "date": {
+                            "en": "October, 31 — Noverber, 2, 2019",
+                            "ru": "31 октября — 2 ноября, 2019"
+                        }
+                    },
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "Russian Summer School of Young Scientists in memory of Karl Duncker",
+                            "ru": "Всероссийская летняя школа молодых ученых памяти Карла Дункера"
+                        },
+                        "report": {
+                            "en": "report “How users search icons? Perceptual characteristics and familiarity factor of stimulus”",
+                            "ru": "постерный доклад «Как пользователи ищут иконки? Перцептивные характеристики и фактор знакомости стимула»"
+                        },
+                        "place": {
+                            "en": "Moscow",
+                            "ru": "Москва"
+                        },
+                        "date": {
+                            "en": "August, 27–31, 2019",
+                            "ru": "27–31 августа, 2019"
+                        }
+                    }            
+                ]
+            },
+            {
+                "show": true,
+                "SubsectionID": "grants",
+                "SubsectionTitle": {
+                    "en": "Grants",
+                    "ru": "Гранты"
+                },
+                "SubsectionContent": [
+                    {
+                        "show": true,
+                        "title": {
+                            "en": "RScF: 20-78-10055 “Categorization in visual perception and action formation”",
+                            "ru": "РНФ: 20-78-10055 «Категоризация в зрительном восприятии и формировании действий»"
+                        },
+                        "position": {
+                            "en": "Researcher",
+                            "ru": "исполнитель"
+                        },
+                        "date": "2020–2023"
+                    }
+                ]
+            }
+        ]
     },
     "Copyrights": {
         "show": true,
-        "subsections": true,
+        "subsections": false,
         "SectionID": "copyrights",
         "SectionType": "items",
         "SectionTitle": {
             "en": "Copyrights",
             "ru": "Авторские права"
         },
-        "SectionContent": []
+        "SectionContent": [
+            {
+                "show": true,
+                "title": {
+                    "en": "WLM 2023: Data Analysis & Machine Learning for Researchers",
+                    "ru": "WLM 2023: анализ данных и машинное обучение для исследователей"
+                },
+                "description": {
+                    "en": "course for students and young researchers",
+                    "ru": "учебный курс для студентов и молодых исследователей"
+                },
+                "author": {
+                    "en": "A. N. Angelgardt",
+                    "ru": "А. Н. Ангельгардт"
+                },
+                "year": "2023"
+            },
+            {
+                "show": true,
+                "title": {
+                    "en": "Data Analysis + R: World of Linear Models",
+                    "ru": "Анализ данных + R: мир линейных моделей"
+                },
+                "description": {
+                    "en": "course for students and young researchers",
+                    "ru": "учебный курс для студентов и молодых исследователей"
+                },
+                "author": {
+                    "en": "A. N. Angelgardt",
+                    "ru": "А. Н. Ангельгардт"
+                },
+                "year": "2021"
+            }
+        ]
     }
 }
