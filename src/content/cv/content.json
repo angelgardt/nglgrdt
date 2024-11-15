@@ -872,6 +872,7 @@
         "subsections": true,
         "SectionID": "interests",
         "SectionType": "bubbles",
+        "align": "center",
         "SectionTitle": {
             "en": "Interests",
             "ru": "Интересы"
@@ -2228,6 +2229,7 @@
         "subsections": false,
         "SectionID": "langs",
         "SectionType": "bubbles",
+        "align": "center",
         "SectionTitle": {
             "en": "Language Proficiency",
             "ru": "Владение языками"
@@ -2281,6 +2283,7 @@
         "subsections": true,
         "SectionID": "skills",
         "SectionType": "bubbles",
+        "align": "left",
         "SectionTitle": {
             "en": "Skills",
             "ru": "Навыки"
@@ -2377,6 +2380,7 @@
             },
             {
                 "show": true,
+                "subsections": true,
                 "SubsectionID": "analytics",
                 "SubsectionTitle": {
                     "en": "Data Analysis",
@@ -2537,6 +2541,7 @@
             },
             {
                 "show": true,
+                "subsections": true,
                 "SubsectionID": "software",
                 "SubsectionTitle": {
                     "en": "Software",
@@ -2801,7 +2806,7 @@
                             "en": "RScF: 20-78-10055 “Categorization in visual perception and action formation”",
                             "ru": "РНФ: 20-78-10055 «Категоризация в зрительном восприятии и формировании действий»"
                         },
-                        "position": {
+                        "role": {
                             "en": "Researcher",
                             "ru": "исполнитель"
                         },
