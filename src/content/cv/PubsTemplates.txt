@@ -1,0 +1,210 @@
+{
+    "type": "article",
+    "author": null,
+    "title": null,
+    "journal": null,
+    "year": null,
+    "volume": null,
+    "number": null,
+    "pages": null,
+    "month": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "book",
+    "author": null,
+    "title": null,
+    "publisher": null,
+    "year": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "address": null,
+    "edition": null,
+    "month": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "booklet",
+    "title": null,
+    "author": null,
+    "howpublished": null,
+    "address": null,
+    "month": null,
+    "year": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "conference",
+    "author": null,
+    "title": null,
+    "booktitle": null,
+    "year": null,
+    "editor": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "pages": null,
+    "month": null,
+    "address": null,
+    "organization": null,
+    "publisher": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "inbook",
+    "author": null,
+    "title": null,
+    "chapter": null,
+    "publisher": null,
+    "year": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "type": null,
+    "address": null,
+    "edition": null,
+    "month": null,
+    "pages": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "incollection",
+    "author": null,
+    "title": null,
+    "booktitle": null,
+    "publisher": null,
+    "year": null,
+    "editor": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "type": null,
+    "chapter": null,
+    "pages": null,
+    "edition": null,
+    "month": null,
+    "address": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "inproceedings",
+    "author": null,
+    "title": null,
+    "booktitle": null,
+    "year": null,
+    "editor": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "pages": null,
+    "month": null,
+    "address": null,
+    "organization": null,
+    "publisher": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "manual",
+    "title": null,
+    "author": null,
+    "organization": null,
+    "address": null,
+    "edition": null,
+    "month": null,
+    "year": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "mastersthesis",
+    "author": null,
+    "title": null,
+    "school": null,
+    "year": null,
+    "type": null,
+    "address": null,
+    "month": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "phdthesis",
+    "author": null,
+    "title": null,
+    "school": null,
+    "year": null,
+    "type": null,
+    "address": null,
+    "month": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "proceedings",
+    "title": null,
+    "year": null,
+    "booktitle": null,
+    "editor": null,
+    "volume": null,
+    "number": null,
+    "series": null,
+    "address": null,
+    "month": null,
+    "organization": null,
+    "publisher": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "techreport",
+    "author": null,
+    "title": null,
+    "institution": null,
+    "year": null,
+    "type": null,
+    "number": null,
+    "address": null,
+    "month": null,
+    "note": null,
+    "annote": null
+}
+
+{
+    "type": "unpublished",
+    "author": null,
+    "title": null,
+    "note": null,
+    "month": null,
+    "year": null,
+    "annote": null
+}
+
+{
+    "type": "misc",
+    "author": null,
+    "title": null,
+    "howpublished": null,
+    "month": null,
+    "year": null,
+    "note": null,
+    "annote": null
+}
