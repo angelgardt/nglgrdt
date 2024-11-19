@@ -159,7 +159,7 @@
                             "en": "course program development, teaching materials development, current and final assessment development, lecturing, practical training, team management",
                             "ru": "продуктовое и методчиеское проектирование курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, управление командой курса"
                         },
-                        "details": "null"
+                        "details": null
                     },     
                     {
                         "show": true,
@@ -909,7 +909,7 @@
                     },
                     {
                         "show": true,
-                        "en": "Trust on Artificial Intelligence",
+                        "en": "Trust in Artificial Intelligence",
                         "ru": "доверие к искуственному интеллекту"
                     },
                     {

@@ -70,7 +70,7 @@
             <span v-if="item.author">{{ item.author[lang] }}</span>
             <span v-if="item.author && item.org"> | </span>
             <span v-if="item.org">{{ item.org[lang] }}</span>
-            <span v-if="item.org && item.platform"> | </span>
+            <span v-if="(item.org || item.author) && item.platform"> | </span>
             <span v-if="item.platform">{{ item.platform[lang] }}</span>
         </div>
         <div class="subtitle"
@@ -94,14 +94,13 @@
         </div>
         <div class="item-details"
         v-if="item.details">
-            <p>{{ item.details.title }}</p>
-            <!-- <p>{{ item.details.title[lang] }}</p> -->
-            <p
+            <div>{{ item.details.title[lang] }}</div>
+            <div
             v-for="(line, idx) in item.details.content"
             :key="idx">
                 <span>{{ line[lang][0] }}</span>&nbsp;
                 <span>{{ line[lang][1] }}</span>
-            </p>
+            </div>
         </div>
     </div>
 </template>
