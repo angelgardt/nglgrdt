@@ -45,7 +45,7 @@
                 <div
                 v-if="section.SectionType === 'items'">
                   <ItemComp
-                  :items="section.SubsectionContent"
+                  :items="sub2section.SubsectionContent"
                   :lang="lang"
                   />
                 </div>
@@ -64,7 +64,7 @@
             <div
             v-if="section.SectionType === 'items'">
               <ItemComp
-              :items="section.SectionContent"
+              :items="subsection.SubsectionContent"
               :lang="lang"
               />
             </div>

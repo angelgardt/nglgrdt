@@ -11,10 +11,10 @@
         "SectionContent": [
             {
                 "show": true,
-                "SubsectionID": "research-experience",
+                "SubsectionID": "academic-experience",
                 "SubsectionTitle": {
-                    "en": "Research Experience",
-                    "ru": "Исследовательская деятельность"
+                    "en": "Academic and Research Experience",
+                    "ru": "Академическая и исследовательская деятельность"
                 },
                 "SubsectionContent": [
                     {
@@ -37,17 +37,7 @@
                             "ru": "планирование и проведение продуктовых исследований полного цикла, проведение кабинетных исследований, разработка гайдов глубинных и экспертных интервью, проведение и анализ данных интервью, сбор и анализ данных количественных опросов, сбор, предобработка и анализ данных официальной статистики, подготовка отчетов и презентаций"
                         },
                         "details": null
-                    }
-                ]
-            },
-            {
-                "show": true,
-                "SubsectionID": "academic-experience",
-                "SubsectionTitle": {
-                    "en": "Academic Experience",
-                    "ru": "Академическая деятельность"
-                },
-                "SubsectionContent": [
+                    },
                     {
                         "show": true,
                         "position": {
@@ -836,11 +826,11 @@
                             "en": "fall 2017 — fall 2019",
                             "ru": "осень 2017 — осень 2019"
                         },
-                        "details": null,
                         "description": {
                             "en": "event development (100–200 participants), creative team workflow control (about 10 people), scenario development, actors recruitment, actors training, team coordination during the event",
                             "ru": "разработка концепции выездного мероприятия (100–200 участников), руководство креативной командой (около 10 человек), написание сценария, подбор актёров, проведение актёрских тренингов, координация работы команды на мероприятии"
-                        }
+                        },
+                        "details": null
                     },
                     {
                         "show": true,
@@ -1796,7 +1786,7 @@
                             "en": "Daniel Lakens",
                             "ru": "Daniel Lakens"
                         },
-                        "uni": {
+                        "org": {
                             "en": "Eindhoven University of Technology",
                             "ru": "Eindhoven University of Technology"
                         },
@@ -1819,7 +1809,7 @@
                             "en": "Vladilen Minin",
                             "ru": "Владилен Минин"
                         },
-                        "uni": {
+                        "org": {
                             "en": "Result University",
                             "ru": "Result University"
                         },
@@ -1842,7 +1832,7 @@
                             "en": "Evgen Marfel",
                             "ru": "Евгений Марфель"
                         },
-                        "uni": null,
+                        "org": null,
                         "platform": {
                             "en": "Stepik",
                             "ru": "Stepik"
@@ -1862,7 +1852,7 @@
                             "en": "Mark Zaslavsky",
                             "ru": "Марк Заславский"
                         },
-                        "uni": null,
+                        "org": null,
                         "platform": {
                             "en": "Stepik",
                             "ru": "Stepik"
@@ -1882,7 +1872,7 @@
                             "en": "Anatoliy Karpov, Vladislav Grozin, Anton Antonov",
                             "ru": "Анатолий Карпов, Владислав Грозин, Антон Антонов"
                         },
-                        "uni": {
+                        "org": {
                             "en": "Bioinformatics Institute",
                             "ru": "Институт биоинформатики"
                         },
@@ -1905,7 +1895,7 @@
                             "en": "Anatoliy Karpov, Ivan Ivanchei",
                             "ru": "Анатолий Карпов, Иван Иванчей"
                         },
-                        "uni": {
+                        "org": {
                             "en": "Bioinformatics Institute",
                             "ru": "Институт биоинформатики"
                         },
@@ -1928,7 +1918,7 @@
                             "en": "Anton Antonov",
                             "ru": "Антон Антонов"
                         },
-                        "uni": {
+                        "org": {
                             "en": "Bioinformatics Institute",
                             "ru": "Институт биоинформатики"
                         },
@@ -1951,7 +1941,7 @@
                             "en": "Danil Fedorovykh",
                             "ru": "Данил Фёдоровых"
                         },
-                        "uni": {
+                        "org": {
                             "en": "HSE University",
                             "ru": "НИУ ВШЭ"
                             
@@ -2710,7 +2700,7 @@
                 "show": true,
                 "SubsectionID": "confs",
                 "SubsectionTitle": {
-                    "en": "Conterences",
+                    "en": "Conferences",
                     "ru": "Конференции"
                 },
                 "SubsectionContent": [
@@ -2806,11 +2796,14 @@
                             "en": "RScF: 20-78-10055 “Categorization in visual perception and action formation”",
                             "ru": "РНФ: 20-78-10055 «Категоризация в зрительном восприятии и формировании действий»"
                         },
-                        "role": {
+                        "subtitle": {
                             "en": "Researcher",
                             "ru": "исполнитель"
                         },
-                        "date": "2020–2023"
+                        "date": {
+                            "en": "2020–2023",
+                            "ru": "2020–2023"
+                        }
                     }
                 ]
             }
