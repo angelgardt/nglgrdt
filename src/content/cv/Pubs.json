@@ -1,0 +1,92 @@
+{
+    "Pubs": [
+        {
+            "type": "article",
+            "author": {
+                "en": "Ангельгардт А. Н., Ануфриева А. А., Сапронов Ф. А., Горбунова Е. С.",
+                "ru": "Angelgardt, A., Anufrieva A., Sapronov F., Gorbunova E."
+            },
+            "title":  {
+                "en": "Neurophysiological Correlates of the Visual Search Process: Does Categorization Matter?",
+                "ru": "Нейрофизиологические корреляты процесса зрительного поиска: важна ли категория?"
+            },
+            "journal":  {
+                "en": "Psychology. Journal of HSE University",
+                "ru": "Психология. Журнал Высшей школы экономики"
+            },
+            "year":  {
+                "en": "2024",
+                "ru": "2024"
+            },
+            "volume":  {
+                "en": 21,
+                "ru": 21
+            },
+            "number":  {
+                "en": 4,
+                "ru": 4
+            },
+            "pages":  {
+                "en": "634–654",
+                "ru": "634–654"
+            },
+            "month":  {
+                "en": null,
+                "ru": null
+            },
+            "note":  {
+                "en": null,
+                "ru": null
+            },
+            "annote":  {
+                "en": null,
+                "ru": null
+            },
+            "doi": "10.17323/1813-8918-2024-4-634-654"
+        },
+        {
+            "type": "article",
+            "author": {
+                "en": "Angelgardt A., Makarov I., Gorbunova E.",
+                "ru": "Ангельгардт А. Н., Макаров И. М., Горбунова Е. С."
+            },
+            "title":  {
+                "en": "Role of calegory level in visual search.",
+                "ru": "Роль уровня категории при решении задачи гибридного зрительного поиска."
+            },
+            "journal":  {
+                "en": "Psychology Issues (Russia)",
+                "ru": "Вопросы психологии"
+            },
+            "year":  {
+                "en": "2021",
+                "ru": "2021"
+            },
+            "volume":  {
+                "en": 2,
+                "ru": 2
+            },
+            "number":  {
+                "en": null,
+                "ru": null
+            },
+            "pages":  {
+                "en": "148-158",
+                "ru": "148-158"
+            },
+            "month":  {
+                "en": null,
+                "ru": null
+            },
+            "note":  {
+                "en": null,
+                "ru": null
+            },
+            "annote":  {
+                "en": null,
+                "ru": null
+            },
+            "doi": null
+        }
+    ]
+}

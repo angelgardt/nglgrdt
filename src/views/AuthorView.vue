@@ -34,6 +34,17 @@
           <h3>{{ subsection.SubsectionTitle[lang] }}</h3>
 
           <div
+          v-if="subsection.SubsectionID == 'pubs'">
+            <div
+            v-for="(pub, idx) in Pubs"
+            :key="idx">
+              <PubComp
+              :pub="pub"
+              :lang="lang"/>
+            </div>
+          </div>
+
+          <div
           v-if="subsection.subsections">
             <div class="grid-container">
               <div
@@ -106,8 +117,10 @@
 import BasicSection from '@/components/BasicSection.vue'
 import BubbleComp from '@/components/BubbleComp.vue'
 import ItemComp from '@/components/ItemComp.vue'
+import PubComp from '@/components/PubComp.vue'
 import BasicInfoJSON from '@/content/cv/BasicInfo.json'
 import ContentJSON from '@/content/cv/Content.json'
+import PubsJSON from '@/content/cv/Pubs.json'
 
 export default {
   name: 'cvView',
@@ -117,13 +130,15 @@ export default {
   data () {
     return {
       BasicInfo: BasicInfoJSON,
-      Content: ContentJSON
+      Content: ContentJSON,
+      Pubs: PubsJSON.Pubs
     }
   },
   components: {
     BasicSection,
     BubbleComp,
-    ItemComp
+    ItemComp,
+    PubComp
   }
 }
 </script>
