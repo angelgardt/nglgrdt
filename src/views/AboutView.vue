@@ -1,7 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section class="section container">
+    <h1>Extended CV</h1>
+    <p>контент в разработке</p>
+  </section>
 </template>
 
 <style>
