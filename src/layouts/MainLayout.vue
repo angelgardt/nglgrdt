@@ -41,4 +41,60 @@ const { tm } = useI18n()
 const navLabels = computed(() => tm('nav'))
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  nav {
+    display: flex;
+    align-items: center;
+    .logo {
+      background-color: red;
+      flex-shrink: 0;
+    }
+    ul.nav-links {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      max-width: 1280px;
+      margin: 0 auto;
+      list-style-type: none;
+      li {
+        display: inline;
+        background-color: yellow;
+        vertical-align: middle;
+        a {
+          padding: 1em;
+          text-decoration: none;
+        }
+      }
+    }
+    .lang-switcher {
+      margin-left: auto;
+      flex-shrink: 0;
+      button {
+        background-color: green;
+        color: white;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+main {
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+}
+</style>
