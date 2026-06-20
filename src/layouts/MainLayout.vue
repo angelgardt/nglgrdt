@@ -8,6 +8,7 @@
           <li><RouterLink to="/projects">Проекты</RouterLink></li>
           <li><RouterLink to="/publications">Публикации</RouterLink></li>
         </ul>
+        <!--<LangSwitcher />-->
       </nav>
     </header>
 
@@ -24,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import LangSwitcher from '@/components/LangSwitcher.vue'
 import { computed } from 'vue'
 
 const currentYear = computed(() => new Date().getFullYear())

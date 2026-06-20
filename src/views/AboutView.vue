@@ -1,8 +1,7 @@
 <template>
   <section class="section container">
     <h1>Extended CV</h1>
-    <p>контент в разработке</p>
-    <EducationView></EducationView>
+    <EducationView />
   </section>
 </template>
 

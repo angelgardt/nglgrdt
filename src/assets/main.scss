@@ -1,12 +1,36 @@
-@import './base.css';
+// @import './base.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  // background-color: black;
+  // margin: 0 auto;
+  // padding: 2rem;
   font-weight: normal;
 }
 
+header {
+  nav {
+    display: flex;
+    ul.nav-links {
+      list-style-type: none;
+      li {
+        display: inline;
+      }
+    }
+  }
+}
+
+main {
+  // background-color: gray;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+/*
 a,
 .green {
   text-decoration: none;
@@ -33,3 +57,5 @@ a,
     padding: 0 2rem;
   }
 }
+
+*/
