@@ -3,8 +3,11 @@
     <p class="years">{{ edu.start }}–{{ edu.end }}, {{ edu.level }}</p>
     <p class="university">{{ edu.university }}</p>
     <p>
-      <span v-if="edu.faculty" class="faculty">{{ edu.faculty }}</span>
       <span v-if="edu.institute" class="faculty">{{ edu.institute }}</span>
+      <span v-if="edu.institute && edu.faculty">, </span>
+      <span v-if="edu.faculty" class="faculty">{{ edu.faculty }}</span>
+      <span v-if="edu.faculty && edu.department">, </span>
+      <span v-if="edu.department" class="department">{{ edu.department }}</span>
     </p>
     <p v-if="edu.program" class="program">
       <span>{{ labs.program }}&nbsp;</span>
@@ -17,6 +20,10 @@
     <p class="spec">
       <span>{{ labs.spec }}&nbsp;</span>
       <span>{{ edu.spec }}</span>
+      <span v-if="edu.qualification" class="qualification">
+        <span>, {{ labs.qualification }}&nbsp;</span>
+        <span>{{ edu.qualification }}</span>
+      </span>
     </p>
     <div v-if="edu.minor" class="minor">
       <p>{{ labs.minor }}</p>
@@ -89,8 +96,9 @@ interface Education {
   start: string
   end: string
   university: string
-  faculty?: string
   institute?: string
+  faculty?: string
+  department?: string
   program?: string
   track?: string
   spec: string

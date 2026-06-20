@@ -8,10 +8,12 @@ import enCommon from './locales/en/common.json'
 import enAbout from './locales/en/about/common.json'
 import enEducation from './locales/en/about/education.json'
 
+const savedLocale = localStorage.getItem('locale') || 'ru'
+
 const i18n = createI18n({
   legacy: false,
-  locale: 'ru',
-  fallbackLocale: 'en',
+  locale: savedLocale,
+  fallbackLocale: 'ru',
   messages: {
     ru: {
       ...ruCommon,
