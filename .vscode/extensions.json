@@ -1,9 +1,8 @@
 {
   "recommendations": [
-    "Vue.volar",
-    "dbaeumer.vscode-eslint",
+    "astro-build.astro-vscode",
+    "redhat.vscode-yaml",
     "EditorConfig.EditorConfig",
-    "oxc.oxc-vscode",
     "esbenp.prettier-vscode"
   ]
 }

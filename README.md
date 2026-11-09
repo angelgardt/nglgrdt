@@ -1,48 +1,44 @@
 # nglgrdt
 
-This template should help get you started developing with Vue 3 in Vite.
+CV-сайт Антона Ангельгардта. Статический сайт на [Astro](https://astro.build), публикуется на <https://angelgardt.github.io/nglgrdt/>.
 
-## Recommended IDE Setup
+Сейчас на сайте заглушка: идёт итерация 0 из [ТЗ](docs/spec.md).
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Быстрый старт
 
-## Recommended Browser Setup
+Нужен Node.js 24 (версия записана в `.nvmrc`).
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+git clone git@github.com:angelgardt/nglgrdt.git
+cd nglgrdt
+nvm use
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Сайт откроется на <http://localhost:4321/nglgrdt/>.
 
-```sh
-npm run build
-```
+## Команды
 
-### Lint with [ESLint](https://eslint.org/)
+| Команда           | Что делает                         |
+| ----------------- | ---------------------------------- |
+| `npm run dev`     | локальный сервер с автообновлением |
+| `npm run check`   | проверка типов                     |
+| `npm test`        | unit-тесты                         |
+| `npm run build`   | сборка в папку `dist/`             |
+| `npm run preview` | просмотр собранного сайта          |
+| `npm run format`  | форматирование кода (Prettier)     |
 
-```sh
-npm run lint
-```
+Перед коммитом: `npm run check && npm test && npm run build`.
+
+## Публикация
+
+Push в ветку `master` запускает GitHub Actions: проверка, тесты, сборка и публикация на GitHub Pages. В pull request выполняются те же проверки, но без публикации. Работа идёт в ветках, в `master` — только через pull request.
+
+## Документы
+
+- [docs/spec.md](docs/spec.md) — ТЗ и план итераций
+- [docs/decisions.md](docs/decisions.md) — журнал решений
+- [CLAUDE.md](CLAUDE.md) — правила проекта для Claude Code
+
+Остальная документация появится в итерации 4.
