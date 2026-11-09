@@ -1,0 +1,10 @@
+dist
+.astro
+node_modules
+package-lock.json
+
+# Источники миграции хранятся без изменений
+migration/sources
+
+# ТЗ согласовано владельцем, автоформатирование его не трогает
+docs/spec.md
