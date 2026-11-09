@@ -1,39 +1,23 @@
-# Logs
-logs
+# Зависимости и результаты сборки
+node_modules
+dist
+.astro
+coverage
+
+# Логи
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
+# Локальные настройки и системные файлы
 *.local
+.env
+.env.*
+.DS_Store
 
-# Editor directories and files
+# Редакторы
 .vscode/*
 !.vscode/extensions.json
 .idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.sw?
 
 *.tsbuildinfo
-
-.eslintcache
-
-# Cypress
-/cypress/videos/
-/cypress/screenshots/
-
-# Vitest
-__screenshots__/
-
-# Vite
-*.timestamp-*-*.mjs
