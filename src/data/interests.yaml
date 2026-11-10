@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=./schemas/interests.schema.json
+# Интересы по группам.
+
+groups:
+  - id: science-education
+    title: { ru: "Наука и образование", en: "Science & Education" }
+    items:
+      - { ru: "анализ данных", en: "Data Analysis" }
+      - { ru: "визуализация данных", en: "Data Visualization" }
+      - { ru: "анализ данных в психологии", en: "Data Analysis in Psychology" }
+      - { ru: "байесовские методы анализа данных", en: "Bayesian Data Analysis" }
+      - { ru: "искусственный интеллект", en: "Artificial Intelligence" }
+      - { ru: "машинное обучение", en: "Machine Learning" }
+      - { ru: "нейронные сети", en: "Neural Networks" }
+      - { ru: "психолингвистика", en: "Psycholinguistics" }
+      - { ru: "нейролингвистика", en: "Neurolinguistics" }
+      - { ru: "усвоение второго языка", en: "Second Language Acquisition" }
+      - ru: "методика преподавания иностранных языков"
+        en: "Foreign Language Teaching Methodology"
+      - { ru: "лингвистическая типология", en: "Linguistic Typology" }
+      - { ru: "фонетика", en: "Phonetics" }
+      - { ru: "фонология", en: "Phonology" }
+      - { ru: "сравнительная фонетика", en: "Comparative Phonetics" }
+      - { ru: "коррекция акцента", en: "Accent Reduction" }
+      - { ru: "психология человеко-цифрового взаимодействия" }
+      - { ru: "психометрика", en: "Psychometrics" }
+      - { ru: "тестирование в образовании", en: "Educational Testing" }
+      - { ru: "дизайн учебных курсов", en: "Instructional Design" }
+      - { ru: "образовательные технологии", en: "EdTech" }
+      - ru: "искусственный интеллект в образовании"
+        en: "Artificial Intelligence in Education"
+  - id: art-design
+    title: { ru: "Искусство и дизайн", en: "Art & Design" }
+    items:
+      - { ru: "коммуникационный дизайн", en: "Communication Design" }
+      - { ru: "графический дизайн", en: "Graphic Design" }
+      - { ru: "типографика", en: "Typography" }
+      - { ru: "каллиграфия", en: "Calligraphy" }
+      - { ru: "леттеринг", en: "Lettering" }
+      - { ru: "алфавиты", en: "Alphabets" }
+      - { ru: "история письменности", en: "History of Writing" }

@@ -1,0 +1,129 @@
+# yaml-language-server: $schema=./schemas/achievements.schema.json
+# Награды, статусы, благодарности.
+
+- id: hse-psy-academic-council
+  title: { ru: "Член академического совета образовательной прогаммы бакалавриата «Психология»" }
+  context: { ru: "департамент психологии" }
+  organization: { ru: "Национальный исследовательский университет «Высшая школа экономики»" }
+  start: "2022"
+  end: "2023"
+  tags: [teaching]
+
+- id: hse-psy-gratitude-2022
+  title:
+    ru: "Благодарность за успешную научно-образовательную деятельность и вклад в работу со школьниками и абитуриентами"
+  context: { ru: "департамент психологии" }
+  organization: { ru: "Национальный исследовательский университет «Высшая школа экономики»" }
+  start: "2022-06"
+  tags: [teaching]
+
+- id: hse-talent-pool-2022
+  title:
+    ru: "Группа высокого профессионального потенциала (кадровый резерв НИУ ВШЭ)"
+    en: "Young Faculty Support Program (Group of Young Academic Professionals)"
+  context: { ru: "Категория «Новые исследователи»", en: "Category “New Researchers”" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2022"
+
+- id: hse-best-research-paper-2021
+  title:
+    ru: "Победитель в номинации «Лучшая научно-исследовательская работа по психологии для студентов магистратуры и выпускников 2021 года»"
+    en: "Winner for Best Psychology Research Paper for Masters and Graduates"
+  context:
+    ru: "конкурс научно-исследовательских работ студентов"
+    en: "Student Research Competition"
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2021-12"
+  tags: [psychometrics]
+
+- id: hse-psy-gratitude-2021
+  title:
+    ru: "Благодарность за активное участие в студенческой и научно-просветительской деятельности департамента психологии"
+    en: "Gratitude for participation in scientific and educational activities"
+  context:
+    ru: "факультет социальных наук, департамент психологии"
+    en: "Faculty of Social Sciences, School of Psychology"
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2021-05"
+
+- id: psyhse-ggplot2-gratitude-2021
+  title:
+    ru: "Благодарность за проведение мастер-класса «ggplot2: от базового слоя до публикабельной визуализации»"
+    en: "Gratitude for Master Class “ggplot2: from basic layer to publishable visualization”"
+  context: { ru: "Пси-Вышка: международная конференция молодых учёных" }
+  organization:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов и департамент психологии, Национальный исследовательский университет «Высшая школа экономики»"
+  start: "2021-05"
+  tags: [stats, teaching]
+
+- id: hse-student-council-gratitude-2018
+  title:
+    ru: "Благодарность за активное участие во внеучебной жизни университета"
+    en: "Gratitude for extracurricular activity"
+  context: { ru: "Студенческий совет", en: "Student Council" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2018"
+
+- id: olympiad-chemistry-final-2014
+  title:
+    ru: "Заключительный этап Всероссийской олимпиады школьников по химии"
+    en: "Final Stage of National Russian Chemistry Olympiad"
+  context: { ru: "участник", en: "Participant" }
+  start: "2014"
+
+- id: olympiad-chemistry-regional-2014
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по химии"
+    en: "Regional Stage of National Russian Chemistry Olympiad"
+  context: { ru: "призёр", en: "Prizer" }
+  start: "2014"
+
+- id: olympiad-biology-regional-2014
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по биологии"
+    en: "Regional Stage of National Russian Biology Olympiad"
+  context: { ru: "победитель", en: "Winner" }
+  start: "2014"
+
+- id: olympiad-biology-final-2013
+  title:
+    ru: "Заключительный этап Всероссийской олимпиады школьников по биологии"
+    en: "Final Stage of National Russian Biology Olympiad"
+  context: { ru: "участник", en: "Participant" }
+  start: "2013"
+
+- id: olympiad-biology-regional-2013
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по биологии"
+    en: "Regional Stage of National Russian Biology Olympiad"
+  context: { ru: "победитель", en: "Winner" }
+  start: "2013"
+
+- id: olympiad-chemistry-regional-2013
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по химии"
+    en: "Regional Stage of National Russian Chemistry Olympiad"
+  context: { ru: "призёр", en: "Prizer" }
+  start: "2013"
+
+- id: olympiad-biology-regional-2012
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по биологии"
+    en: "Regional Stage of National Russian Biology Olympiad"
+  context: { ru: "призёр", en: "Prizer" }
+  start: "2012"
+
+- id: olympiad-chemistry-regional-2012
+  title:
+    ru: "Региональный этап Всероссийской олимпиады школьников по химии"
+    en: "Regional Stage of National Russian Chemistry Olympiad"
+  context: { ru: "победитель", en: "Winner" }
+  start: "2012"

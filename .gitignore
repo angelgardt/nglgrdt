@@ -21,3 +21,6 @@ npm-debug.log*
 *.sw?
 
 *.tsbuildinfo
+
+# Промежуточный файл скрипта миграции, входит в migration/REPORT.md
+migration/generated.md

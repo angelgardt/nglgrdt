@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=./schemas/grants.schema.json
+# Гранты.
+
+- id: rsf-20-78-10055
+  funder: { ru: "РНФ", en: "RScF" }
+  number: "20-78-10055"
+  title:
+    ru: "«Категоризация в зрительном восприятии и формировании действий»"
+    en: "“Categorization in visual perception and action formation”"
+  role: { ru: "Исполнитель", en: "Researcher" }
+  start: "2020"
+  end: "2023"
+  tags: [cognitive]

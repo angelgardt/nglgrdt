@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=./schemas/publications.schema.json
+# Публикации.
+
+- id: visual-search-erp-2023
+  authors: ["Ангельгардт А. Н.", "Ануфриева А. А.", "Сапронов Ф. А.", "Горбунова Е. С."]
+  title: "Нейрофизиологические корреляты процесса зрительного поиска: важна ли категория?"
+  venue: "Психология. Журнал Высшей школы экономики"
+  year: 2023
+  status: in-press
+  tags: [cognitive]
+
+- id: trust-assessment-tool-2021
+  authors: ["Angelgardt A.", "Gorbunova E. S.", "Chumakova M."]
+  title: "An Assessment of Trust in Artificial Intelligent Agents: Tool Development"
+  venue: "NRU Higher School of Economics. Series PSY “Psychology”"
+  year: 2021
+  status: published
+  tags: [psychometrics]
+
+- id: hybrid-search-category-2021
+  authors: ["Ангельгардт А. Н.", "Макаров И. М.", "Горбунова Е. С."]
+  title: "Роль уровня категории при решении задачи гибридного зрительного поиска"
+  venue: "Вопросы психологии"
+  year: 2021
+  issue: "2"
+  pages: "148-158"
+  status: published
+  tags: [cognitive]

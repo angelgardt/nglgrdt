@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=./schemas/languages.schema.json
+# Языки.
+
+- id: russian
+  name: { ru: "русский", en: "Russian" }
+  level: { ru: "родной", en: "native" }
+
+- id: english
+  name: { ru: "английский", en: "English" }
+  level: { ru: "B2", en: "B2" }
+
+- id: french
+  name: { ru: "французский", en: "French" }
+  level: { ru: "A2", en: "A2" }
+
+- id: ukrainian
+  name: { ru: "украинский", en: "Ukranian" }
+  level: { ru: "B1", en: "B1" }
+
+- id: turkish
+  name: { ru: "турецкий", en: "Turkish" }
+  level: { ru: "A2", en: "A2" }
+
+- id: russian-as-foreign
+  name: { ru: "русский как иностранный", en: "Russian as a Foreign Language" }
+
+- id: russian-sign
+  name: { ru: "русский жестовый", en: "Russian Sign Language" }
+  level: { ru: "начальный", en: "beginner" }
+
+- id: latin
+  name: { ru: "латинский", en: "Latin" }
+  level: { ru: "базовые знания", en: "basic knowledge" }

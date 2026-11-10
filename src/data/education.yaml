@@ -1,0 +1,111 @@
+# yaml-language-server: $schema=./schemas/education.schema.json
+# Основное образование.
+
+- id: hse-ling
+  level: master
+  start: "2021"
+  end: "2023"
+  university:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  faculty: { ru: "факультет гуманитарных наук", en: "Faculty of Humanities" }
+  department: { ru: "школа лингвистики" }
+  program:
+    ru: "образовательная программа «Русский язык как иностранный во взаимодействии языков и культур» (магистратура)"
+    en: "“Russian as a Foreign Language in Cross-Linguistic and Cross-Cultural Perspective” program (Master's Degree)"
+  specialty:
+    ru: "специальность 45.04.03 «Фундаментальная и прикладная лингвистика»"
+    en: "Field of Study 45.04.03 “Fundamental and Applied Linguistics”"
+  qualification: { ru: "«Магистр»" }
+  gpa: { ru: "8.44 / 10", en: "8.44 / 10" }
+  thesis:
+    title:
+      ru: "Разработка приложения на базе распознавания речи для работы над произношением у изучающих РКИ"
+      en: "Development of Speech Recognition Based Application for RFL Students"
+    supervisor:
+      name: { ru: "Инна Арнольдовна Зибер", en: "Inna Sieber" }
+      title:
+        ru: "кандидат филологических наук, доцент Школы лингвистики НИУ ВШЭ"
+        en: "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
+    advisor:
+      name: { ru: "Георгий Алексеевич Мороз", en: "George Moroz" }
+      title:
+        ru: "кандидат филологических наук, доцент Школы лингвистики НИУ ВШЭ"
+        en: "Candidate of Sciences (PhD), Associate Professor, School of Linguistics, HSE University"
+    reviewer:
+      name: { ru: "Ольга Витальевна Буйволова", en: "Olga Buivolova" }
+      title:
+        ru: "кандидат филологических наук, научный сотрудник Центра языка и мозга НИУ ВШЭ"
+        en: "Candidate of Sciences (PhD), Research Fellow, Center for Language and Brain, HSE University"
+    grades:
+      supervisor: { ru: "10 / A+ / “отлично”", en: "10 / A+ / “Excellent”" }
+      reviewer: { ru: "10 / A+ / “отлично”", en: "10 / A+ / “Excellent”" }
+      commission: { ru: "10 / A+ / “отлично”", en: "10 / A+ / “Excellent”" }
+  tags: [linguistics]
+  notes: "На старом сайте GPA был скрыт. Расхождение источников: на старом сайте GPA 8.44 / 10, в прототипе (migration/sources/ru/education.json) — 8.66/10. Записано значение со старого сайта."
+
+- id: hse-psy
+  level: bachelor
+  start: "2017"
+  end: "2021"
+  university:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  faculty: { ru: "факультет социальных наук", en: "Faculty of Social Sciences" }
+  department: { ru: "департамент психологии" }
+  program:
+    ru: "образовательная программа «Психология» (бакалавриат)"
+    en: "“Psychology” program (Bachelor's Degree)"
+  track:
+    ru: "треки «Когнитивная психология и психофизиология» и «Организационная психология»"
+    en: "“Cognitive Psychology & Psychophysiology” and “Organizational Psychology” tracks"
+  specialty:
+    ru: "специальность 37.03.01 «Психология»"
+    en: "Field of Study 37.03.01 “Psychology”"
+  qualification: { ru: "«Бакалавр»" }
+  gpa: { ru: "8.44 / 10", en: "8.44 / 10" }
+  minor:
+    institute: { ru: "Институт образования НИУ ВШЭ", en: "HSE Institute of Education" }
+    program: { ru: "«Преподавание в цифровую эпоху»", en: "“Teaching in Digital Age”" }
+    specialty:
+      ru: "специальность 44.04.01 «Педагогическое образование»"
+      en: "Field of Study 44.04.01 “Pedagogy”"
+  thesis:
+    title:
+      ru: "«Процедура оценки доверия к техническим интеллектуальным системам: разработка инструмента»"
+      en: "“Assessment of Trust in Artificial Intelligent Agents: Tool Development”"
+    supervisor:
+      name: { ru: "Елена Сергеевна Горбунова", en: "Elena Gorbunova" }
+      title:
+        ru: "кандидат психологических наук, доцент департамента психологии НИУ ВШЭ"
+        en: "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
+    advisor:
+      name: { ru: "Мария Алексеевна Чумакова", en: "Maria Chumakova" }
+      title:
+        ru: "кандидат психологических наук, доцент департамента психологии НИУ ВШЭ"
+        en: "Candidate of Sciences (PhD), Associate Professor, School of Psychology, HSE University"
+    reviewer:
+      name: { ru: "Александр Николаевич Поддьяков", en: "Alexander Poddiakov" }
+      title:
+        ru: "доктор психологических наук, ординарный профессор департамента психологии НИУ ВШЭ"
+        en: "Doctor of Sciences, Tenured Professor, School of Psychology, HSE University"
+    grades:
+      supervisor: { ru: "10 / A+ / «отлично»", en: "10 / A+ / “Excellent”" }
+      reviewer: { ru: "10 / A+ / «отлично»", en: "10 / A+ / “Excellent”" }
+      commission: { ru: "10 / A+ / “отлично”", en: "10 / A+ / “Excellent”" }
+
+- id: pspbgmu-med
+  level: specialist
+  start: "2014"
+  end: "2017"
+  university:
+    ru: "Первый Санкт-Петербургский государственный университет им. акад. И. П. Павлова"
+    en: "Pavlov First Saint Petersburg State Medical University"
+  faculty:
+    ru: "лечебный факультет (специалитет)"
+    en: "Faculty of Medicine (Specialist's Degree)"
+  track: { ru: "отделение спортивной медицины", en: "Sports Medicine Department" }
+  specialty:
+    ru: "специальность 31.05.01 «Лечебное дело»"
+    en: "Field of Study 31.05.01 “General Medicine”"
+  notes: "В прототипе уровень указан как «специалитет [не окончен]»; на старом сайте этой пометки нет."

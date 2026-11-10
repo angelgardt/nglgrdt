@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=./schemas/contacts.schema.json
+# Каналы связи. На сайте показываются только записи с visible: true.
+
+- id: email
+  kind: email
+  label: "anton.angelgardt@gmail.com"
+  url: "mailto:anton.angelgardt@gmail.com"
+  visible: true
+  primary: true
+
+- id: phone
+  kind: phone
+  url: "tel:+79251731029"
+  visible: false
+  notes: "На старом сайте значок был скрыт"
+
+- id: telegram
+  kind: telegram
+  url: "https://t.me/angelgardt"
+  visible: true
+
+- id: whatsapp
+  kind: whatsapp
+  url: "https://api.whatsapp.com/send?phone=79998651215"
+  visible: false
+
+- id: linkedin
+  kind: linkedin
+  url: "https://www.linkedin.com/in/angelgardt/"
+  visible: true
+
+- id: facebook
+  kind: facebook
+  url: "https://www.facebook.com/a.n.angelgardt"
+  visible: false
+
+- id: skype
+  kind: skype
+  url: "https://join.skype.com/invite/lV0e78KJP8VF"
+  visible: false
+
+- id: twitter
+  kind: twitter
+  url: "https://twitter.com/AAngelgardt"
+  visible: false
+  notes: "На старом сайте значок был скрыт"
+
+- id: instagram
+  kind: instagram
+  url: "https://www.instagram.com/an.gelgardt/"
+  visible: false

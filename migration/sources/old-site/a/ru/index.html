@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+	<title>A. N. Angelgardt | Главная</title>
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="shortcut icon" href="../imgs/icons/favicon.ico">
+	<link rel="icon" href="../imgs/icons/favicon.ico">
+</head>
+<body>
+	<header>
+		angelgardt.github.io
+	</header>
+
+
+	<div class="menu main_menu">
+		<div class="menu_item" onclick="location.href='index.html'">
+			<a href="index.html">домой</a>
+		</div>
+		<div class="menu_item" onclick="location.href='angelgardt.html'">
+			<a href="angelgardt.html">автор</a>
+		</div>
+
+		<div class="lang_switcher">
+			<select onchange="location.href=value">
+				<option value="../en/index.html">EN</option>
+				<option value="#" selected>RU</option>
+				<option value="../fr/index.html" hidden>FR</option>
+				<option value="../tr/index.html" hidden>TR</option>
+			</select>
+		</div>
+	</div>
+
+
+
+	<div class="content">
+
+		<h2 class="index">Научно-исследовательский семинар: Анализ и визуализация данных в психологии</h2>
+		<div class="description">Департамент психологии, НИУ ВШЭ, 2020</div>
+
+		<div class="block_content">
+			<p><a href="/mk_ggplot2/mk_ggplot2.html">Мастер-класс «ggplot2»</a></p>
+		</div>
+
+		<h2 class="index">Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»</h2>
+		<div class="description">HSE UX LAB, НИУ ВШЭ, 2020</div>
+
+		<div class="block_content">
+			<p><a href="/hseuxlab-andan/matrices.html">Матрицы</a></p>
+			<p><a href="/hseuxlab-andan/glm_and_binomial.html">GLM и биномиальная регрессия</a></p>
+			<p><a href="/hseuxlab-andan/logit_transformation_proof.html">Линеаризация логистической кривой с помощю logit-преобразования</a></p>
+			<p><a href="/hseuxlab-andan/mixed_models.html">GLMM. Модели со смешанными эффектами</a></p>
+			<p><a href="/hseuxlab-andan/PCA_FA.html">Факторный анализ и анализ главных компонент</a></p>
+		</div>
+
+		<h2 class="index">Курс «Анализ данных + R: мир линейных моделей»</h2>
+		<div class="description">HSE UX LAB, НИУ ВШЭ, 2021</div>
+
+		<div class="block_content">
+			<p><a href="/hseuxlab-wlm2021/book/">Книга</a></p>
+			<p><a href="https://youtube.com/playlist?list=PLBQV9MNN6NoGlIpHdbwAJfA-ygUbpDT3Q" target="_blank">Лекции</a></p>
+			<p><a href="/hseuxlab-wlm2021/practice/">Практика</a></p>
+		</div>
+
+		<h2 class="index">Пси-Вышка: Актуальные проблемы психологической науки</h2>
+		<div class="description">Международная конференция молодых учёных, HSE UX LAB & Департамент психологии, НИУ ВШЭ, 2021</div>
+
+		<div class="block_content">
+			<p><a href="/psyhseconf/ggplot-psy-hse.html">Мастер-класс «ggplo2: от базового слоя до публикабельной визуализации»</a></p>
+		</div>
+		
+		<h2 class="index">Летняя школа «Прикладная когнитивная наука»</h2>
+		<div class="description">Летняя школа, HSE UX LAB, НИУ ВШЭ, 2022</div>
+
+		<div class="block_content">
+			<p><a href="/appcogsci2022/ggplot2.html">Мастер-класс «Визуализация в ggplo2: кодим красивое»</a></p>
+		</div>
+		
+		<h2 class="index">Летняя когнитивная школа памяти Карла Дункера</h2>
+		<div class="description">ИОН РАНХиГС, 2022</div>
+
+		<div class="block_content">
+			<p><a href="/duncker_2022_rmd/duncker_2022_rmd.html">Воркшоп «RMarkdown: верстаем красивое»</a></p>
+		</div>
+
+
+	</div>
+
+	<footer>
+		<div>
+			<p><a href="index.html">Anton Angelgardt</a></p>
+			<p><a href="mailto:anton.angelgardt@gmail.com">anton.angelgardt@gmail.com</a></p>
+			<p class="description">
+				<a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat Font Family</a> 
+				(<a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL" target="_blank">Open Font License</a>)</p>
+			<p>2020–<span id="current_year"></span></p>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+      var today = new Date();
+
+      var current_year = document.getElementById('current_year');
+
+      current_year.innerHTML = today.getFullYear();
+    </script>
+
+</body>
+</html> 

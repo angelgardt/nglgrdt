@@ -1,0 +1,395 @@
+# yaml-language-server: $schema=./schemas/positions.schema.json
+# Места работы и роли. Курсы позиции лежат в courses.yaml.
+
+- id: hse-psy-teacher
+  kind: teaching
+  role: { ru: "преподаватель", en: "Teacher" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  tags: [teaching]
+
+- id: ranepa-teacher
+  kind: teaching
+  role: { ru: "преподаватель" }
+  organization: { ru: "РАНХиГС" }
+  unit: { ru: "Институт общественных наук" }
+  tags: [teaching]
+
+- id: middlebury-tutor
+  kind: teaching
+  role: { ru: "онлайн-тьютор", en: "Online Tutor" }
+  organization:
+    ru: "Middlebury Institute of International Studies at Monterey, CA"
+    en: "Middlebury Institute of International Studies at Monterey, CA"
+  tags: [teaching, linguistics]
+  start: "2021-10"
+  end: "present"
+  notes: "На старом сайте описание было скрыто: «индивидуальные консультации по грамматике русского языка, индивидуальная работа с произношением»"
+
+- id: hse-psy-teaching-assistant
+  kind: teaching
+  role: { ru: "учебный ассистент", en: "Teaching Assistant" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  tags: [teaching]
+
+- id: hse-uxlab-teacher
+  kind: teaching
+  role: { ru: "преподаватель", en: "Teacher" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  tags: [teaching]
+
+- id: hse-math-teaching-assistant
+  kind: teaching
+  role: { ru: "учебный ассистент", en: "Teaching Assistant" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "кафедра высшей математики", en: "Department of Higher Mathematics" }
+  tags: [teaching]
+
+- id: profilum-product-researcher
+  kind: research
+  role: { ru: "продуктовый исследователь", en: "Product Researcher" }
+  organization: { ru: "Профилум", en: "Profulim" }
+  start: "2023-10"
+  end: "2024-05"
+  description:
+    ru: "планирование и проведение продуктовых исследований полного цикла, проведение кабинетных исследований, разработка гайдов глубинных и экспертных интервью, проведение и анализ данных интервью, сбор и анализ данных количественных опросов, сбор, предобработка и анализ данных официальной статистики, подготовка отчетов и презентаций"
+  tags: [ux-research, research-design, stats]
+
+- id: hse-uxlab-research-intern
+  kind: academic
+  role: { ru: "стажёр-исследователь", en: "Research Assistant" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2018-06"
+  end: "2023-10"
+  description:
+    ru: "планирование и проведение поведенческих, нейро- и психометрических исследований, работа в исследовательских проектах, сбор и анализ данных, написание статей и отчётов, участие в регулярных рабочих собрания, научных семинарах и конференциях"
+    en: "planning and conducting behavioral, neuro and psychometric research, working in research projects, collecting data, data analysis, writing reports and articles, participating in regular meetings, scientific seminars and conferences"
+  tags: [cognitive, psychometrics, research-design]
+
+- id: uxlab-brand-manager
+  kind: management
+  role: { ru: "бренд-менеджер, редактор-корректор", en: "Brand Manager, Proofreader Editor" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2021-08"
+  end: "present"
+  description:
+    ru: "разработка бизнес-стратегии организации (совместно с руководителем лаборатории), разработка коммуникационных и креативных стратегий, координация работы команды (совместно с тимлидом) (около 8 человек), отбор стажёров, организация обучения стажёров, формирование отчётов о работе стажёров, контроль качества публикуемых материалов (совместно с креативным и научным редактором и главным редактором социальных сетей), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным редактором)"
+    en: "developing business strategy (with Laboratory Head), developing communication and creative strategies, projects workflow control (with Team Leader) (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative & Scientific Advisor and Chief Editor of Social Media), proofreading, training in writing of scientific and popular science texts (with Creative & Scientific Advisor)"
+  tags: [management]
+
+- id: uxlab-cogsem-coordinator
+  kind: management
+  role: { ru: "координатор мероприятия", en: "Event Administator" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context: { ru: "Семинар по когнитивным исследованиям", en: "Cognitive Research Seminar" }
+  start: "2018-09"
+  end: "present"
+  description:
+    ru: "координация работы команды (около 3 человек), публикация анонсов и новостей о мероприятии в социальных сетях и официальном портале, монтаж видеозаписей"
+    en: "workflow control (about 3 people), publishing of announcements and news on the official portal and in social networks, recordings assembling"
+  tags: [management]
+
+- id: uxlab-junior-manager
+  kind: management
+  role: { ru: "младший менеджер", en: "Junior Manager" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2019-12"
+  end: "2021-08"
+  description:
+    ru: "контроль проектной работы, управление талантами (около 15 человек), работа с вовлеченностью и развитием сотрудников, администрирование канбан-системы, разработка вектора развития организации (совместно с руководителем лаборатории), кризисный менеджмент"
+    en: "projects workflow control, talent management (about 15 people), employee engagement and development, collaboration tool administration, organization trajectory (vector of development) elaboration assistance, crisis management"
+  tags: [management]
+
+- id: uxlab-smm-head
+  kind: management
+  role:
+    ru: "руководитель SMM-отдела, редактор-корректор"
+    en: "SMM Department Head, Proofreader Editor"
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2019-09"
+  end: "2021-08"
+  description:
+    ru: "координация работы команды (около 8 человек), отбор стажёров, формирование отчётов по работе стажёров, контроль качества публикуемых материалов (совместно с креативным менеджером), вычитка материалов перед публикацией, обучение стажёров написанию научно-популярных текстов (совместно с креативным менеджером), разработка стратегии развития подразделения (совместно с креативным менеджером и руководителем лаборатории)"
+    en: "workflow control (about 8 people), trainees recruitment, writing efficiency reports, published materials quality control (with Creative Manager), proofreading, training in writing of scientific and popular science texts (with Creative Manager), SMM Department trajectory (vector of development) elaboration (with Creative Manager and Laboratory Head)"
+  tags: [management]
+
+- id: appcogsci-2021-program-head
+  kind: management
+  role: { ru: "глава отдела учебной программы", en: "Head of Training Division" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "летняя школа «Прикладная когнитивная наука»"
+    en: "Summer school ”Applied Cognitive Science”"
+  start: "2021-03"
+  end: "2021-07"
+  description:
+    ru: "разработка учебной программы, набор преподавателей, коммуникация с преподавателями, техническое сопровождение занятий, координация работы команды на мероприятии"
+    en: "syllabus development, lecturers recruitment, communication with lecturers, classes technical support, team coordination during the event"
+  tags: [management, teaching]
+
+- id: wlm-2021-coordinator
+  kind: management
+  role: { ru: "координатор курса", en: "Course Administrator" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "курс «Анализ данных + R: мир линейных моделей»"
+    en: "course “Data Analysis + R: World of Linear Models”"
+  start: "2021-01"
+  end: "2021-05"
+  description:
+    ru: "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+    en: "workflow control, comunicating with participants, participants recruitment, classes technical support, certificates issuance"
+  tags: [management]
+
+- id: sps-2021-program-deputy-head
+  kind: management
+  role:
+    ru: "заместитель главы отдела учебной программы"
+    en: "Deputy Head of Training Division"
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  context: { ru: "Весенняя Психологическая Школа", en: "Spring Psychological School" }
+  start: "2020-10"
+  end: "2021-03"
+  description:
+    ru: "отбор команды, проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса, разработка академических дебатов (разработка правил, критериев оценивания, тезисов)"
+    en: "syllabus development, team recruitment, teachers recruitment, seminarists' teaching materials quality control, classes technical support, employee engagement, creating a workflow guide, academic debates development (rules, criteria and theses development)"
+  tags: [management, teaching]
+
+- id: psyhse-2019-organizer
+  kind: management
+  role: { ru: "организатор", en: "Organizer" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "департамент психологии и лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "School of Psychology & Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
+    en: "Psy-HSE: Conference of Young Scientists “Contemporary Issues of Psychological Science”"
+  start: "2019-07"
+  end: "2019-11"
+  description:
+    ru: "организация сбора заявок, создание контента для социальных сетей, редактирование интернет-портала конференции, верстка программы мероприятия"
+    en: "applications collection, creating SMM content, conference website editing, creating conference brochure layout"
+  tags: [management]
+
+- id: appcogsci-2020-program-head
+  kind: management
+  role: { ru: "глава отдела учебной программы", en: "Head of Training Division" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "летняя школа «Прикладная когнитивная наука»"
+    en: "Summer school “Applied Cognitive Science”"
+  start: "2020-02"
+  end: "2020-11"
+  description:
+    ru: "разработка учебной программы, набор преподавателей, коммуникация с преподавателями, техническое сопровождение занятий, координация работы команды на мероприятии"
+    en: "syllabus development, lecturers recruitment, communication with lecturers, classes technical support, team coordination during the event"
+  tags: [management, teaching]
+
+- id: andan-2020-coordinator
+  kind: management
+  role: { ru: "координатор курса", en: "Course Administrator" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+    en: "course “Data Analysis + R: from t-test to mixed effect models”"
+  start: "2020-01"
+  end: "2020-04"
+  description:
+    ru: "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+    en: "workflow control, communication with participants, applications collecting, participants selecting, classes technical support, certificates issuance"
+  tags: [management]
+
+- id: sps-2020-program-head
+  kind: management
+  role: { ru: "глава отдела учебной программы", en: "Head of Training Division" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  context: { ru: "Весенняя Психологическая Школа", en: "Spring Psychological School" }
+  start: "2019-10"
+  end: "2020-03"
+  description:
+    ru: "отбор команды, координация работы команды (около 10 человек), проектирование учебной программы, отбор семинаристов, методическая работа с материалами семинаристов, коммуникация с администрацией университета, сбор обратной связи от участников, техническое сопровождение занятий, работа с вовлеченностью, создание руководства по организации рабочего процесса"
+    en: "workflow control (about 10 people), syllabus develompent, team recruitment, theachers recruitment, seminarists' teaching materials quality control, communication with university administration, participants feedback collection, classes technical support, employee engagement, creating a workflow guide"
+  tags: [management, teaching]
+
+- id: psychopy-2019-coordinator
+  kind: management
+  role: { ru: "координатор курса", en: "Course Administrator" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  context:
+    ru: "курс «Основы построения экспериментов в PsychoPy»"
+    en: "course “Experiments Building Basics with PsychoPy”"
+  start: "2019-04"
+  end: "2019-05"
+  description:
+    ru: "координация работы команды преподавателей, коммуникация со слушателями, организация сбора и отбора заявок, техническое сопровождение занятий, выдача сертификатов"
+    en: "workflow control, communication with participants, applications collection, participants selection, classes technical support, certificates issuance"
+  tags: [management]
+
+- id: sps-2019-extracurricular-head
+  kind: management
+  role: { ru: "глава отдела внеучебной программы", en: "Head of Extracurricular Activities" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  context: { ru: "Весенняя Психологическая Школа", en: "Spring Psychological School" }
+  start: "2018-10"
+  end: "2019-03"
+  description:
+    ru: "отбор команды, координация работы команды (около 10 человек), работа с вовлеченностью, разработка программы внеучебных мероприятий, коммуникация с администрацией университета, техническое сопровождение мероприятий, создание руководства по организации рабочего процесса"
+    en: "workflow control (about 10 people), extracurricular program development, team recruitment, communication with university administration, technical support, employee engagement, creating a workflow guide"
+  tags: [management]
+
+- id: uxlab-designer
+  kind: other
+  role: { ru: "дизайнер", en: "Designer" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2018-06"
+  end: "present"
+  description:
+    ru: "разработка корпоративного стиля, написание брендбука, периодический ребрендинг"
+    en: "corporate style development, reccurent rebranding"
+
+- id: uxlab-site-editor
+  kind: other
+  role: { ru: "редактор сайта подразделения", en: "Web Portal Editor" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit:
+    ru: "лаборатория когнитивной психологии пользователя цифровых интерфейсов"
+    en: "Laboratory for Cognitive Psychology of Digital Interfaces User"
+  start: "2019-09"
+  end: "present"
+  description:
+    ru: "обновление информации о лаборатории и текущих проектах, публикация новостей и анонсов"
+    en: "updating lab info, publishing news, announcements and projects info"
+
+- id: sps-guest-lecturer
+  kind: other
+  role: { ru: "приглашённый преподаватель", en: "Visiting Scholar" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "департамент психологии", en: "School of Psychology" }
+  context: { ru: "Весенняя Психологическая Школа", en: "Spring Psychological School" }
+  description:
+    ru: "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+    en: "lecturing and teaching (psychology and related topics)"
+  tags: [teaching]
+  notes: "На старом сайте вместо дат: «по запросу организаторов»"
+
+- id: hse-lyceum-guest-lecturer
+  kind: other
+  role: { ru: "приглашённый преподаватель", en: "Visiting Scholar" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  unit: { ru: "Лицей НИУ ВШЭ", en: "HSE Liceum" }
+  description:
+    ru: "чтение лекций и проведение практических занятий на психологическую и смежные тематики"
+    en: "lecturing and teaching (psychology and related topics)"
+  tags: [teaching]
+  notes: "На старом сайте вместо дат: «по запросу организаторов»"
+
+- id: student-org-committee-head
+  kind: other
+  role:
+    ru: "глава подразделения организационного комитета мероприятия"
+    en: "Organizing Committee Division Head"
+  organization:
+    ru: "независимая студенческая организация"
+    en: "Independent Student Organization"
+  start: "2017"
+  end: "2019"
+  description:
+    ru: "разработка концепции выездного мероприятия (100–200 участников), руководство креативной командой (около 10 человек), написание сценария, подбор актёров, проведение актёрских тренингов, координация работы команды на мероприятии"
+    en: "event development (100–200 participants), creative team workflow control (about 10 people), scenario development, actors recruitment, actors training, team coordination during the event"
+  tags: [management]
+  notes: "На старом сайте даты указаны как «осень 2017 — осень 2019»; в данных оставлены только годы"
+
+- id: thevyshka-proofreader
+  kind: other
+  role: { ru: "корректор", en: "Proofreader" }
+  organization:
+    ru: "независимое интернет-издание «TheVyshka»"
+    en: "Independent Online Media “TheVyshka”"
+  start: "2017-11"
+  end: "2018-09"
+  description: { ru: "вычитка материалов перед публикацией", en: "texts proofreading" }

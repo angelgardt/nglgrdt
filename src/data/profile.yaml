@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=./schemas/profile.schema.json
+# Кто владелец сайта. Один объект.
+
+name: { ru: "Антон Ангельгардт", en: "Anton Angelgardt" }
+authorName: "Ангельгардт"
+positioning: { ru: "Преподаю статистику, анализ данных и психометрику", en: "TODO" }
+location: { ru: "Москва", en: "Moscow" }
+photo: "src/assets/photo.png"
+focusAreas:
+  - id: stats
+    title: { ru: "статистика и анализ данных", en: "TODO" }
+    text: { ru: "TODO", en: "TODO" }
+    tag: stats
+  - id: psychometrics
+    title: { ru: "психометрика и дизайн исследований", en: "TODO" }
+    text: { ru: "TODO", en: "TODO" }
+    tag: psychometrics
+  - id: teaching
+    title: { ru: "преподавание", en: "TODO" }
+    text: { ru: "TODO", en: "TODO" }
+    tag: teaching
+notes: "Позиционирование и названия направлений — временные, из раздела 13 ТЗ. Тексты карточек и переводы пишет владелец."
