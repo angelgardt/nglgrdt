@@ -8,3 +8,7 @@ migration/sources
 
 # ТЗ согласовано владельцем, автоформатирование его не трогает
 docs/spec.md
+
+# Создаются автоматически из схем данных
+src/data/schemas
+migration/generated.md
