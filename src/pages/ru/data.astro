@@ -1,0 +1,88 @@
+---
+// Просмотр данных итерации 1: все коллекции простыми списками, без оформления.
+// По этой странице владелец сверяет данные с отчётом migration/REPORT.md.
+// Страница временная: в итерации 3 её заменят настоящие страницы сайта.
+
+import { getCollection } from 'astro:content'
+import DataValue from '../../components/DataValue.astro'
+import { href } from '../../lib/links.ts'
+import { DATA_FILES } from '../../lib/schemas.ts'
+
+// В режиме разработки (npm run dev) видно всё, включая скрытые записи, невидимые контакты
+// и заметки владельца. В собранный сайт они не попадают.
+const showAll = import.meta.env.DEV
+
+const sections = await Promise.all(
+  DATA_FILES.map(async ({ name }) => {
+    const entries = (await getCollection(name)).map(
+      (entry) => entry.data as Record<string, unknown>,
+    )
+    const visible = entries
+      .filter(
+        (data) =>
+          showAll || (data.hidden !== true && !(name === 'contacts' && data.visible !== true)),
+      )
+      .map((data) => (showAll ? data : { ...data, notes: undefined }))
+    return { name, total: entries.length, visible }
+  }),
+)
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Данные сайта — просмотр</title>
+  </head>
+  <body>
+    <main>
+      <p>
+        <a href={href('/')}>На главную</a>
+      </p>
+      <h1>Данные сайта</h1>
+      <p>
+        Временная страница без оформления. Здесь выведено всё содержимое файлов
+        <code>src/data/*.yaml</code>, чтобы его можно было сверить с отчётом миграции.
+      </p>
+      {showAll ? (
+        <p>
+          <strong>Режим разработки:</strong> показаны также скрытые записи, невидимые контакты и
+          заметки.
+        </p>
+      ) : (
+        <p>
+          Скрытые записи, невидимые контакты и заметки здесь не показаны. Чтобы увидеть их,
+          запустите <code>npm run dev</code>.
+        </p>
+      )}
+
+      <nav aria-label="Файлы данных">
+        <ul>
+          {sections.map((section) => (
+            <li>
+              <a href={`#${section.name}`}>{section.name}</a> — {section.visible.length}
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {sections.map((section) => (
+        <section id={section.name}>
+          <h2>{section.name}.yaml</h2>
+          <p>
+            Показано записей: {section.visible.length} из {section.total}
+          </p>
+          <ol>
+            {section.visible.map((data) => (
+              <li>
+                <DataValue value={data} />
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </main>
+  </body>
+</html>
