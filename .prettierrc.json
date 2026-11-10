@@ -7,7 +7,15 @@
   "overrides": [
     {
       "files": "*.astro",
-      "options": { "parser": "astro" }
+      "options": {
+        "parser": "astro"
+      }
+    },
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "singleQuote": false
+      }
     }
   ]
 }

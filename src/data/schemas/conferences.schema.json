@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "tags": {
+        "default": [],
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "stats",
+            "psychometrics",
+            "research-design",
+            "teaching",
+            "biostat",
+            "ux-research",
+            "cognitive",
+            "linguistics",
+            "management"
+          ]
+        }
+      },
+      "pinned": {
+        "default": false,
+        "type": "boolean"
+      },
+      "hidden": {
+        "default": false,
+        "type": "boolean"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "event": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "talkTitle": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "location": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "talkType": {
+        "type": "string",
+        "enum": [
+          "talk",
+          "poster",
+          "workshop"
+        ]
+      },
+      "start": {
+        "type": [
+          "string",
+          "integer"
+        ],
+        "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+        "description": "Дата в кавычках: \"YYYY\", \"YYYY-MM\" или \"YYYY-MM-DD\""
+      },
+      "end": {
+        "type": [
+          "string",
+          "integer"
+        ],
+        "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$|^present$",
+        "description": "Дата в кавычках (\"YYYY\", \"YYYY-MM\", \"YYYY-MM-DD\") или present"
+      }
+    },
+    "required": [
+      "id",
+      "event",
+      "talkTitle",
+      "talkType",
+      "start"
+    ],
+    "additionalProperties": false
+  }
+}

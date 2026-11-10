@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=./schemas/tags.schema.json
+# Словарь направлений. На эти id ссылается поле tags в остальных файлах.
+
+- id: stats
+  label: { ru: "статистика и анализ данных" }
+
+- id: psychometrics
+  label: { ru: "психометрика" }
+
+- id: research-design
+  label: { ru: "дизайн исследований" }
+
+- id: teaching
+  label: { ru: "преподавание" }
+
+- id: biostat
+  label: { ru: "биостатистика" }
+
+- id: ux-research
+  label: { ru: "UX и продуктовые исследования" }
+
+- id: cognitive
+  label: { ru: "когнитивная психология" }
+
+- id: linguistics
+  label: { ru: "лингвистика" }
+
+- id: management
+  label: { ru: "менеджмент" }

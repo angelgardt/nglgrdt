@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=./schemas/skills.schema.json
+# Навыки по группам.
+
+groups:
+  - id: programming
+    title:
+      ru: "Программирование и информационные технологии"
+      en: "Programming and Information Technologies"
+    items:
+      - { ru: "Python", en: "Python" }
+      - { ru: "NumPy", en: "NumPy" }
+      - { ru: "Pandas", en: "Pandas" }
+      - { ru: "R", en: "R" }
+      - { ru: "tidyverse", en: "tidyverse" }
+      - { ru: "RMarkdown", en: "RMarkdown" }
+      - { ru: "bookdown", en: "bookdown" }
+      - { ru: "TeX (LaTeX)", en: "TeX (LaTeX)" }
+      - { ru: "JavaScript", en: "JavaScript" }
+      - { ru: "SQL", en: "SQL" }
+      - { ru: "HTML 5", en: "HTML 5" }
+      - { ru: "CSS 3", en: "CSS 3" }
+      - { ru: "Git", en: "Git" }
+      - { ru: "GitHub", en: "GitHub" }
+  - id: data-analysis
+    title: { ru: "Анализ данных", en: "Data Analysis" }
+    items:
+      - { ru: "общие линейные модели", en: "General Linear Models" }
+      - { ru: "регрессионный анализ", en: "Regression Analysis" }
+      - { ru: "ANOVA, rmANOVA", en: "ANOVA, rmANOVA" }
+      - { ru: "обобщенные линейные модели (GLM)", en: "Generalized Linear Models" }
+      - { ru: "смешанные линейные модели (GLMM)", en: "Generalized Linear Mixed Models" }
+      - { ru: "регуляризованная регрессия", en: "Regularized Regression" }
+      - { ru: "анализ главных компонент", en: "Principal Component Analysis" }
+      - { ru: "кластерный анализ", en: "Cluster Analysis" }
+      - { ru: "факторный анализ (EFA, CFA)", en: "Factor Analysis (EFA, CFA)" }
+  - id: research-methods
+    title: { ru: "Методы исследований", en: "Research Methods" }
+    items:
+      - { ru: "поведенческие исследования", en: "Behavioral Experiments" }
+      - { ru: "разработка опросников", en: "Questionnaire Development" }
+      - { ru: "cognitive interviewing", en: "Cognitive Interviewing" }
+      - { ru: "customer development", en: "Customer Development" }
+      - { ru: "customer journey map", en: "Customer Journey Map" }
+  - id: management
+    title: { ru: "Менеджмент", en: "Management" }
+    items:
+      - { ru: "управление образовательными проектами", en: "Educational Project Management" }
+      - { ru: "управление исследовательскими проектами", en: "Research Project Management" }
+      - { ru: "управление креативными проектами", en: "Creative Project Management" }
+      - { ru: "работа с вовлеченностью", en: "Work Engagement" }
+      - { ru: "управление командами", en: "Team Management" }
+      - { ru: "планирование", en: "Planning" }
+  - id: software
+    title: { ru: "Программное обеспечение", en: "Software" }
+    subgroups:
+      - id: basic
+        title: { ru: "Базовое", en: "Basic" }
+        items:
+          - { ru: "MS Office", en: "MS Office" }
+          - { ru: "MS Word", en: "MS Word" }
+          - { ru: "MS Excel", en: "MS Excel" }
+          - { ru: "MS Power Point", en: "MS Power Point" }
+          - { ru: "MS Outlook", en: "MS Outlook" }
+          - { ru: "Pages", en: "Pages" }
+          - { ru: "Keynote", en: "Keynote" }
+      - id: graphics
+        title: { ru: "Графика", en: "Graphics" }
+        items:
+          - { ru: "Adobe Photoshop", en: "Adobe Photoshop" }
+          - { ru: "Adobe Illustrator", en: "Adobe Illustrator" }
+          - { ru: "Adobe InDesign", en: "Adobe InDesign" }
+          - { ru: "Figma", en: "Figma" }
+      - id: audio-video
+        title: { ru: "Звук и видео", en: "Sound & Video" }
+        items:
+          - { ru: "Adobe Audition", en: "Adobe Audition" }
+          - { ru: "Adobe Premiere Pro", en: "Adobe Premiere Pro" }
+      - id: special
+        title: { ru: "Специальное", en: "Special Software" }
+        items:
+          - { ru: "PsychoPy", en: "PsychoPy" }
+          - { ru: "Praat", en: "Praat" }
+  - id: other
+    title: { ru: "Другое", en: "Other" }
+    items:
+      - { ru: "корректура текстов", en: "Proofreading" }

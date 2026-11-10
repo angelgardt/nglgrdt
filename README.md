@@ -2,7 +2,7 @@
 
 CV-сайт Антона Ангельгардта. Статический сайт на [Astro](https://astro.build), публикуется на <https://angelgardt.github.io/nglgrdt/>.
 
-Сейчас на сайте заглушка: идёт итерация 0 из [ТЗ](docs/spec.md).
+Сейчас на сайте заглушка и страница просмотра данных без оформления: идёт итерация 1 из [ТЗ](docs/spec.md).
 
 ## Быстрый старт
 
@@ -20,14 +20,16 @@ npm run dev
 
 ## Команды
 
-| Команда           | Что делает                         |
-| ----------------- | ---------------------------------- |
-| `npm run dev`     | локальный сервер с автообновлением |
-| `npm run check`   | проверка типов                     |
-| `npm test`        | unit-тесты                         |
-| `npm run build`   | сборка в папку `dist/`             |
-| `npm run preview` | просмотр собранного сайта          |
-| `npm run format`  | форматирование кода (Prettier)     |
+| Команда               | Что делает                                     |
+| --------------------- | ---------------------------------------------- |
+| `npm run dev`         | локальный сервер с автообновлением             |
+| `npm run check`       | проверка типов                                 |
+| `npm test`            | unit-тесты                                     |
+| `npm run build`       | сборка в папку `dist/`                         |
+| `npm run preview`     | просмотр собранного сайта                      |
+| `npm run format`      | форматирование кода (Prettier)                 |
+| `npm run i18n:report` | какие тексты ещё не переведены на английский   |
+| `npm run schemas`     | обновить подсказки редактора для файлов данных |
 
 Перед коммитом: `npm run check && npm test && npm run build`.
 
@@ -38,7 +40,9 @@ Push в ветку `master` запускает GitHub Actions: проверка,
 ## Документы
 
 - [docs/spec.md](docs/spec.md) — ТЗ и план итераций
+- [docs/content.md](docs/content.md) — файлы данных и их поля
 - [docs/decisions.md](docs/decisions.md) — журнал решений
+- [migration/REPORT.md](migration/REPORT.md) — отчёт миграции со старого сайта
 - [CLAUDE.md](CLAUDE.md) — правила проекта для Claude Code
 
 Остальная документация появится в итерации 4.

@@ -1,7 +1,11 @@
 ---
-// Заглушка итерации 0: проверяет цепочку «коммит → сайт в интернете».
-// Имя записано здесь временно; с итерации 1 оно берётся из src/data/profile.yaml.
-const name = 'Anton Angelgardt'
+// Заглушка: настоящая английская визитка появится в итерации 3.
+import { getEntry } from 'astro:content'
+import { href } from '../lib/links.ts'
+
+const profile = await getEntry('profile', 'profile')
+if (!profile) throw new Error('Не найден src/data/profile.yaml')
+const name = profile.data.name.en
 ---
 
 <!doctype html>
@@ -15,6 +19,11 @@ const name = 'Anton Angelgardt'
     <main>
       <h1>{name}</h1>
       <p>The site is under construction.</p>
+      <p>
+        <a href={href('/data/', 'ru')} hreflang="ru">
+          Data preview (in Russian)
+        </a>
+      </p>
     </main>
   </body>
 </html>

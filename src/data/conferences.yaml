@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=./schemas/conferences.schema.json
+# Доклады на конференциях.
+
+- id: bruner-2021
+  event: { ru: "Всероссийская научная конференция памяти Дж.С. Брунера «Психология познания»" }
+  talkTitle:
+    ru: "«Нейрофизиологические корреляты процесса категоризации в зрительном поиске»"
+  location: { ru: "Ярославль" }
+  talkType: talk
+  start: "2021-12-10"
+  end: "2021-12-11"
+  tags: [cognitive]
+
+- id: psychology-xxi-2021
+  event:
+    ru: "Психология XXI века. Психологические исследования: от теории к практике"
+    en: "Psychology of XXI century. Psychological research: from theory to practice"
+  talkTitle:
+    ru: "«Роль уровня категории при решении задачи гибридного поиска»"
+    en: "“Role of calegory level in visual search”"
+  location: { ru: "Санкт-Петербург", en: "Saint Petersburg" }
+  talkType: talk
+  start: "2021-04-21"
+  end: "2021-04-23"
+  tags: [cognitive]
+
+- id: psyhse-2019
+  event:
+    ru: "Пси-Вышка: международная конференция молодых учёных «Актуальные проблемы психологической науки»"
+    en: "Psy-HSE: International Conference of Young Scientists “Contemporary Issues of Psychological Science”"
+  talkTitle:
+    ru: "«Перцептивные характеристики и фактор знакомости стимула в зрительном поиске элементов интерфейса»"
+    en: "“Perceptual characteristics and familiarity factor of stimulus in interface elements visual search”"
+  location: { ru: "Москва", en: "Moscow" }
+  talkType: talk
+  start: "2019-10-31"
+  end: "2019-11-02"
+  tags: [cognitive, ux-research]
+
+- id: duncker-2019
+  event:
+    ru: "Всероссийская летняя школа молодых ученых памяти Карла Дункера"
+    en: "Russian Summer School of Young Scientists in memory of Karl Duncker"
+  talkTitle:
+    ru: "«Как пользователи ищут иконки? Перцептивные характеристики и фактор знакомости стимула»"
+    en: "“How users search icons? Perceptual characteristics and familiarity factor of stimulus”"
+  location: { ru: "Москва", en: "Moscow" }
+  talkType: poster
+  start: "2019-08-27"
+  end: "2019-08-31"
+  tags: [cognitive, ux-research]

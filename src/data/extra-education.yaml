@@ -1,0 +1,295 @@
+# yaml-language-server: $schema=./schemas/extra-education.schema.json
+# Дополнительное образование: повышение квалификации, школы, MOOC.
+
+- id: focus-groups-2024
+  kind: qualification
+  title: { ru: "Метод фокус-групп в социологических и маркетинговых исследованиях" }
+  organization: { ru: "Академия Альфа-Эксперт" }
+  start: "2024-03-01"
+  end: "2024-03-14"
+  tags: [ux-research, research-design]
+
+- id: teach-for-hse-group-work-2021
+  kind: qualification
+  title: { ru: "Организация групповой и командной работы студентов в условиях онлайн-обучения" }
+  organizer: { ru: "проект «Преподаём в Вышке / Teach for HSE»" }
+  organization: { ru: "Национальный исследовательский университет «Высшая школа экономики»" }
+  start: "2021-09-27"
+  end: "2021-10-08"
+  tags: [teaching]
+
+- id: hse-digital-communications-2021
+  kind: qualification
+  title:
+    ru: "Digital-среда: каналы коммуникаций"
+    en: "Digital Marketing: Communication Channels"
+  organizer: { ru: "Высшая школа коммуникаций", en: "Higher School of Communications" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2021-06-10"
+  end: "2021-07-20"
+
+- id: teach-for-hse-presentations-2020
+  kind: qualification
+  title:
+    ru: "Представление информации и данных. Создание презентаций"
+    en: "Information and Data presenting. Presentations making"
+  organizer: { ru: "проект «Преподаём в Вышке / Teach for HSE»", en: "project “Teach for HSE”" }
+  organization:
+    ru: "Национальный исследовательский университет «Высшая школа экономики»"
+    en: "HSE University"
+  start: "2020-04-10"
+  end: "2020-04-30"
+  tags: [teaching]
+
+- id: letnyaya-shkola-education-2023
+  kind: school
+  title: { ru: "мастерская «Образование», программа «Образовательная среда»" }
+  organizer: { ru: "Многопрофильная школа семинар «Летняя школа»" }
+  organization:
+    ru: "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+  start: "2023-07-23"
+  end: "2023-08-02"
+  tags: [teaching]
+
+- id: appcogsci-2023
+  kind: school
+  title: { ru: "летняя школа «Прикладная когнитивная наука»" }
+  organizer: { ru: "HSE UX LAB" }
+  organization: { ru: "НИУ ВШЭ" }
+  start: "2023-07-06"
+  end: "2023-07-11"
+  tags: [cognitive]
+
+- id: spbu-winter-school-2023
+  kind: school
+  title: { ru: "сквозной проект «Onlife: как нас меняет цифровизация?»" }
+  organizer: { ru: "Зимняя психологическая школа СПбГУ" }
+  organization: { ru: "факультет психологии СПбГУ" }
+  start: "2023-01-29"
+  end: "2023-02-03"
+  tags: [cognitive]
+
+- id: appcogsci-2022
+  kind: school
+  title: { ru: "летняя школа «Прикладная когнитивная наука»" }
+  organizer: { ru: "HSE UX LAB" }
+  organization: { ru: "НИУ ВШЭ" }
+  start: "2022-07-05"
+  end: "2022-07-09"
+  tags: [cognitive]
+
+- id: edcrunch-2021
+  kind: school
+  title: { ru: "EdCrunch Glocal: международная конференция по новым технологиям в образовании" }
+  track: { ru: "трек «Проектирование нового образовательного опыта»" }
+  organization:
+    ru: "Акимат города Алматы / Министерство образования и науки Республики Казахстан / Nazarbayev Intellectual Schools / Открытая школа"
+  start: "2021-12-07"
+  end: "2021-12-08"
+  tags: [teaching]
+
+- id: letnyaya-shkola-education-2021
+  kind: school
+  title:
+    ru: "мастерская «Образование», программа «Про образовательный опыт»"
+    en: "Educational workshop, “Educational experience design” track"
+  organizer:
+    ru: "Многопрофильная школа семинар «Летняя школа»"
+    en: "Multidisciplinary school “Summer School”"
+  organization:
+    ru: "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+    en: "Regional public organization for support of educational and research programs “Summer School”"
+  start: "2021-07-20"
+  end: "2021-07-30"
+  tags: [teaching]
+
+- id: appcogsci-2021
+  kind: school
+  title:
+    ru: "летняя школа «Прикладная когнитивная наука»"
+    en: "Summer school “Applied Cognitive Science”"
+  organizer: { ru: "HSE UX LAB", en: "HSE UX LAB" }
+  organization: { ru: "НИУ ВШЭ", en: "HSE University" }
+  start: "2021-07-01"
+  end: "2021-07-05"
+  tags: [cognitive]
+
+- id: hse-nlp-webinar-2020
+  kind: school
+  title:
+    ru: "вебинар «Естественный язык для машины — Как научить компьютер понимать слова?»"
+    en: "webinar “Natural Language for Machine – How to teach computer to understand words?”"
+  organizer:
+    ru: "Центр непрерывного образования, факультет компьютерных наук"
+    en: "Center for Continuning Education, Faculty of Computer Sciences"
+  organization: { ru: "НИУ ВШЭ", en: "HSE University" }
+  start: "2020-11-10"
+  tags: [linguistics]
+
+- id: appcogsci-2020
+  kind: school
+  title:
+    ru: "летняя школа «Прикладная когнитивная наука»"
+    en: "Summer school “Applied Cognitive Science”"
+  organizer: { ru: "HSE UX LAB", en: "HSE UX LAB" }
+  organization: { ru: "НИУ ВШЭ", en: "HSE University" }
+  start: "2020-10-30"
+  end: "2020-11-05"
+  tags: [cognitive]
+
+- id: ipras-network-analysis-2020
+  kind: school
+  title:
+    ru: "workshop “Network analysis in human cognition and language processing”"
+    en: "workshop “Network analysis in human cognition and language processing”"
+  organization:
+    ru: "Psychology Institute of Russian Academy of Sciences"
+    en: "Psychology Institute of Russian Academy of Sciences"
+  start: "2020-10-24"
+  end: "2020-10-25"
+  tags: [cognitive, linguistics]
+
+- id: letnyaya-shkola-testing-2020
+  kind: school
+  title: { ru: "Тестовая мастерская", en: "Testology workshop" }
+  organizer:
+    ru: "Многопрофильная школа семинар «Летняя школа»"
+    en: "Multidisciplinary seminar school “Summer School”"
+  organization:
+    ru: "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+    en: "Regional public organization for support of educational and research programs “Summer School”"
+  start: "2020-07-17"
+  end: "2020-07-26"
+  tags: [psychometrics]
+
+- id: duncker-school-2019
+  kind: school
+  title:
+    ru: "летняя школа «Теоретические и прикладные вопросы когнитивной психологии памяти Карла Дункера»"
+    en: "Summer school “Theoretical and Applied Issues of Cognitive Psychology”"
+  organization: { ru: "РАНХиГС", en: "RANEPA" }
+  start: "2019-08-27"
+  end: "2019-08-31"
+  tags: [cognitive]
+
+- id: letnyaya-shkola-andan-2019
+  kind: school
+  title:
+    ru: "мастерская «Анализ данных в социальных и гуманитарных науках (АнДан)», байесовская программа"
+    en: "Data Analysis workshop, Bayesian program"
+  organizer:
+    ru: "Многопрофильная школа-семинар «Летняя школа»"
+    en: "Multidisciplinary seminar school “Summer School”"
+  organization:
+    ru: "Региональная общественная организация поддержки образовательных и исследовательских программ «Летняя школа»"
+    en: "Regional public organization for support of educational and research programs “Summer School”"
+  start: "2019-07-28"
+  end: "2019-08-05"
+  tags: [stats]
+
+- id: appcogsci-2019
+  kind: school
+  title:
+    ru: "летняя школа «Прикладная когнитивная наука»"
+    en: "Summer school “Applied Cognitive Science”"
+  organizer: { ru: "HSE UX LAB", en: "HSE UX LAB" }
+  organization: { ru: "НИУ ВШЭ", en: "HSE University" }
+  start: "2019-06-15"
+  end: "2019-06-18"
+  tags: [cognitive]
+
+- id: highlights-web-design-2018
+  kind: school
+  title: { ru: "курс «Основы веб-дизайна»", en: "course “Fundamentals of Web Design”" }
+  organization:
+    ru: "школа графического и веб-дизайна HIGHLIGHTS"
+    en: "HIGHLIGHTS, school of graphic and web design"
+  start: "2017-12-25"
+  end: "2018-02-12"
+  notes: "На старом сайте: «25 декабря — 12 февраля 2018». Год начала (2017) выведен из дат, проверить"
+
+- id: hse-management-psychology-2018
+  kind: school
+  title:
+    ru: "курс «Психология управления и принятия решений»"
+    en: "course “Psychology of management and decision making”"
+  organization: { ru: "НИУ ВШЭ", en: "HSE University" }
+  start: "2018-10"
+  end: "2018-12"
+  tags: [management]
+
+- id: udemy-machine-learning
+  kind: mooc
+  title: { ru: "Machine Learning A-Z™: Python & R in Data Science [2022]" }
+  platform: { ru: "Udemy" }
+  start: "2022"
+  tags: [stats]
+
+- id: udemy-python-developer
+  kind: mooc
+  title:
+    ru: "Python Developer | Complete course 2021"
+    en: "Python Developer | Complete course 2021"
+  platform: { ru: "Udemy", en: "Udemy" }
+  start: "2022"
+
+- id: stepik-git
+  kind: mooc
+  title: { ru: "Основы Git", en: "Git Basics" }
+  platform: { ru: "Stepik", en: "Stepik" }
+  start: "2020"
+
+- id: fructcode-php-mysql
+  kind: mooc
+  title: { ru: "PHP / MySQL", en: "PHP / MySQL" }
+  platform: { ru: "FructCode", en: "FructCode" }
+  start: "2020"
+
+- id: fructcode-javascript-jquery
+  kind: mooc
+  title: { ru: "JavaScript / jQuery", en: "JavaScript / jQuery" }
+  platform: { ru: "FructCode", en: "FructCode" }
+  start: "2020"
+
+- id: fructcode-html-css
+  kind: mooc
+  title: { ru: "HTML / CSS", en: "HTML / CSS" }
+  platform: { ru: "FructCode", en: "FructCode" }
+  start: "2020"
+
+- id: stepik-javascript
+  kind: mooc
+  title: { ru: "JavaScript for Beginners", en: "JavaScript for Beginners" }
+  platform: { ru: "Stepik", en: "Stepik" }
+  start: "2019"
+
+- id: stepik-r-data-analysis-2
+  kind: mooc
+  title: { ru: "Анализ данных в R. Часть 2", en: "Data Analysis with R. Part 2" }
+  platform: { ru: "Stepik", en: "Stepik" }
+  start: "2019"
+  tags: [stats]
+
+- id: stepik-r-data-analysis
+  kind: mooc
+  title: { ru: "Анализ данных в R", en: "Data Analysis with R" }
+  platform: { ru: "Stepik", en: "Stepik" }
+  start: "2019"
+  tags: [stats]
+
+- id: stepik-r-programming
+  kind: mooc
+  title: { ru: "Основы программирования на R", en: "Programming Basics with R" }
+  platform: { ru: "Stepik", en: "Stepik" }
+  start: "2019"
+  tags: [stats]
+
+- id: coursera-latex
+  kind: mooc
+  title:
+    ru: "Документы и презентации в LaTeX (Introduction to LaTeX)"
+    en: "Introduction to LaTeX"
+  platform: { ru: "Coursera", en: "Coursera" }
+  start: "2018"

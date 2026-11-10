@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=./schemas/projects.schema.json
+# Исследовательские и прикладные проекты. На старом сайте раздел был пуст.
+
+[]

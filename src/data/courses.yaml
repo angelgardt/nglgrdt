@@ -1,0 +1,171 @@
+# yaml-language-server: $schema=./schemas/courses.schema.json
+# Курсы, которые вёл владелец. Повторные запуски курса — в runs.
+
+- id: hse-nis-applied-data-analysis
+  position: hse-psy-teacher
+  title:
+    ru: "«Научно-исследовательский семинар: Прикладной анализ данных в психологии»"
+    en: "“Research Seminar: Applied Data Analysis in Psychology”"
+  runs:
+    - start: "2024-01"
+      end: "2024-06"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+    - start: "2023-01"
+      end: "2023-06"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+        en: "course program development, practical training, individual and group consultations, current and final assessment"
+    - start: "2022-01"
+      end: "2022-06"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+        en: "course program development, practical training, individual and group consultations, current and final assessment"
+  tags: [stats, teaching]
+
+- id: hse-nis-diagnostic-tools
+  position: hse-psy-teacher
+  title:
+    ru: "«Научно-исследовательский семинар: Разработка, адаптация и валидизация диагностических инструментов в психологии»"
+    en: "“Research Seminar: Development, Adaptation and Validation of Diagnostic Tools in Psychology”"
+  runs:
+    - start: "2023-10"
+      end: "2024-03"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+    - start: "2022-10"
+      end: "2023-03"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+        en: "course program development, practical training, individual and group consultations, current and final assessment"
+  tags: [psychometrics, teaching]
+
+- id: hse-statistics-for-data-analysis
+  position: hse-psy-teacher
+  title: { ru: "«Статистика для анализа данных»", en: "“Statistics for Data Analysis”" }
+  runs:
+    - start: "2023-09"
+      end: "2023-12"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+    - start: "2022-09"
+      end: "2022-12"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+        en: "course program development, practical training, individual and group consultations, current and final assessment"
+  tags: [stats, teaching]
+
+- id: hse-human-digital-interaction
+  position: hse-psy-teacher
+  title: { ru: "«Психология человек-цифрового взаимодействия»" }
+  runs:
+    - start: "2023-09"
+      end: "2023-10"
+      duties:
+        ru: "разработка программы дисциплины, чтение лекций, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+  tags: [cognitive, ux-research, teaching]
+
+- id: ranepa-modern-data-analysis
+  position: ranepa-teacher
+  title: { ru: "«Современные методы анализа данных»" }
+  runs:
+    - start: "2023-09"
+      end: "2024-01"
+      duties:
+        ru: "разработка программы дисциплины, проведение практических занятий и консультаций, проверка форм текущего и итогового контроля"
+  tags: [stats, teaching]
+
+- id: hse-psychodiagnostics-practicum
+  position: hse-psy-teaching-assistant
+  title:
+    ru: "«Психологический практикум: Психодиагностика и основы психометрики»"
+    en: "“Practical Training in Psychology: Psychodiagnostics and the Basics of Psychometrics”"
+  runs:
+    - start: "2021-01"
+      end: "2021-06"
+      duties:
+        ru: "участие в разработке программы курса, индивидуальные и групповые консультации со студентами, разработка форм текущего контроля, проверка домашних работ студентов"
+        en: "course program development assistance, individual and group consultations, current assessment tasks development, checking students' homeworks"
+  tags: [psychometrics, teaching]
+
+- id: uxlab-wlm
+  position: hse-uxlab-teacher
+  title:
+    ru: "«Анализ данных + R: мир линейных моделей»"
+    en: "“Data Analysis + R: World of Linear Models”"
+  runs:
+    - start: "2021-01"
+      end: "2021-05"
+      role: { ru: "автор курса, преподаватель", en: "Course Author, Teacher" }
+      duties:
+        ru: "проектирование программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение лекций и практических занятий, проверка домашних работы слушателей, проведение индивидуальных и групповых консультаций"
+        en: "course program development, teaching materials development, current and final assessment development, lecturing, practical training, checking participants' homeworks, individual and group consultations"
+  tags: [stats, teaching]
+
+- id: hse-intro-psychology
+  position: hse-psy-teaching-assistant
+  title: { ru: "«Введение в психологию»", en: "“Introduction to Psychology”" }
+  runs:
+    - start: "2020-09"
+      end: "2020-12"
+      duties:
+        ru: "проведение индивидуальных и групповых консультаций, приём коллоквиума, ведение ведомости по дисциплине"
+        en: "individual and group consultations, colloquium assistance, discipline record keeping"
+    - start: "2019-09"
+      end: "2019-10"
+      duties:
+        ru: "проведение индивидуальных и групповых консультаций, приём коллоквиума, ведение ведомости по дисциплине"
+        en: "individual and group consultations, colloquium assistance, discipline record keeping"
+  tags: [teaching]
+
+- id: hse-nis-data-visualization
+  position: hse-psy-teaching-assistant
+  title:
+    ru: "«Научно-исследовательский семинар: Анализ и визуализация данных в психологии»"
+    en: "“Research Seminar: Data Analysis and Data Visualization in Psychology”"
+  runs:
+    - start: "2020-01"
+      end: "2020-06"
+      duties:
+        ru: "индивидуальные и групповые консультации со студентами, разработка форм текущего контроля, проверка домашних работ студентов"
+        en: "individual and group consultations, current assessment task development, current assessment criteria development, assessment template development, checking students' homeworks"
+  tags: [stats, teaching]
+
+- id: uxlab-andan
+  position: hse-uxlab-teacher
+  title:
+    ru: "«Анализ данных + R: от t-теста до моделей со смешанными эффектами»"
+    en: "“Data Analysis + R: from t-test to mixed effect models”"
+  runs:
+    - start: "2020-01"
+      end: "2020-04"
+      duties:
+        ru: "разработка программы курса, разработка учебных материалов, разработка форм текущего и итогового контроля, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+        en: "course program development, teaching materials development, practical training, individual and group consultations"
+  tags: [stats, teaching]
+
+- id: hse-math-stat-methods
+  position: hse-math-teaching-assistant
+  title:
+    ru: "«Математические и статистические методы в психологии»"
+    en: "“Mathematical and Statistical Methods in Psychology”"
+  runs:
+    - start: "2019-01"
+      end: "2019-06"
+      duties:
+        ru: "индивидуальные и групповые консультации со студентами, проверка домашних работ студентов"
+        en: "individual and group consultations, checking current assessment works"
+  tags: [stats, teaching]
+
+- id: uxlab-psychopy
+  position: hse-uxlab-teacher
+  title:
+    ru: "«Основы построения экспериментов в PsychoPy»"
+    en: "“Fundamentals of Experiments Building with PsychoPy”"
+  runs:
+    - start: "2019-04"
+      end: "2019-05"
+      duties:
+        ru: "разработка программы курса, разработка учебных материалов, проведение практических занятий, проведение индивидуальных и групповых консультаций"
+        en: "course program development, teaching materials development, practical training, individual and group consultations"
+  tags: [research-design, teaching]

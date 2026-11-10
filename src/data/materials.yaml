@@ -1,0 +1,145 @@
+# yaml-language-server: $schema=./schemas/materials.schema.json
+# Авторские учебные материалы. Пока все скрыты (hidden: true) — до пересмотра владельцем.
+
+- id: wlm-2023-course
+  kind: course
+  title: { ru: "WLM 2023: анализ данных и машинное обучение для исследователей" }
+  description: { ru: "учебный курс для студентов и молодых исследователей" }
+  year: 2023
+  copyright: "© А. Н. Ангельгардт"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: wlm-2021-course
+  kind: course
+  title:
+    ru: "Анализ данных + R: мир линейных моделей"
+    en: "“Data Analysis + R: World of Linear Models”"
+  description:
+    ru: "учебный курс для студентов и молодых исследователей"
+    en: "training course for students and young researchers"
+  year: 2021
+  copyright: "© А. Н. Ангельгардт"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: ggplot2-master-class-2020
+  kind: workshop
+  title: { ru: "Мастер-класс «ggplot2»" }
+  description: { ru: "Департамент психологии, НИУ ВШЭ, 2020" }
+  context: { ru: "Научно-исследовательский семинар: Анализ и визуализация данных в психологии" }
+  year: 2020
+  url: "https://angelgardt.github.io/mk_ggplot2/mk_ggplot2.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: andan-matrices
+  kind: other
+  title: { ru: "Матрицы" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2020" }
+  context: { ru: "Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»" }
+  year: 2020
+  url: "https://angelgardt.github.io/hseuxlab-andan/matrices.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: andan-glm-binomial
+  kind: other
+  title: { ru: "GLM и биномиальная регрессия" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2020" }
+  context: { ru: "Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»" }
+  year: 2020
+  url: "https://angelgardt.github.io/hseuxlab-andan/glm_and_binomial.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: andan-logit-transformation
+  kind: other
+  title: { ru: "Линеаризация логистической кривой с помощю logit-преобразования" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2020" }
+  context: { ru: "Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»" }
+  year: 2020
+  url: "https://angelgardt.github.io/hseuxlab-andan/logit_transformation_proof.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: andan-mixed-models
+  kind: other
+  title: { ru: "GLMM. Модели со смешанными эффектами" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2020" }
+  context: { ru: "Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»" }
+  year: 2020
+  url: "https://angelgardt.github.io/hseuxlab-andan/mixed_models.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: andan-pca-fa
+  kind: other
+  title: { ru: "Факторный анализ и анализ главных компонент" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2020" }
+  context: { ru: "Курс «Анализ данных + R: от t-теста до моделей со смешанными эффектами»" }
+  year: 2020
+  url: "https://angelgardt.github.io/hseuxlab-andan/PCA_FA.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: wlm-2021-book
+  kind: book
+  title: { ru: "Книга" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2021" }
+  context: { ru: "Курс «Анализ данных + R: мир линейных моделей»" }
+  year: 2021
+  url: "https://angelgardt.github.io/hseuxlab-wlm2021/book/"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: wlm-2021-lectures
+  kind: other
+  title: { ru: "Лекции" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2021" }
+  context: { ru: "Курс «Анализ данных + R: мир линейных моделей»" }
+  year: 2021
+  url: "https://youtube.com/playlist?list=PLBQV9MNN6NoGlIpHdbwAJfA-ygUbpDT3Q"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: wlm-2021-practice
+  kind: other
+  title: { ru: "Практика" }
+  description: { ru: "HSE UX LAB, НИУ ВШЭ, 2021" }
+  context: { ru: "Курс «Анализ данных + R: мир линейных моделей»" }
+  year: 2021
+  url: "https://angelgardt.github.io/hseuxlab-wlm2021/practice/"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: psyhse-ggplot2-2021
+  kind: workshop
+  title: { ru: "Мастер-класс «ggplo2: от базового слоя до публикабельной визуализации»" }
+  description:
+    ru: "Международная конференция молодых учёных, HSE UX LAB & Департамент психологии, НИУ ВШЭ, 2021"
+  context: { ru: "Пси-Вышка: Актуальные проблемы психологической науки" }
+  year: 2021
+  url: "https://angelgardt.github.io/psyhseconf/ggplot-psy-hse.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: appcogsci-ggplot2-2022
+  kind: workshop
+  title: { ru: "Мастер-класс «Визуализация в ggplo2: кодим красивое»" }
+  description: { ru: "Летняя школа, HSE UX LAB, НИУ ВШЭ, 2022" }
+  context: { ru: "Летняя школа «Прикладная когнитивная наука»" }
+  year: 2022
+  url: "https://angelgardt.github.io/appcogsci2022/ggplot2.html"
+  tags: [stats, teaching]
+  hidden: true
+
+- id: duncker-rmarkdown-2022
+  kind: workshop
+  title: { ru: "Воркшоп «RMarkdown: верстаем красивое»" }
+  description: { ru: "ИОН РАНХиГС, 2022" }
+  context: { ru: "Летняя когнитивная школа памяти Карла Дункера" }
+  year: 2022
+  url: "https://angelgardt.github.io/duncker_2022_rmd/duncker_2022_rmd.html"
+  tags: [teaching]
+  hidden: true

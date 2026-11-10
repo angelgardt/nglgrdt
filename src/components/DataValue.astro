@@ -1,0 +1,67 @@
+---
+// Показывает любое значение из данных простым HTML: текст, список или набор полей.
+// Нужен только для страницы просмотра данных итерации 1, оформления здесь нет.
+
+interface Props {
+  value: unknown
+}
+
+const { value } = Astro.props
+
+function isRecord(v: unknown): v is Record<string, unknown> {
+  return typeof v === 'object' && v !== null && !Array.isArray(v)
+}
+
+function isText(v: unknown): v is { ru: string; en?: string } {
+  return (
+    isRecord(v) && typeof v.ru === 'string' && Object.keys(v).every((k) => k === 'ru' || k === 'en')
+  )
+}
+
+function isUrl(v: unknown): v is string {
+  return typeof v === 'string' && /^(https?:|mailto:|tel:)/.test(v)
+}
+
+// Пустые значения и значения по умолчанию не показываем, чтобы не засорять список.
+function isShown(v: unknown): boolean {
+  if (v === undefined || v === null || v === false) return false
+  return !(Array.isArray(v) && v.length === 0)
+}
+
+const fields =
+  isRecord(value) && !isText(value) ? Object.entries(value).filter(([, v]) => isShown(v)) : []
+---
+
+{isText(value) ? (
+  <span>
+    {value.ru}
+    {value.en && <small lang="en"> [en: {value.en}]</small>}
+  </span>
+) : Array.isArray(value) ? (
+  value.every((item) => typeof item === 'string') ? (
+    <span>{value.join(', ')}</span>
+  ) : (
+    <ul>
+      {value.map((item) => (
+        <li>
+          <Astro.self value={item} />
+        </li>
+      ))}
+    </ul>
+  )
+) : isRecord(value) ? (
+  <dl>
+    {fields.map(([key, item]) => (
+      <>
+        <dt>{key}</dt>
+        <dd>
+          <Astro.self value={item} />
+        </dd>
+      </>
+    ))}
+  </dl>
+) : isUrl(value) ? (
+  <a href={value}>{value}</a>
+) : (
+  <span>{String(value)}</span>
+)}
