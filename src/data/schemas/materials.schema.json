@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "tags": {
+        "default": [],
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "stats",
+            "psychometrics",
+            "research-design",
+            "teaching",
+            "biostat",
+            "ux-research",
+            "cognitive",
+            "linguistics",
+            "management"
+          ]
+        }
+      },
+      "pinned": {
+        "default": false,
+        "type": "boolean"
+      },
+      "hidden": {
+        "default": false,
+        "type": "boolean"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "course",
+          "workshop",
+          "book",
+          "other"
+        ]
+      },
+      "title": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "audience": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "description": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "context": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "year": {
+        "type": "integer",
+        "minimum": 1900,
+        "maximum": 2100
+      },
+      "url": {
+        "type": "string",
+        "minLength": 1
+      },
+      "copyright": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "title"
+    ],
+    "additionalProperties": false
+  }
+}

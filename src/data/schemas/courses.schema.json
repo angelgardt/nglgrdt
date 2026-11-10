@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "tags": {
+        "default": [],
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "stats",
+            "psychometrics",
+            "research-design",
+            "teaching",
+            "biostat",
+            "ux-research",
+            "cognitive",
+            "linguistics",
+            "management"
+          ]
+        }
+      },
+      "pinned": {
+        "default": false,
+        "type": "boolean"
+      },
+      "hidden": {
+        "default": false,
+        "type": "boolean"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "hse-psy-teacher",
+          "ranepa-teacher",
+          "middlebury-tutor",
+          "hse-psy-teaching-assistant",
+          "hse-uxlab-teacher",
+          "hse-math-teaching-assistant",
+          "profilum-product-researcher",
+          "hse-uxlab-research-intern",
+          "uxlab-brand-manager",
+          "uxlab-cogsem-coordinator",
+          "uxlab-junior-manager",
+          "uxlab-smm-head",
+          "appcogsci-2021-program-head",
+          "wlm-2021-coordinator",
+          "sps-2021-program-deputy-head",
+          "psyhse-2019-organizer",
+          "appcogsci-2020-program-head",
+          "andan-2020-coordinator",
+          "sps-2020-program-head",
+          "psychopy-2019-coordinator",
+          "sps-2019-extracurricular-head",
+          "uxlab-designer",
+          "uxlab-site-editor",
+          "sps-guest-lecturer",
+          "hse-lyceum-guest-lecturer",
+          "student-org-committee-head",
+          "thevyshka-proofreader"
+        ]
+      },
+      "title": {
+        "type": "object",
+        "properties": {
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ru"
+        ],
+        "additionalProperties": false
+      },
+      "runs": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": [
+                "string",
+                "integer"
+              ],
+              "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+              "description": "Дата в кавычках: \"YYYY\", \"YYYY-MM\" или \"YYYY-MM-DD\""
+            },
+            "end": {
+              "type": [
+                "string",
+                "integer"
+              ],
+              "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$|^present$",
+              "description": "Дата в кавычках (\"YYYY\", \"YYYY-MM\", \"YYYY-MM-DD\") или present"
+            },
+            "role": {
+              "type": "object",
+              "properties": {
+                "ru": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "ru"
+              ],
+              "additionalProperties": false
+            },
+            "duties": {
+              "type": "object",
+              "properties": {
+                "ru": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "ru"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "start"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "materialsUrl": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "position",
+      "title",
+      "runs"
+    ],
+    "additionalProperties": false
+  }
+}

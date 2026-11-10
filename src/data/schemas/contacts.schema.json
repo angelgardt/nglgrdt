@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "tags": {
+        "default": [],
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "stats",
+            "psychometrics",
+            "research-design",
+            "teaching",
+            "biostat",
+            "ux-research",
+            "cognitive",
+            "linguistics",
+            "management"
+          ]
+        }
+      },
+      "pinned": {
+        "default": false,
+        "type": "boolean"
+      },
+      "hidden": {
+        "default": false,
+        "type": "boolean"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "email",
+          "telegram",
+          "linkedin",
+          "github",
+          "whatsapp",
+          "skype",
+          "twitter",
+          "facebook",
+          "instagram",
+          "phone",
+          "other"
+        ]
+      },
+      "label": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "minLength": 1
+      },
+      "visible": {
+        "default": false,
+        "type": "boolean"
+      },
+      "primary": {
+        "default": false,
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "url"
+    ],
+    "additionalProperties": false
+  }
+}

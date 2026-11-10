@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "object",
+      "properties": {
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "ru",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "authorName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "positioning": {
+      "type": "object",
+      "properties": {
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "ru",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "ru",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "photo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "focusAreas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "object",
+            "properties": {
+              "ru": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "ru",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "text": {
+            "type": "object",
+            "properties": {
+              "ru": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "ru",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "tag": {
+            "type": "string",
+            "enum": [
+              "stats",
+              "psychometrics",
+              "research-design",
+              "teaching",
+              "biostat",
+              "ux-research",
+              "cognitive",
+              "linguistics",
+              "management"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "text",
+          "tag"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "authorName",
+    "positioning",
+    "location",
+    "photo",
+    "focusAreas"
+  ],
+  "additionalProperties": false
+}

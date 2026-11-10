@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "tags": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "stats",
+                "psychometrics",
+                "research-design",
+                "teaching",
+                "biostat",
+                "ux-research",
+                "cognitive",
+                "linguistics",
+                "management"
+              ]
+            }
+          },
+          "pinned": {
+            "default": false,
+            "type": "boolean"
+          },
+          "hidden": {
+            "default": false,
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "title": {
+            "type": "object",
+            "properties": {
+              "ru": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "ru"
+            ],
+            "additionalProperties": false
+          },
+          "items": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ru": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "ru"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "groups"
+  ],
+  "additionalProperties": false
+}
